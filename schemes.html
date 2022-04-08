@@ -1,0 +1,67 @@
+
+<body>
+  <div style="font-size: 20">
+    <label>Guide:</label>
+    <select name="Breaks" id="Breaks" onchange="update_schemes()">
+      <option value="hg39">sgRNA A</option>
+      <option value="hg42">sgRNA B</option>
+      <option value="2dsb">sgRNA A & B</option>
+    </select>
+    <label>Strand:</label>
+    <select name="strand" id="strand" onchange="update_schemes()">
+      <option value="Forward">Forward</option>
+      <option value="Reverse">Reverse</option>
+    </select>
+    <label>Cell Type:</label>
+    <select name="Celltype" id="Celltype" onchange="update_schemes()">
+      <option value="wt">Normal</option>
+      <option value="db">BranchΔ</option>
+    </select>
+    <label>Group:</label>
+    <select name="Type" id="Type" onchange="update_schemes()">
+      <option value="all">All</option>
+      <option value="exon_exon">Exon & Exon</option>
+      <option value="exon_intron">Exon & Intron</option>
+    </select>
+    <label>Display format:</label>
+    <select name="combined" id="combined" onchange="update_schemes()">
+      <option value="combined" selected>Combined</option>
+      <option value="separate">Separate</option>
+    </select>
+  </div>
+  <div style="font-size: 30; margin-bottom: 50;" id="title">
+  </div>
+  <div id="schemes">
+  </div>
+</body>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="schemes_data.js"></script>
+
+<script src="schemes.js"></script>
+
+<script>
+  function update_schemes() {
+    var Breaks = document.querySelector("#Breaks");
+    var Strand = document.querySelector("#Strand");
+    var Celltype = document.querySelector("#Celltype");
+    var Type = document.querySelector("#Type");
+    var combined = document.querySelector("#combined");
+    document.querySelector("#title").innerHTML = (
+      `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
+      `${Strand.value} ` +
+      `${Celltype.options[Celltype.selectedIndex].innerHTML} ` +
+      `Microhomologies (${combined.value})`
+    );
+    make_schemes(
+      '#schemes',
+      Breaks.value,
+      Strand.value,
+      Celltype.value,
+      Type.value,
+      combined.value == "combined"
+    );
+  }
+
+  window.addEventListener('load', () => update_schemes());
+</script>
