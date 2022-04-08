@@ -9,7 +9,7 @@ import seaborn as sns
 import random
 import itertools
 
-MMEJ_LIST_CSV = 'MMEJ_list.csv'
+MMEJ_LIST_CSV = 'MMEJ_list_bold.csv'
 SCHEMES_DATA_JS = 'schemes_data.js'
 MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
 AREAS_VAR_JS = 'AREAS'
@@ -170,7 +170,7 @@ BARS = {
 }
 
 microhomologies = pd.read_csv(MMEJ_LIST_CSV)
-microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern']]
+microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern', 'Bold']]
 microhomologies = microhomologies.to_dict('records')
 
 with open(SCHEMES_DATA_JS, 'w') as out:

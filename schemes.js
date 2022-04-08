@@ -171,7 +171,6 @@ function make_seq_svgs_separate(
     .attr('y', seq_y)
     .attr('width', bar_width)
     .attr('height', seq_height);
-
     
     for (var pos of ['Left', 'Right']) {
       // Window highlights
@@ -201,8 +200,6 @@ function make_seq_svgs_separate(
         .attr('height', seq_height)
         .style('fill', PATTERN_COLOR)
         .style('opacity', HIGHLIGHT_OPACITY);
-
-      
     }
 
   // Pattern outline
@@ -278,10 +275,11 @@ function make_seq_svgs_combined(
     }
   }
 
-  for (var i = 0; i < microhomologies.length; i++) {
+  // The microhomology names
+  for (var micro_idx = 0; micro_idx < microhomologies.length; micro_idx++) {
     label_svgs.append('svg')
       .attr('x', 0)
-      .attr('y', i * seq_height)
+      .attr('y', micro_idx * seq_height)
       .attr('width', labels_width)
       .attr('height', seq_height)
       .style('overflow', 'visible')
@@ -290,7 +288,8 @@ function make_seq_svgs_combined(
       .attr('height', seq_height)
       .attr("dy", '1em')
       .style('font-family', 'monospace')
-      .text(microhomologies[i]['Name']);
+      .style('font-weight', microhomologies[micro_idx]['Bold'] == 1 ? 'bold' : 'normal')
+      .text(microhomologies[micro_idx]['Name'] + (microhomologies[micro_idx]['Bold'] == 1 ? ' *' : ''));
   }
 
   return seq_svgs;
@@ -369,7 +368,8 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .attr('height', scheme_height)
       .attr("dy", scheme_height / 2)
       .style('font-family', 'monospace')
-      .text(d => d['Name']);
+      .style('font-weight', d => d['Bold'] == 1 ? 'bold' : 'light')
+      .text(d => d['Name'] + (microhomologies[micro_idx]['Bold'] == 1 ? ' *' : ''));
   }
 
   var scale_svgs = svgs.append('svg')
@@ -441,7 +441,6 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       seq_height,
       REF_SEQ[Celltype][Strand],
       microhomologies,
-      // DELETE_BRANCH[Celltype],
     );
   } else {
     make_seq_svgs_separate(
@@ -451,7 +450,6 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       seq_y,
       seq_height,
       REF_SEQ[Celltype][Strand],
-      DELETE_BRANCH[Celltype],
     );
   }
 

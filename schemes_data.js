@@ -7,7 +7,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 21,
     "Right": 152,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 1
   },
   {
     "Name": "EE1",
@@ -17,7 +18,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 21,
     "Right": 152,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 0
   },
   {
     "Name": "EE1",
@@ -27,7 +29,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 21,
     "Right": 152,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 0
   },
   {
     "Name": "EE1",
@@ -37,7 +40,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 21,
     "Right": 207,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 1
   },
   {
     "Name": "EE1",
@@ -47,7 +51,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 21,
     "Right": 207,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 0
   },
   {
     "Name": "EE1",
@@ -57,7 +62,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 21,
     "Right": 207,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 0
   },
   {
     "Name": "EE1R",
@@ -67,7 +73,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 21,
     "Right": 152,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 0
   },
   {
     "Name": "EE1R",
@@ -77,7 +84,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 21,
     "Right": 152,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 0
   },
   {
     "Name": "EE1R",
@@ -87,7 +95,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 21,
     "Right": 152,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 1
   },
   {
     "Name": "EE1R",
@@ -97,7 +106,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 21,
     "Right": 207,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 0
   },
   {
     "Name": "EE1R",
@@ -107,7 +117,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 21,
     "Right": 207,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 0
   },
   {
     "Name": "EE1R",
@@ -117,7 +128,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 21,
     "Right": 207,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 1
   },
   {
     "Name": "EE2",
@@ -127,7 +139,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 137,
-    "Pattern": "CTTC"
+    "Pattern": "CTTC",
+    "Bold": 1
   },
   {
     "Name": "EE2",
@@ -137,7 +150,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 137,
-    "Pattern": "CTTC"
+    "Pattern": "CTTC",
+    "Bold": 0
   },
   {
     "Name": "EE2",
@@ -147,7 +161,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 137,
-    "Pattern": "CTTC"
+    "Pattern": "CTTC",
+    "Bold": 0
   },
   {
     "Name": "EE2",
@@ -157,7 +172,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 192,
-    "Pattern": "CTTC"
+    "Pattern": "CTTC",
+    "Bold": 1
   },
   {
     "Name": "EE2",
@@ -167,7 +183,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 192,
-    "Pattern": "CTTC"
+    "Pattern": "CTTC",
+    "Bold": 0
   },
   {
     "Name": "EE2",
@@ -177,7 +194,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 192,
-    "Pattern": "CTTC"
+    "Pattern": "CTTC",
+    "Bold": 0
   },
   {
     "Name": "EE2R",
@@ -187,7 +205,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 148,
-    "Pattern": "GAAG"
+    "Pattern": "GAAG",
+    "Bold": 0
   },
   {
     "Name": "EE2R",
@@ -197,7 +216,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 148,
-    "Pattern": "GAAG"
+    "Pattern": "GAAG",
+    "Bold": 0
   },
   {
     "Name": "EE2R",
@@ -207,7 +227,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 148,
-    "Pattern": "GAAG"
+    "Pattern": "GAAG",
+    "Bold": 1
   },
   {
     "Name": "EE2R",
@@ -217,7 +238,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 203,
-    "Pattern": "GAAG"
+    "Pattern": "GAAG",
+    "Bold": 0
   },
   {
     "Name": "EE2R",
@@ -227,7 +249,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 203,
-    "Pattern": "GAAG"
+    "Pattern": "GAAG",
+    "Bold": 0
   },
   {
     "Name": "EE2R",
@@ -237,7 +260,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 203,
-    "Pattern": "GAAG"
+    "Pattern": "GAAG",
+    "Bold": 1
   },
   {
     "Name": "EE3",
@@ -247,7 +271,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EE3",
@@ -257,7 +282,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EE3",
@@ -267,7 +293,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EE3",
@@ -277,7 +304,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EE3",
@@ -287,7 +315,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EE3",
@@ -297,7 +326,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EE3R",
@@ -307,7 +337,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 144,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE3R",
@@ -317,7 +348,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 144,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE3R",
@@ -327,7 +359,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 144,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 1
   },
   {
     "Name": "EE3R",
@@ -337,7 +370,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 199,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE3R",
@@ -347,7 +381,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 199,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE3R",
@@ -357,7 +392,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 199,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 1
   },
   {
     "Name": "EE4",
@@ -367,7 +403,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 129,
-    "Pattern": "GACGGC"
+    "Pattern": "GACGGC",
+    "Bold": 1
   },
   {
     "Name": "EE4",
@@ -377,7 +414,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 129,
-    "Pattern": "GACGGC"
+    "Pattern": "GACGGC",
+    "Bold": 1
   },
   {
     "Name": "EE4",
@@ -387,7 +425,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 129,
-    "Pattern": "GACGGC"
+    "Pattern": "GACGGC",
+    "Bold": 0
   },
   {
     "Name": "EE4",
@@ -397,7 +436,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 184,
-    "Pattern": "GACGGC"
+    "Pattern": "GACGGC",
+    "Bold": 1
   },
   {
     "Name": "EE4",
@@ -407,7 +447,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 184,
-    "Pattern": "GACGGC"
+    "Pattern": "GACGGC",
+    "Bold": 1
   },
   {
     "Name": "EE4",
@@ -417,7 +458,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 184,
-    "Pattern": "GACGGC"
+    "Pattern": "GACGGC",
+    "Bold": 0
   },
   {
     "Name": "EE4R",
@@ -427,7 +469,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 139,
-    "Pattern": "GCCGTC"
+    "Pattern": "GCCGTC",
+    "Bold": 0
   },
   {
     "Name": "EE4R",
@@ -437,7 +480,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 139,
-    "Pattern": "GCCGTC"
+    "Pattern": "GCCGTC",
+    "Bold": 0
   },
   {
     "Name": "EE4R",
@@ -447,7 +491,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 139,
-    "Pattern": "GCCGTC"
+    "Pattern": "GCCGTC",
+    "Bold": 1
   },
   {
     "Name": "EE4R",
@@ -457,7 +502,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 194,
-    "Pattern": "GCCGTC"
+    "Pattern": "GCCGTC",
+    "Bold": 0
   },
   {
     "Name": "EE4R",
@@ -467,7 +513,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 194,
-    "Pattern": "GCCGTC"
+    "Pattern": "GCCGTC",
+    "Bold": 0
   },
   {
     "Name": "EE4R",
@@ -477,7 +524,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 194,
-    "Pattern": "GCCGTC"
+    "Pattern": "GCCGTC",
+    "Bold": 1
   },
   {
     "Name": "EE5",
@@ -487,7 +535,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 36,
     "Right": 131,
-    "Pattern": "CGGC"
+    "Pattern": "CGGC",
+    "Bold": 1
   },
   {
     "Name": "EE5",
@@ -497,7 +546,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 36,
     "Right": 131,
-    "Pattern": "CGGC"
+    "Pattern": "CGGC",
+    "Bold": 1
   },
   {
     "Name": "EE5",
@@ -507,7 +557,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 36,
     "Right": 131,
-    "Pattern": "CGGC"
+    "Pattern": "CGGC",
+    "Bold": 0
   },
   {
     "Name": "EE5",
@@ -517,7 +568,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 36,
     "Right": 186,
-    "Pattern": "CGGC"
+    "Pattern": "CGGC",
+    "Bold": 1
   },
   {
     "Name": "EE5",
@@ -527,7 +579,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 36,
     "Right": 186,
-    "Pattern": "CGGC"
+    "Pattern": "CGGC",
+    "Bold": 1
   },
   {
     "Name": "EE5",
@@ -537,7 +590,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 36,
     "Right": 186,
-    "Pattern": "CGGC"
+    "Pattern": "CGGC",
+    "Bold": 0
   },
   {
     "Name": "EE5R",
@@ -547,7 +601,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 136,
-    "Pattern": "GCCG"
+    "Pattern": "GCCG",
+    "Bold": 0
   },
   {
     "Name": "EE5R",
@@ -557,7 +612,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 136,
-    "Pattern": "GCCG"
+    "Pattern": "GCCG",
+    "Bold": 0
   },
   {
     "Name": "EE5R",
@@ -567,7 +623,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 136,
-    "Pattern": "GCCG"
+    "Pattern": "GCCG",
+    "Bold": 1
   },
   {
     "Name": "EE5R",
@@ -577,7 +634,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 191,
-    "Pattern": "GCCG"
+    "Pattern": "GCCG",
+    "Bold": 0
   },
   {
     "Name": "EE5R",
@@ -587,7 +645,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 191,
-    "Pattern": "GCCG"
+    "Pattern": "GCCG",
+    "Bold": 0
   },
   {
     "Name": "EE5R",
@@ -597,7 +656,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 191,
-    "Pattern": "GCCG"
+    "Pattern": "GCCG",
+    "Bold": 1
   },
   {
     "Name": "EE6",
@@ -607,7 +667,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 40,
     "Right": 150,
-    "Pattern": "GTG"
+    "Pattern": "GTG",
+    "Bold": 1
   },
   {
     "Name": "EE6",
@@ -617,7 +678,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 40,
     "Right": 150,
-    "Pattern": "GTG"
+    "Pattern": "GTG",
+    "Bold": 1
   },
   {
     "Name": "EE6",
@@ -627,7 +689,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 40,
     "Right": 150,
-    "Pattern": "GTG"
+    "Pattern": "GTG",
+    "Bold": 0
   },
   {
     "Name": "EE6",
@@ -637,7 +700,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 40,
     "Right": 205,
-    "Pattern": "GTG"
+    "Pattern": "GTG",
+    "Bold": 1
   },
   {
     "Name": "EE6",
@@ -647,7 +711,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 40,
     "Right": 205,
-    "Pattern": "GTG"
+    "Pattern": "GTG",
+    "Bold": 1
   },
   {
     "Name": "EE6",
@@ -657,7 +722,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 40,
     "Right": 205,
-    "Pattern": "GTG"
+    "Pattern": "GTG",
+    "Bold": 0
   },
   {
     "Name": "EE6R",
@@ -667,7 +733,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 23,
     "Right": 133,
-    "Pattern": "CAC"
+    "Pattern": "CAC",
+    "Bold": 0
   },
   {
     "Name": "EE6R",
@@ -677,7 +744,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 23,
     "Right": 133,
-    "Pattern": "CAC"
+    "Pattern": "CAC",
+    "Bold": 0
   },
   {
     "Name": "EE6R",
@@ -687,7 +755,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 23,
     "Right": 133,
-    "Pattern": "CAC"
+    "Pattern": "CAC",
+    "Bold": 1
   },
   {
     "Name": "EE6R",
@@ -697,7 +766,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 23,
     "Right": 188,
-    "Pattern": "CAC"
+    "Pattern": "CAC",
+    "Bold": 0
   },
   {
     "Name": "EE6R",
@@ -707,7 +777,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 23,
     "Right": 188,
-    "Pattern": "CAC"
+    "Pattern": "CAC",
+    "Bold": 0
   },
   {
     "Name": "EE6R",
@@ -717,7 +788,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 23,
     "Right": 188,
-    "Pattern": "CAC"
+    "Pattern": "CAC",
+    "Bold": 1
   },
   {
     "Name": "EE7",
@@ -727,7 +799,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 132,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EE7",
@@ -737,7 +810,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 132,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EE7",
@@ -747,7 +821,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 132,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 0
   },
   {
     "Name": "EE7",
@@ -757,7 +832,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 187,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EE7",
@@ -767,7 +843,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 187,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EE7",
@@ -777,7 +854,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 187,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 0
   },
   {
     "Name": "EE7R",
@@ -787,7 +865,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 131,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EE7R",
@@ -797,7 +876,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 131,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EE7R",
@@ -807,7 +887,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 131,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 1
   },
   {
     "Name": "EE7R",
@@ -817,7 +898,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 186,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EE7R",
@@ -827,7 +909,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 186,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EE7R",
@@ -837,7 +920,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 41,
     "Right": 186,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 1
   },
   {
     "Name": "EE8",
@@ -847,7 +931,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE8",
@@ -857,7 +942,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE8",
@@ -867,7 +953,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EE8",
@@ -877,7 +964,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE8",
@@ -887,7 +975,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE8",
@@ -897,7 +986,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EE8R",
@@ -907,7 +997,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 128,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE8R",
@@ -917,7 +1008,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 128,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE8R",
@@ -927,7 +1019,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 128,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EE8R",
@@ -937,7 +1030,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 183,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE8R",
@@ -947,7 +1041,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 183,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE8R",
@@ -957,7 +1052,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 183,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EE9",
@@ -967,7 +1063,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 49,
     "Right": 150,
-    "Pattern": "GTGA"
+    "Pattern": "GTGA",
+    "Bold": 1
   },
   {
     "Name": "EE9",
@@ -977,7 +1074,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 49,
     "Right": 150,
-    "Pattern": "GTGA"
+    "Pattern": "GTGA",
+    "Bold": 1
   },
   {
     "Name": "EE9",
@@ -987,7 +1085,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 49,
     "Right": 150,
-    "Pattern": "GTGA"
+    "Pattern": "GTGA",
+    "Bold": 0
   },
   {
     "Name": "EE9",
@@ -997,7 +1096,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 49,
     "Right": 205,
-    "Pattern": "GTGA"
+    "Pattern": "GTGA",
+    "Bold": 1
   },
   {
     "Name": "EE9",
@@ -1007,7 +1107,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 49,
     "Right": 205,
-    "Pattern": "GTGA"
+    "Pattern": "GTGA",
+    "Bold": 1
   },
   {
     "Name": "EE9",
@@ -1017,7 +1118,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 49,
     "Right": 205,
-    "Pattern": "GTGA"
+    "Pattern": "GTGA",
+    "Bold": 0
   },
   {
     "Name": "EE9R",
@@ -1027,7 +1129,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 22,
     "Right": 123,
-    "Pattern": "TCAC"
+    "Pattern": "TCAC",
+    "Bold": 0
   },
   {
     "Name": "EE9R",
@@ -1037,7 +1140,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 22,
     "Right": 123,
-    "Pattern": "TCAC"
+    "Pattern": "TCAC",
+    "Bold": 0
   },
   {
     "Name": "EE9R",
@@ -1047,7 +1151,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 22,
     "Right": 123,
-    "Pattern": "TCAC"
+    "Pattern": "TCAC",
+    "Bold": 1
   },
   {
     "Name": "EE9R",
@@ -1057,7 +1162,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 22,
     "Right": 178,
-    "Pattern": "TCAC"
+    "Pattern": "TCAC",
+    "Bold": 0
   },
   {
     "Name": "EE9R",
@@ -1067,7 +1173,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 22,
     "Right": 178,
-    "Pattern": "TCAC"
+    "Pattern": "TCAC",
+    "Bold": 0
   },
   {
     "Name": "EE9R",
@@ -1077,7 +1184,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 22,
     "Right": 178,
-    "Pattern": "TCAC"
+    "Pattern": "TCAC",
+    "Bold": 1
   },
   {
     "Name": "EE10",
@@ -1087,7 +1195,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE10",
@@ -1097,7 +1206,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE10",
@@ -1107,7 +1217,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EE10",
@@ -1117,7 +1228,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE10",
@@ -1127,7 +1239,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE10",
@@ -1137,7 +1250,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EE10R",
@@ -1147,7 +1261,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 122,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE10R",
@@ -1157,7 +1272,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 122,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE10R",
@@ -1167,7 +1283,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 122,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EE10R",
@@ -1177,7 +1294,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 177,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE10R",
@@ -1187,7 +1305,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 177,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE10R",
@@ -1197,7 +1316,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 177,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EE11",
@@ -1207,7 +1327,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EE11",
@@ -1217,7 +1338,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EE11",
@@ -1227,7 +1349,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EE11",
@@ -1237,7 +1360,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EE11",
@@ -1247,7 +1371,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EE11",
@@ -1257,7 +1382,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EE11R",
@@ -1267,7 +1393,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 117,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE11R",
@@ -1277,7 +1404,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 117,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE11R",
@@ -1287,7 +1415,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 117,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 1
   },
   {
     "Name": "EE11R",
@@ -1297,7 +1426,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 172,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE11R",
@@ -1307,7 +1437,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 172,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EE11R",
@@ -1317,7 +1448,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 172,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 1
   },
   {
     "Name": "EE12",
@@ -1327,7 +1459,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE12",
@@ -1337,7 +1470,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE12",
@@ -1347,7 +1481,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EE12",
@@ -1357,7 +1492,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE12",
@@ -1367,7 +1503,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EE12",
@@ -1377,7 +1514,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EE12R",
@@ -1387,7 +1525,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 115,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE12R",
@@ -1397,7 +1536,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 115,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE12R",
@@ -1407,7 +1547,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 115,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EE12R",
@@ -1417,7 +1558,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 170,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE12R",
@@ -1427,7 +1569,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 170,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EE12R",
@@ -1437,7 +1580,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 170,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EE13",
@@ -1447,7 +1591,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 67,
     "Right": 134,
-    "Pattern": "CTGC"
+    "Pattern": "CTGC",
+    "Bold": 0
   },
   {
     "Name": "EE13",
@@ -1457,7 +1602,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 67,
     "Right": 189,
-    "Pattern": "CTGC"
+    "Pattern": "CTGC",
+    "Bold": 0
   },
   {
     "Name": "EE13R",
@@ -1467,7 +1613,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 38,
     "Right": 105,
-    "Pattern": "GCAG"
+    "Pattern": "GCAG",
+    "Bold": 1
   },
   {
     "Name": "EE13R",
@@ -1477,7 +1624,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 38,
     "Right": 160,
-    "Pattern": "GCAG"
+    "Pattern": "GCAG",
+    "Bold": 1
   },
   {
     "Name": "EI1",
@@ -1487,7 +1635,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 23,
     "Right": 87,
-    "Pattern": "ACT"
+    "Pattern": "ACT",
+    "Bold": 1
   },
   {
     "Name": "EI1",
@@ -1497,7 +1646,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 23,
     "Right": 87,
-    "Pattern": "ACT"
+    "Pattern": "ACT",
+    "Bold": 1
   },
   {
     "Name": "EI1R",
@@ -1507,7 +1657,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 86,
     "Right": 150,
-    "Pattern": "AGT"
+    "Pattern": "AGT",
+    "Bold": 0
   },
   {
     "Name": "EI1R",
@@ -1517,7 +1668,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 141,
     "Right": 205,
-    "Pattern": "AGT"
+    "Pattern": "AGT",
+    "Bold": 0
   },
   {
     "Name": "EI2",
@@ -1527,7 +1679,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 23,
     "Right": 112,
-    "Pattern": "ACT"
+    "Pattern": "ACT",
+    "Bold": 0
   },
   {
     "Name": "EI2",
@@ -1537,7 +1690,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 23,
     "Right": 112,
-    "Pattern": "ACT"
+    "Pattern": "ACT",
+    "Bold": 0
   },
   {
     "Name": "EI2R",
@@ -1547,7 +1701,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 61,
     "Right": 150,
-    "Pattern": "AGT"
+    "Pattern": "AGT",
+    "Bold": 0
   },
   {
     "Name": "EI2R",
@@ -1557,7 +1712,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 116,
     "Right": 205,
-    "Pattern": "AGT"
+    "Pattern": "AGT",
+    "Bold": 0
   },
   {
     "Name": "EI3",
@@ -1567,7 +1723,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 98,
-    "Pattern": "CTT"
+    "Pattern": "CTT",
+    "Bold": 1
   },
   {
     "Name": "EI3",
@@ -1577,7 +1734,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 24,
     "Right": 98,
-    "Pattern": "CTT"
+    "Pattern": "CTT",
+    "Bold": 1
   },
   {
     "Name": "EI3R",
@@ -1587,7 +1745,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 75,
     "Right": 149,
-    "Pattern": "AAG"
+    "Pattern": "AAG",
+    "Bold": 0
   },
   {
     "Name": "EI3R",
@@ -1597,7 +1756,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 130,
     "Right": 204,
-    "Pattern": "AAG"
+    "Pattern": "AAG",
+    "Bold": 0
   },
   {
     "Name": "EI4",
@@ -1607,7 +1767,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 25,
     "Right": 101,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 1
   },
   {
     "Name": "EI4",
@@ -1617,7 +1778,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 25,
     "Right": 101,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 1
   },
   {
     "Name": "EI4R",
@@ -1627,7 +1789,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 72,
     "Right": 148,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 0
   },
   {
     "Name": "EI4R",
@@ -1637,7 +1800,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 127,
     "Right": 203,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 0
   },
   {
     "Name": "EI5",
@@ -1647,7 +1811,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 26,
     "Right": 109,
-    "Pattern": "TCGA"
+    "Pattern": "TCGA",
+    "Bold": 1
   },
   {
     "Name": "EI5",
@@ -1657,7 +1822,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 26,
     "Right": 109,
-    "Pattern": "TCGA"
+    "Pattern": "TCGA",
+    "Bold": 1
   },
   {
     "Name": "EI5R",
@@ -1667,7 +1833,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 63,
     "Right": 146,
-    "Pattern": "TCGA"
+    "Pattern": "TCGA",
+    "Bold": 0
   },
   {
     "Name": "EI5R",
@@ -1677,7 +1844,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 118,
     "Right": 201,
-    "Pattern": "TCGA"
+    "Pattern": "TCGA",
+    "Bold": 0
   },
   {
     "Name": "EI6",
@@ -1687,7 +1855,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 28,
     "Right": 94,
-    "Pattern": "GAGG"
+    "Pattern": "GAGG",
+    "Bold": 1
   },
   {
     "Name": "EI6",
@@ -1697,7 +1866,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 28,
     "Right": 94,
-    "Pattern": "GAGG"
+    "Pattern": "GAGG",
+    "Bold": 1
   },
   {
     "Name": "EI6R",
@@ -1707,7 +1877,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 78,
     "Right": 144,
-    "Pattern": "CCTC"
+    "Pattern": "CCTC",
+    "Bold": 0
   },
   {
     "Name": "EI6R",
@@ -1717,7 +1888,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 133,
     "Right": 199,
-    "Pattern": "CCTC"
+    "Pattern": "CCTC",
+    "Bold": 0
   },
   {
     "Name": "EI7",
@@ -1727,7 +1899,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 106,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EI7",
@@ -1737,7 +1910,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 106,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EI7R",
@@ -1747,7 +1921,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 67,
     "Right": 144,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EI7R",
@@ -1757,7 +1932,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 122,
     "Right": 199,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EI8",
@@ -1767,7 +1943,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 92,
-    "Pattern": "AGGA"
+    "Pattern": "AGGA",
+    "Bold": 1
   },
   {
     "Name": "EI8",
@@ -1777,7 +1954,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 29,
     "Right": 92,
-    "Pattern": "AGGA"
+    "Pattern": "AGGA",
+    "Bold": 1
   },
   {
     "Name": "EI8R",
@@ -1787,7 +1965,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 80,
     "Right": 143,
-    "Pattern": "TCCT"
+    "Pattern": "TCCT",
+    "Bold": 0
   },
   {
     "Name": "EI8R",
@@ -1797,7 +1976,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 135,
     "Right": 198,
-    "Pattern": "TCCT"
+    "Pattern": "TCCT",
+    "Bold": 0
   },
   {
     "Name": "EI9",
@@ -1807,7 +1987,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 30,
     "Right": 85,
-    "Pattern": "GGAC"
+    "Pattern": "GGAC",
+    "Bold": 1
   },
   {
     "Name": "EI9",
@@ -1817,7 +1998,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 30,
     "Right": 85,
-    "Pattern": "GGAC"
+    "Pattern": "GGAC",
+    "Bold": 1
   },
   {
     "Name": "EI9R",
@@ -1827,7 +2009,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 87,
     "Right": 142,
-    "Pattern": "GTCC"
+    "Pattern": "GTCC",
+    "Bold": 0
   },
   {
     "Name": "EI9R",
@@ -1837,7 +2020,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 142,
     "Right": 197,
-    "Pattern": "GTCC"
+    "Pattern": "GTCC",
+    "Bold": 0
   },
   {
     "Name": "EI10",
@@ -1847,7 +2031,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 111,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI10",
@@ -1857,7 +2042,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 31,
     "Right": 111,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI10R",
@@ -1867,7 +2053,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 62,
     "Right": 142,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI10R",
@@ -1877,7 +2064,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 117,
     "Right": 197,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI11",
@@ -1887,7 +2075,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 34,
     "Right": 96,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EI11",
@@ -1897,7 +2086,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 34,
     "Right": 96,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EI11R",
@@ -1907,7 +2097,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 77,
     "Right": 139,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EI11R",
@@ -1917,7 +2108,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 132,
     "Right": 194,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EI12",
@@ -1927,7 +2119,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 37,
     "Right": 96,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EI12",
@@ -1937,7 +2130,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 37,
     "Right": 96,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EI12R",
@@ -1947,7 +2141,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 77,
     "Right": 136,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EI12R",
@@ -1957,7 +2152,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 132,
     "Right": 191,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EI13",
@@ -1967,7 +2163,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 41,
     "Right": 84,
-    "Pattern": "TGG"
+    "Pattern": "TGG",
+    "Bold": 1
   },
   {
     "Name": "EI13",
@@ -1977,7 +2174,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 41,
     "Right": 84,
-    "Pattern": "TGG"
+    "Pattern": "TGG",
+    "Bold": 1
   },
   {
     "Name": "EI13R",
@@ -1987,7 +2185,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 89,
     "Right": 132,
-    "Pattern": "CCA"
+    "Pattern": "CCA",
+    "Bold": 0
   },
   {
     "Name": "EI13R",
@@ -1997,7 +2196,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 144,
     "Right": 187,
-    "Pattern": "CCA"
+    "Pattern": "CCA",
+    "Bold": 0
   },
   {
     "Name": "EI14",
@@ -2007,7 +2207,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 96,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EI14",
@@ -2017,7 +2218,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 42,
     "Right": 96,
-    "Pattern": "GGC"
+    "Pattern": "GGC",
+    "Bold": 1
   },
   {
     "Name": "EI14R",
@@ -2027,7 +2229,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 77,
     "Right": 131,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EI14R",
@@ -2037,7 +2240,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 132,
     "Right": 186,
-    "Pattern": "GCC"
+    "Pattern": "GCC",
+    "Bold": 0
   },
   {
     "Name": "EI15",
@@ -2047,7 +2251,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 86,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI15",
@@ -2057,7 +2262,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 45,
     "Right": 86,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI15R",
@@ -2067,7 +2273,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 87,
     "Right": 128,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI15R",
@@ -2077,7 +2284,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 142,
     "Right": 183,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI16",
@@ -2087,7 +2295,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 44,
     "Right": 110,
-    "Pattern": "CGAC"
+    "Pattern": "CGAC",
+    "Bold": 1
   },
   {
     "Name": "EI16",
@@ -2097,7 +2306,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 44,
     "Right": 110,
-    "Pattern": "CGAC"
+    "Pattern": "CGAC",
+    "Bold": 1
   },
   {
     "Name": "EI16R",
@@ -2107,7 +2317,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 62,
     "Right": 128,
-    "Pattern": "GTCG"
+    "Pattern": "GTCG",
+    "Bold": 0
   },
   {
     "Name": "EI16R",
@@ -2117,7 +2328,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 117,
     "Right": 183,
-    "Pattern": "GTCG"
+    "Pattern": "GTCG",
+    "Bold": 0
   },
   {
     "Name": "EI17",
@@ -2127,7 +2339,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 86,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI17",
@@ -2137,7 +2350,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 86,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI17R",
@@ -2147,7 +2361,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 87,
     "Right": 122,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI17R",
@@ -2157,7 +2372,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 142,
     "Right": 177,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI18",
@@ -2167,7 +2383,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 111,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI18",
@@ -2177,7 +2394,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 51,
     "Right": 111,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
     "Name": "EI18R",
@@ -2187,7 +2405,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 62,
     "Right": 122,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI18R",
@@ -2197,7 +2416,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 117,
     "Right": 177,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 0
   },
   {
     "Name": "EI19",
@@ -2207,7 +2427,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 95,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EI19",
@@ -2217,7 +2438,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 95,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 1
   },
   {
     "Name": "EI19R",
@@ -2227,7 +2449,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 78,
     "Right": 117,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EI19R",
@@ -2237,7 +2460,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 133,
     "Right": 172,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 0
   },
   {
     "Name": "EI20",
@@ -2247,7 +2471,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 55,
     "Right": 105,
-    "Pattern": "CAGG"
+    "Pattern": "CAGG",
+    "Bold": 1
   },
   {
     "Name": "EI20",
@@ -2257,7 +2482,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 55,
     "Right": 105,
-    "Pattern": "CAGG"
+    "Pattern": "CAGG",
+    "Bold": 1
   },
   {
     "Name": "EI20R",
@@ -2267,7 +2493,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 67,
     "Right": 117,
-    "Pattern": "CCTG"
+    "Pattern": "CCTG",
+    "Bold": 0
   },
   {
     "Name": "EI20R",
@@ -2277,7 +2504,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 122,
     "Right": 172,
-    "Pattern": "CCTG"
+    "Pattern": "CCTG",
+    "Bold": 0
   },
   {
     "Name": "EI21",
@@ -2287,7 +2515,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 92,
-    "Pattern": "AGGA"
+    "Pattern": "AGGA",
+    "Bold": 1
   },
   {
     "Name": "EI21",
@@ -2297,7 +2526,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 56,
     "Right": 92,
-    "Pattern": "AGGA"
+    "Pattern": "AGGA",
+    "Bold": 1
   },
   {
     "Name": "EI21R",
@@ -2307,7 +2537,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 80,
     "Right": 116,
-    "Pattern": "TCCT"
+    "Pattern": "TCCT",
+    "Bold": 0
   },
   {
     "Name": "EI21R",
@@ -2317,7 +2548,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 135,
     "Right": 171,
-    "Pattern": "TCCT"
+    "Pattern": "TCCT",
+    "Bold": 0
   },
   {
     "Name": "EI22",
@@ -2327,7 +2559,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 57,
     "Right": 85,
-    "Pattern": "GGACT"
+    "Pattern": "GGACT",
+    "Bold": 1
   },
   {
     "Name": "EI22",
@@ -2337,7 +2570,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 57,
     "Right": 85,
-    "Pattern": "GGACT"
+    "Pattern": "GGACT",
+    "Bold": 1
   },
   {
     "Name": "EI22R",
@@ -2347,7 +2581,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 86,
     "Right": 114,
-    "Pattern": "AGTCC"
+    "Pattern": "AGTCC",
+    "Bold": 0
   },
   {
     "Name": "EI22R",
@@ -2357,7 +2592,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 141,
     "Right": 169,
-    "Pattern": "AGTCC"
+    "Pattern": "AGTCC",
+    "Bold": 0
   },
   {
     "Name": "EI23",
@@ -2367,7 +2603,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 60,
     "Right": 103,
-    "Pattern": "CTC"
+    "Pattern": "CTC",
+    "Bold": 1
   },
   {
     "Name": "EI23",
@@ -2377,7 +2614,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 60,
     "Right": 103,
-    "Pattern": "CTC"
+    "Pattern": "CTC",
+    "Bold": 1
   },
   {
     "Name": "EI23R",
@@ -2387,7 +2625,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 70,
     "Right": 113,
-    "Pattern": "GAG"
+    "Pattern": "GAG",
+    "Bold": 0
   },
   {
     "Name": "EI23R",
@@ -2397,7 +2636,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 125,
     "Right": 168,
-    "Pattern": "GAG"
+    "Pattern": "GAG",
+    "Bold": 0
   },
   {
     "Name": "EI24",
@@ -2407,7 +2647,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 111,
-    "Pattern": "GACTC"
+    "Pattern": "GACTC",
+    "Bold": 1
   },
   {
     "Name": "EI24",
@@ -2417,7 +2658,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 58,
     "Right": 111,
-    "Pattern": "GACTC"
+    "Pattern": "GACTC",
+    "Bold": 1
   },
   {
     "Name": "EI24R",
@@ -2427,7 +2669,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 60,
     "Right": 113,
-    "Pattern": "GAGTC"
+    "Pattern": "GAGTC",
+    "Bold": 0
   },
   {
     "Name": "EI24R",
@@ -2437,7 +2680,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 115,
     "Right": 168,
-    "Pattern": "GAGTC"
+    "Pattern": "GAGTC",
+    "Bold": 0
   },
   {
     "Name": "EI25",
@@ -2447,7 +2691,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 63,
     "Right": 103,
-    "Pattern": "CTC"
+    "Pattern": "CTC",
+    "Bold": 1
   },
   {
     "Name": "EI25",
@@ -2457,7 +2702,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 63,
     "Right": 103,
-    "Pattern": "CTC"
+    "Pattern": "CTC",
+    "Bold": 1
   },
   {
     "Name": "EI25R",
@@ -2467,7 +2713,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 70,
     "Right": 110,
-    "Pattern": "GAG"
+    "Pattern": "GAG",
+    "Bold": 0
   },
   {
     "Name": "EI25R",
@@ -2477,7 +2724,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 125,
     "Right": 165,
-    "Pattern": "GAG"
+    "Pattern": "GAG",
+    "Bold": 0
   },
   {
     "Name": "EI26",
@@ -2487,7 +2735,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 63,
     "Right": 113,
-    "Pattern": "CTC"
+    "Pattern": "CTC",
+    "Bold": 1
   },
   {
     "Name": "EI26",
@@ -2497,7 +2746,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 63,
     "Right": 113,
-    "Pattern": "CTC"
+    "Pattern": "CTC",
+    "Bold": 1
   },
   {
     "Name": "EI26R",
@@ -2507,7 +2757,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 60,
     "Right": 110,
-    "Pattern": "GAG"
+    "Pattern": "GAG",
+    "Bold": 0
   },
   {
     "Name": "EI26R",
@@ -2517,7 +2768,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 115,
     "Right": 165,
-    "Pattern": "GAG"
+    "Pattern": "GAG",
+    "Bold": 0
   },
   {
     "Name": "EI27",
@@ -2527,7 +2779,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 86,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EI27",
@@ -2537,7 +2790,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 86,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EI27R",
@@ -2547,7 +2801,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 87,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EI27R",
@@ -2557,7 +2812,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 142,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EI28",
@@ -2567,7 +2823,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 88,
     "Right": 143,
-    "Pattern": "CTA"
+    "Pattern": "CTA",
+    "Bold": 0
   },
   {
     "Name": "EI28",
@@ -2577,7 +2834,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 88,
     "Right": 198,
-    "Pattern": "CTA"
+    "Pattern": "CTA",
+    "Bold": 0
   },
   {
     "Name": "EI28R",
@@ -2587,7 +2845,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 30,
     "Right": 85,
-    "Pattern": "TAG"
+    "Pattern": "TAG",
+    "Bold": 0
   },
   {
     "Name": "EI28R",
@@ -2597,7 +2856,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 30,
     "Right": 140,
-    "Pattern": "TAG"
+    "Pattern": "TAG",
+    "Bold": 0
   },
   {
     "Name": "EI29",
@@ -2607,7 +2867,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 91,
     "Right": 147,
-    "Pattern": "AAGG"
+    "Pattern": "AAGG",
+    "Bold": 0
   },
   {
     "Name": "EI29",
@@ -2617,7 +2878,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 91,
     "Right": 202,
-    "Pattern": "AAGG"
+    "Pattern": "AAGG",
+    "Bold": 0
   },
   {
     "Name": "EI29R",
@@ -2627,7 +2889,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 81,
-    "Pattern": "CCTT"
+    "Pattern": "CCTT",
+    "Bold": 1
   },
   {
     "Name": "EI29R",
@@ -2637,7 +2900,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 136,
-    "Pattern": "CCTT"
+    "Pattern": "CCTT",
+    "Bold": 1
   },
   {
     "Name": "EI30",
@@ -2647,7 +2911,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 95,
     "Right": 148,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EI30",
@@ -2657,7 +2922,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 95,
     "Right": 203,
-    "Pattern": "AGG"
+    "Pattern": "AGG",
+    "Bold": 0
   },
   {
     "Name": "EI30R",
@@ -2667,7 +2933,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 78,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 1
   },
   {
     "Name": "EI30R",
@@ -2677,7 +2944,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 25,
     "Right": 133,
-    "Pattern": "CCT"
+    "Pattern": "CCT",
+    "Bold": 1
   },
   {
     "Name": "EI31",
@@ -2687,7 +2955,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 96,
     "Right": 132,
-    "Pattern": "GGCT"
+    "Pattern": "GGCT",
+    "Bold": 0
   },
   {
     "Name": "EI31",
@@ -2697,7 +2966,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 96,
     "Right": 187,
-    "Pattern": "GGCT"
+    "Pattern": "GGCT",
+    "Bold": 0
   },
   {
     "Name": "EI31R",
@@ -2707,7 +2977,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 40,
     "Right": 76,
-    "Pattern": "AGCC"
+    "Pattern": "AGCC",
+    "Bold": 1
   },
   {
     "Name": "EI31R",
@@ -2717,7 +2988,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 40,
     "Right": 131,
-    "Pattern": "AGCC"
+    "Pattern": "AGCC",
+    "Bold": 1
   },
   {
     "Name": "EI32",
@@ -2727,7 +2999,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 97,
     "Right": 136,
-    "Pattern": "GCTT"
+    "Pattern": "GCTT",
+    "Bold": 0
   },
   {
     "Name": "EI32",
@@ -2737,7 +3010,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 97,
     "Right": 191,
-    "Pattern": "GCTT"
+    "Pattern": "GCTT",
+    "Bold": 0
   },
   {
     "Name": "EI32R",
@@ -2747,7 +3021,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 36,
     "Right": 75,
-    "Pattern": "AAGC"
+    "Pattern": "AAGC",
+    "Bold": 1
   },
   {
     "Name": "EI32R",
@@ -2757,7 +3032,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 36,
     "Right": 130,
-    "Pattern": "AAGC"
+    "Pattern": "AAGC",
+    "Bold": 1
   },
   {
     "Name": "EI33",
@@ -2767,7 +3043,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 101,
     "Right": 138,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 0
   },
   {
     "Name": "EI33",
@@ -2777,7 +3054,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 101,
     "Right": 193,
-    "Pattern": "TTC"
+    "Pattern": "TTC",
+    "Bold": 0
   },
   {
     "Name": "EI33R",
@@ -2787,7 +3065,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 72,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 1
   },
   {
     "Name": "EI33R",
@@ -2797,7 +3076,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 35,
     "Right": 127,
-    "Pattern": "GAA"
+    "Pattern": "GAA",
+    "Bold": 1
   },
   {
     "Name": "EI34",
@@ -2807,7 +3087,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 102,
     "Right": 142,
-    "Pattern": "TCT"
+    "Pattern": "TCT",
+    "Bold": 0
   },
   {
     "Name": "EI34",
@@ -2817,7 +3098,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 102,
     "Right": 197,
-    "Pattern": "TCT"
+    "Pattern": "TCT",
+    "Bold": 0
   },
   {
     "Name": "EI34R",
@@ -2827,7 +3109,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 31,
     "Right": 71,
-    "Pattern": "AGA"
+    "Pattern": "AGA",
+    "Bold": 1
   },
   {
     "Name": "EI34R",
@@ -2837,7 +3120,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 31,
     "Right": 126,
-    "Pattern": "AGA"
+    "Pattern": "AGA",
+    "Bold": 1
   },
   {
     "Name": "EI35",
@@ -2847,7 +3131,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 104,
     "Right": 139,
-    "Pattern": "TCA"
+    "Pattern": "TCA",
+    "Bold": 0
   },
   {
     "Name": "EI35",
@@ -2857,7 +3142,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 104,
     "Right": 194,
-    "Pattern": "TCA"
+    "Pattern": "TCA",
+    "Bold": 0
   },
   {
     "Name": "EI35R",
@@ -2867,7 +3153,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 34,
     "Right": 69,
-    "Pattern": "TGA"
+    "Pattern": "TGA",
+    "Bold": 1
   },
   {
     "Name": "EI35R",
@@ -2877,7 +3164,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 34,
     "Right": 124,
-    "Pattern": "TGA"
+    "Pattern": "TGA",
+    "Bold": 1
   },
   {
     "Name": "EI36",
@@ -2887,7 +3175,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 106,
     "Right": 148,
-    "Pattern": "AGGT"
+    "Pattern": "AGGT",
+    "Bold": 0
   },
   {
     "Name": "EI36",
@@ -2897,7 +3186,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 106,
     "Right": 203,
-    "Pattern": "AGGT"
+    "Pattern": "AGGT",
+    "Bold": 0
   },
   {
     "Name": "EI36R",
@@ -2907,7 +3197,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 24,
     "Right": 66,
-    "Pattern": "ACCT"
+    "Pattern": "ACCT",
+    "Bold": 1
   },
   {
     "Name": "EI36R",
@@ -2917,7 +3208,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 24,
     "Right": 121,
-    "Pattern": "ACCT"
+    "Pattern": "ACCT",
+    "Bold": 1
   },
   {
     "Name": "EI37",
@@ -2927,7 +3219,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 111,
     "Right": 129,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EI37",
@@ -2937,7 +3230,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 111,
     "Right": 184,
-    "Pattern": "GAC"
+    "Pattern": "GAC",
+    "Bold": 0
   },
   {
     "Name": "EI37R",
@@ -2947,7 +3241,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 62,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EI37R",
@@ -2957,7 +3252,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 44,
     "Right": 117,
-    "Pattern": "GTC"
+    "Pattern": "GTC",
+    "Bold": 1
   },
   {
     "Name": "EI38",
@@ -2967,7 +3263,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 114,
     "Right": 142,
-    "Pattern": "TCTA"
+    "Pattern": "TCTA",
+    "Bold": 0
   },
   {
     "Name": "EI38",
@@ -2977,7 +3274,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Forward",
     "Left": 114,
     "Right": 197,
-    "Pattern": "TCTA"
+    "Pattern": "TCTA",
+    "Bold": 0
   },
   {
     "Name": "EI38R",
@@ -2987,7 +3285,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 30,
     "Right": 58,
-    "Pattern": "TAGA"
+    "Pattern": "TAGA",
+    "Bold": 1
   },
   {
     "Name": "EI38R",
@@ -2997,7 +3296,8 @@ var MICROHOMOLOGIES = [
     "Strand": "Reverse",
     "Left": 30,
     "Right": 113,
-    "Pattern": "TAGA"
+    "Pattern": "TAGA",
+    "Bold": 1
   }
 ];
 
