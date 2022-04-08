@@ -164,6 +164,7 @@ function make_seq_svgs_separate(
   seq_y,
   seq_height,
   ref_seq,
+  // delete_branch,
 ) {
   var seq_svgs = svgs.append('svg')
     .style('overflow', 'visible')
@@ -172,52 +173,26 @@ function make_seq_svgs_separate(
     .attr('width', bar_width)
     .attr('height', seq_height);
 
-    
-    for (var pos of ['Left', 'Right']) {
-      // Window highlights
-      if (pos == 'Left') {
-        seq_svgs.append('rect')
-          .attr('x', d => (d[pos] - 1 - WINDOW_NUCLEOTIDES) * SCALE_X)
-          .attr('y', 0)
-          .attr('width', WINDOW_NUCLEOTIDES * SCALE_X)
-          .attr('height', seq_height)
-          .style('fill', WINDOW_COLOR)
-          .style('opacity', HIGHLIGHT_OPACITY);
-      } else {
-        seq_svgs.append('rect')
-          .attr('x', d => (d[pos] + d['Pattern'].length - 1) * SCALE_X)
-          .attr('y', 0)
-          .attr('width', WINDOW_NUCLEOTIDES * SCALE_X)
-          .attr('height', seq_height)
-          .style('fill', WINDOW_COLOR)
-          .style('opacity', HIGHLIGHT_OPACITY);
-      }
+  seq_svgs.append('text')
+    .attr('x', 0)
+    .attr('y', 0)
+    .attr("dy", "1em")
+    .attr('height', seq_height)
+    .attr('textLength', bar_width)
+    .style('font-family', 'monospace')
+    .text(ref_seq);
 
-      // Pattern highlights
-      seq_svgs.append('rect')
-        .attr('x', d => (d[pos] - 1) * SCALE_X)
-        .attr('y', 0)
-        .attr('width', d => d['Pattern'].length * SCALE_X)
-        .attr('height', seq_height)
-        .style('fill', PATTERN_COLOR)
-        .style('opacity', HIGHLIGHT_OPACITY);
-
-      
-    }
-
-  // Pattern outline
   for (var pos of ['Left', 'Right']) {
     seq_svgs.append('rect')
-    .attr('x', d => (d[pos] - 1) * SCALE_X)
-    .attr('y', 0)
-    .attr('width', d => d['Pattern'].length * SCALE_X)
-    .attr('height', seq_height)
-    .style('fill', 'transparent')
-    .style('stroke', PATTERN_COLOR)
-    .style('stroke-width', 2);
+      .attr('x', d => (d[pos] - 1) * SCALE_X)
+      .attr('y', 0)
+      .attr('width', d => d['Pattern'].length * SCALE_X)
+      .attr('height', seq_height)
+      .style('fill', 'transparent')
+      .style('stroke', PATTERN_COLOR)
+      .style('stroke-width', 2);
   }
 
-  // Deletion highlight
   seq_svgs.append('rect')
     .attr('x', d => (d['Left'] + d['Pattern'].length - 1) * SCALE_X)
     .attr('y', 0)
@@ -226,18 +201,19 @@ function make_seq_svgs_separate(
     .attr('opacity', HIGHLIGHT_OPACITY)
     .style('fill', DELETION_COLOR)
     .style('stroke', 'transparent');
-  
-  // Reference sequence text
-  seq_svgs.append('text')
-    .attr('x', 0)
-    .attr('y', 0)
-    .attr("dy", "1em")
-    .attr('height', seq_height)
-    .attr('textLength', bar_width)
-    .style('font-family', 'monospace')
-    .style('font-weight', 'bold')
-    .text(ref_seq);
-    
+
+  // if (delete_branch) {
+  //   seq_svgs.filter(d => (d['Left'] > delete_branch[1]) || (d['Right'] < delete_branch[0]))
+  //     .append('rect')
+  //     .attr('x', (delete_branch[0] - 1) * SCALE_X)
+  //     .attr('y', 0)
+  //     .attr('width', (delete_branch[1] - delete_branch[0] + 1) * SCALE_X)
+  //     .attr('height', seq_height)
+  //     .attr('opacity', 0.3)
+  //     .style('fill', 'black')
+  //     .style('stroke', 'transparent');
+  // }
+
   return seq_svgs;
 }
 
@@ -249,6 +225,7 @@ function make_seq_svgs_combined(
   seq_height,
   ref_seq,
   microhomologies,
+  // delete_branch,
 ) {
   var label_svgs = svgs.append('svg')
     .style('overflow', 'visible')
@@ -277,6 +254,70 @@ function make_seq_svgs_combined(
       )
     }
   }
+    //   // Left or right of match window
+    //   if (pos == 'Left') {
+    //     seq_svgs.append('rect')
+    //       .attr('x', (micro[pos] - 1 - WINDOW_NUCLEOTIDES) * SCALE_X)
+    //       .attr('y', micro_idx * seq_height)
+    //       .attr('width', WINDOW_NUCLEOTIDES * SCALE_X)
+    //       .attr('height', seq_height)
+    //       .style('fill', '#00FF00')
+    //       .style('opacity', '0.3');
+    //   } else {
+    //     seq_svgs.append('rect')
+    //       .attr('x', (micro[pos] - 1 + micro['Pattern'].length) * SCALE_X)
+    //       .attr('y', micro_idx * seq_height)
+    //       .attr('width', WINDOW_NUCLEOTIDES * SCALE_X)
+    //       .attr('height', seq_height)
+    //       .style('fill', '#00FF00')
+    //       .style('opacity', '0.3');
+    //   }
+
+    //   // The match nucleotides
+    //   // yellow fill
+    //   seq_svgs.append('rect')
+    //     .attr('x', (micro[pos] - 1) * SCALE_X)
+    //     .attr('y', micro_idx * seq_height)
+    //     .attr('width', micro['Pattern'].length * SCALE_X)
+    //     .attr('height', seq_height)
+    //     .style('fill', '#FFFF00')
+    //     .style('opacity', '0.3');
+
+    //   // The match nucleotides
+    //   // black outline
+    //   seq_svgs.append('rect')
+    //     .attr('x', (micro[pos] - 1) * SCALE_X)
+    //     .attr('y', micro_idx * seq_height)
+    //     .attr('width', micro['Pattern'].length * SCALE_X)
+    //     .attr('height', seq_height)
+    //     .style('fill', 'transparent')
+    //     .style('stroke', 'black')
+    //     .style('stroke-width', 2);
+    // }
+
+    // seq_svgs.append('rect')
+    //   .attr('x', (micro['Left'] + micro['Pattern'].length - 1) * SCALE_X)
+    //   .attr('y', micro_idx * seq_height)
+    //   .attr('width', (micro['Right'] - micro['Left'] - micro['Pattern'].length) * SCALE_X)
+    //   .attr('height', seq_height)
+    //   .attr('opacity', 0.3)
+    //   .style('fill', 'black')
+    //   .style('stroke', 'transparent');
+
+    // if (
+    //   delete_branch &&
+    //   ((micro['Left'] > delete_branch[1]) || (micro['Right'] < delete_branch[0]))
+    // ) {
+    //   seq_svgs.append('rect')
+    //     .attr('x', (delete_branch[0] - 1) * SCALE_X)
+    //     .attr('y', micro_idx * seq_height)
+    //     .attr('width', (delete_branch[1] - delete_branch[0] + 1) * SCALE_X)
+    //     .attr('height', seq_height)
+    //     .attr('opacity', 0.3)
+    //     .style('fill', 'black')
+    //     .style('stroke', 'transparent');
+    // }
+    // micro_idx++;
 
   for (var i = 0; i < microhomologies.length; i++) {
     label_svgs.append('svg')
@@ -291,6 +332,15 @@ function make_seq_svgs_combined(
       .attr("dy", '1em')
       .style('font-family', 'monospace')
       .text(microhomologies[i]['Name']);
+
+    // seq_svgs.append('text')
+    //   .attr('x', 0)
+    //   .attr('y', i * seq_height)
+    //   .attr("dy", "1em")
+    //   .attr('height', seq_height)
+    //   .attr('textLength', bar_width)
+    //   .style('font-family', 'monospace')
+    //   .text(ref_seq);
   }
 
   return seq_svgs;

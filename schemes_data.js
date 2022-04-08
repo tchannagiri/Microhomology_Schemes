@@ -3002,122 +3002,426 @@ var MICROHOMOLOGIES = [
 ];
 
 var AREAS = {
-  "hg39": {
-    "Forward": [
-      {
-        "name": "exon1",
-        "start": 21,
-        "end": 67
-      },
-      {
-        "name": "exon2",
-        "start": 184,
-        "end": 209
-      },
-      {
-        "name": "intron",
-        "start": 73,
-        "end": 118
-      },
-      {
-        "name": "branch",
-        "start": 119,
-        "end": 173
-      },
-      {
-        "name": "intron",
-        "start": 174,
-        "end": 183
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "exon1",
-        "start": 163,
-        "end": 209
-      },
-      {
-        "name": "exon2",
-        "start": 21,
-        "end": 46
-      },
-      {
-        "name": "intron",
-        "start": 47,
-        "end": 56
-      },
-      {
-        "name": "branch",
-        "start": 57,
-        "end": 111
-      },
-      {
-        "name": "intron",
-        "start": 112,
-        "end": 157
-      }
-    ]
+  "wt": {
+    "hg39": {
+      "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 67
+        },
+        {
+          "name": "intron",
+          "start": 73,
+          "end": 118
+        },
+        {
+          "name": "branch",
+          "start": 119,
+          "end": 173
+        },
+        {
+          "name": "intron",
+          "start": 174,
+          "end": 183
+        },
+        {
+          "name": "exon2",
+          "start": 184,
+          "end": 209
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 46
+        },
+        {
+          "name": "intron",
+          "start": 47,
+          "end": 56
+        },
+        {
+          "name": "branch",
+          "start": 57,
+          "end": 111
+        },
+        {
+          "name": "intron",
+          "start": 112,
+          "end": 157
+        },
+        {
+          "name": "exon1",
+          "start": 163,
+          "end": 209
+        }
+      ]
+    },
+    "hg42": {
+      "Forward": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 46
+        },
+        {
+          "name": "intron",
+          "start": 47,
+          "end": 56
+        },
+        {
+          "name": "branch",
+          "start": 57,
+          "end": 111
+        },
+        {
+          "name": "intron",
+          "start": 112,
+          "end": 157
+        },
+        {
+          "name": "exon1",
+          "start": 158,
+          "end": 209
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 72
+        },
+        {
+          "name": "intron",
+          "start": 73,
+          "end": 118
+        },
+        {
+          "name": "branch",
+          "start": 119,
+          "end": 173
+        },
+        {
+          "name": "intron",
+          "start": 174,
+          "end": 183
+        },
+        {
+          "name": "exon2",
+          "start": 184,
+          "end": 209
+        }
+      ]
+    },
+    "2dsb": {
+      "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 67
+        },
+        {
+          "name": "exon2",
+          "start": 184,
+          "end": 209
+        },
+        {
+          "name": "intron",
+          "start": 73,
+          "end": 118
+        },
+        {
+          "name": "branch",
+          "start": 119,
+          "end": 173
+        },
+        {
+          "name": "intron",
+          "start": 174,
+          "end": 183
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon1",
+          "start": 163,
+          "end": 209
+        },
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 46
+        },
+        {
+          "name": "intron",
+          "start": 47,
+          "end": 56
+        },
+        {
+          "name": "branch",
+          "start": 57,
+          "end": 111
+        },
+        {
+          "name": "intron",
+          "start": 112,
+          "end": 157
+        }
+      ]
+    }
   },
-  "hg42": {
+  "db": {
+    "hg39": {
+      "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 67
+        },
+        {
+          "name": "intron",
+          "start": 73,
+          "end": 128
+        },
+        {
+          "name": "exon2",
+          "start": 129,
+          "end": 154
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 46
+        },
+        {
+          "name": "intron",
+          "start": 47,
+          "end": 102
+        },
+        {
+          "name": "exon1",
+          "start": 108,
+          "end": 154
+        }
+      ]
+    },
+    "hg42": {
+      "Forward": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 46
+        },
+        {
+          "name": "intron",
+          "start": 47,
+          "end": 102
+        },
+        {
+          "name": "exon1",
+          "start": 103,
+          "end": 154
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 72
+        },
+        {
+          "name": "intron",
+          "start": 73,
+          "end": 128
+        },
+        {
+          "name": "exon2",
+          "start": 129,
+          "end": 154
+        }
+      ]
+    },
+    "2dsb": {
+      "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 67
+        },
+        {
+          "name": "intron",
+          "start": 73,
+          "end": 128
+        },
+        {
+          "name": "exon2",
+          "start": 129,
+          "end": 154
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 46
+        },
+        {
+          "name": "intron",
+          "start": 47,
+          "end": 102
+        },
+        {
+          "name": "exon1",
+          "start": 108,
+          "end": 154
+        }
+      ]
+    }
+  }
+};
+
+var BARS = {
+  "wt": {
     "Forward": [
       {
-        "name": "exon2",
-        "start": 21,
-        "end": 46
-      },
-      {
-        "name": "exon1",
-        "start": 158,
-        "end": 209
-      },
-      {
-        "name": "intron",
-        "start": 47,
-        "end": 56
-      },
-      {
-        "name": "branch",
-        "start": 57,
-        "end": 111
-      },
-      {
-        "name": "intron",
-        "start": 112,
-        "end": 157
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "exon2",
-        "start": 184,
-        "end": 209
-      },
-      {
-        "name": "exon1",
-        "start": 21,
+        "name": "dsred",
+        "start": 1,
         "end": 72
       },
       {
         "name": "intron",
         "start": 73,
-        "end": 118
+        "end": 183
       },
       {
-        "name": "branch",
-        "start": 119,
-        "end": 173
+        "name": "dsred",
+        "start": 184,
+        "end": 229
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 46
       },
       {
         "name": "intron",
-        "start": 174,
-        "end": 183
+        "start": 47,
+        "end": 157
+      },
+      {
+        "name": "dsred",
+        "start": 158,
+        "end": 229
+      }
+    ]
+  },
+  "db": {
+    "Forward": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 72
+      },
+      {
+        "name": "intron",
+        "start": 73,
+        "end": 128
+      },
+      {
+        "name": "dsred",
+        "start": 129,
+        "end": 174
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 46
+      },
+      {
+        "name": "intron",
+        "start": 47,
+        "end": 102
+      },
+      {
+        "name": "dsred",
+        "start": 103,
+        "end": 174
+      }
+    ]
+  }
+};
+
+var PCIS = {
+  "wt": {
+    "Forward": [
+      {
+        "name": "f6",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "r5",
+        "start": 210,
+        "end": 229
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "r5",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "f6",
+        "start": 210,
+        "end": 229
+      }
+    ]
+  },
+  "db": {
+    "Forward": [
+      {
+        "name": "f6",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "r5",
+        "start": 155,
+        "end": 174
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "r5",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "f6",
+        "start": 155,
+        "end": 174
       }
     ]
   }
 };
 
 var REF_SEQ = {
-  "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-  "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  "wt": {
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  },
+  "db": {
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  }
 };
 
