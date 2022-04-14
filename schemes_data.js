@@ -3308,7 +3308,7 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 21,
-          "end": 67
+          "end": 72
         },
         {
           "name": "intron",
@@ -3354,7 +3354,7 @@ var AREAS = {
         },
         {
           "name": "exon1",
-          "start": 163,
+          "start": 158,
           "end": 209
         }
       ]
@@ -3420,7 +3420,7 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 21,
-          "end": 67
+          "end": 72
         },
         {
           "name": "intron",
@@ -3478,7 +3478,7 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 21,
-          "end": 67
+          "end": 72
         },
         {
           "name": "intron",
@@ -3504,7 +3504,7 @@ var AREAS = {
         },
         {
           "name": "exon1",
-          "start": 108,
+          "start": 103,
           "end": 154
         }
       ]
@@ -3550,7 +3550,7 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 21,
-          "end": 67
+          "end": 72
         },
         {
           "name": "intron",

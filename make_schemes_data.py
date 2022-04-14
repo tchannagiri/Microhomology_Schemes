@@ -32,7 +32,7 @@ AREAS = {
   'wt': {
     'hg39': {
       'Forward': [
-        {'name': 'exon1', 'start': 21, 'end': 67},
+        {'name': 'exon1', 'start': 21, 'end': 72},
         {'name': 'intron', 'start': 73, 'end': 118},
         {'name': 'branch', 'start': 119, 'end': 173},
         {'name': 'intron', 'start': 174, 'end': 183},
@@ -43,7 +43,7 @@ AREAS = {
         {'name': 'intron', 'start': 47, 'end': 56},
         {'name': 'branch', 'start': 57, 'end': 111},
         {'name': 'intron', 'start': 112, 'end': 157},
-        {'name': 'exon1', 'start': 163, 'end': 209},
+        {'name': 'exon1', 'start': 158, 'end': 209},
       ],
     },
     'hg42': {
@@ -64,7 +64,7 @@ AREAS = {
     },
     '2dsb': {
       'Forward': [
-        {'name': 'exon1', 'start': 21, 'end': 67},
+        {'name': 'exon1', 'start': 21, 'end': 72},
         {'name': 'intron', 'start': 73, 'end': 118},
         {'name': 'branch', 'start': 119, 'end': 173},
         {'name': 'intron', 'start': 174, 'end': 183},
@@ -82,14 +82,14 @@ AREAS = {
   'db': {
    'hg39': {
       'Forward': [
-        {'name': 'exon1', 'start': 21, 'end': 67},
+        {'name': 'exon1', 'start': 21, 'end': 72},
         {'name': 'intron', 'start': 73, 'end': 128},
         {'name': 'exon2', 'start': 129, 'end': 154},
       ],
       'Reverse': [
         {'name': 'exon2', 'start': 21, 'end': 46},
         {'name': 'intron', 'start': 47, 'end': 102},
-        {'name': 'exon1', 'start': 108, 'end': 154},
+        {'name': 'exon1', 'start': 103, 'end': 154},
       ],
     },
     'hg42': {
@@ -106,7 +106,7 @@ AREAS = {
     },
     '2dsb': {
       'Forward': [
-        {'name': 'exon1', 'start': 21, 'end': 67},
+        {'name': 'exon1', 'start': 21, 'end': 72},
         {'name': 'intron', 'start': 73, 'end': 128},
         {'name': 'exon2', 'start': 129, 'end': 154},
       ],
