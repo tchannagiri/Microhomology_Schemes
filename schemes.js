@@ -69,51 +69,6 @@ function reverse_complement_dna(s) {
   return t;
 }
 
-// function init_svgs_separate(content_selector, microhomologies, labels_width, bar_width, scheme_height, padding) {
-//   return (
-//     d3.select(content_selector)
-//     .selectAll('svg')
-//     .data(microhomologies)
-//     .enter()
-//     .append('svg')
-//     .attr('width', labels_width + bar_width)
-//     .attr('height', scheme_height + padding)
-//   );
-// }
-// function init_svgs_separate(main_svg, microhomologies, labels_width, bar_width, scheme_height, padding) {
-function init_svgs_separate(scheme_svg, microhomologies, labels_width, full_width, scheme_height) {
-  return (
-    scheme_svg
-      // .selectAll('svg')
-      .selectAll('g')
-      .data(microhomologies)
-      .enter()
-      // .append('svg')
-      .append('g')
-      // .attr('y', (d, i) => i * scheme_height)
-      .attr('transform', (d, i) => `translate(0, ${i * scheme_height})`)
-      .attr('width', labels_width + full_width)
-      .attr('height', scheme_height)
-  );
-}
-
-// function init_svgs_combined(content_selector, labels_width, bar_width, scheme_height, padding) {
-//   return (
-//     d3.select(content_selector)
-//       .append('svg')
-//       .attr('width', labels_width + bar_width)
-//       .attr('height', scheme_height + padding)
-//   );
-// }
-// function init_svgs_combined(main_svg, labels_width, full_width, scheme_height) {
-//   return (
-//     main_svg
-//       .append('svg')
-//       .attr('width', labels_width + full_width)
-//       .attr('height', scheme_height)
-//   );
-// }
-
 
 function draw_single_seq(
   bar_width,
@@ -194,11 +149,8 @@ function make_seq_svgs_separate(
   seq_height,
   ref_seq,
 ) {
-  // var seq_svgs = svgs.append('svg')
   var seq_svgs = scheme_svgs.append('g')
     .style('overflow', 'visible')
-    // .attr('x', labels_width)
-    // .attr('y', seq_y)
     .attr('transform', `translate(${labels_width}, ${seq_y})`)
     .attr('width', content_width)
     .attr('height', seq_height);
@@ -258,9 +210,8 @@ function make_seq_svgs_separate(
   // Reference sequence text
   seq_svgs.append('text')
     .attr('x', 0)
-    .attr('y', 0)
-    .attr("dy", "1em")
-    .attr('height', seq_height)
+    .attr('y', seq_height / 2)
+    .attr('dy', '.5ex')
     .attr('textLength', content_width)
     .style('font-family', 'monospace')
     .style('font-weight', 'bold')
@@ -285,11 +236,8 @@ function make_seq_svgs_combined(
     .attr('width', labels_width)
     .attr('height', seq_height * microhomologies.length);
 
-  // var seq_svgs = scheme_svg.append('svg')
   var seq_svgs = scheme_svg.append('g')
     .style('overflow', 'visible')
-    // .attr('x', labels_width)
-    // .attr('y', seq_y)
     .attr('transform', `translate(${labels_width}, ${seq_y})`)
     .attr('height', seq_height * microhomologies.length);
 
@@ -309,21 +257,18 @@ function make_seq_svgs_combined(
 
   // The microhomology names
   for (var micro_idx = 0; micro_idx < microhomologies.length; micro_idx++) {
-    // label_svgs.append('svg')
     label_svgs.append('g')
-      // .attr('x', 0)
-      // .attr('y', micro_idx * seq_height)
-      .attr('transform', `translate(0, ${micro_idx * seq_height})`)
-      .attr('width', labels_width)
-      .attr('height', seq_height)
-      .style('overflow', 'visible')
+        .attr('transform', `translate(0, ${micro_idx * seq_height})`)
+        .attr('width', labels_width)
+        .attr('height', seq_height)
+        .style('overflow', 'visible')
       .append('text')
-      .attr('width', labels_width)
-      .attr('height', seq_height)
-      .attr("dy", '1em')
-      .style('font-family', 'monospace')
-      .style('font-weight', microhomologies[micro_idx]['Bold'] == 1 ? 'bold' : 'normal')
-      .text(microhomologies[micro_idx]['Name'] + (microhomologies[micro_idx]['Bold'] == 1 ? ' *' : ''));
+        .attr('x', 0)
+        .attr('y', seq_height / 2)
+        .attr('dy', '.5ex')
+        .style('font-family', 'monospace')
+        .style('font-weight', microhomologies[micro_idx]['Bold'] == 1 ? 'bold' : 'normal')
+        .text(microhomologies[micro_idx]['Name'] + (microhomologies[micro_idx]['Bold'] == 1 ? ' *' : ''));
   }
 
   return seq_svgs;
@@ -392,19 +337,10 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   var pcis_y = bars_1_y + bars_1_height + pad;
   var areas_y = pcis_y;
   var seq_y =  pcis_y + pcis_height + pad; 
-  // var seq_y = areas_y + areas_height + pad;
-  // var bars_1_y;
-  // if (combined) {
-  //   bars_1_y = seq_y + microhomologies.length * seq_height + pad; 
-  // } else {
-  //   bars_1_y = seq_y + seq_height + pad;
-  // }
-  // var scheme_height = bars_1_y + bars_1_height + pad;
+
   var scheme_height;
   var total_scheme_height;
   if (combined) {
-    // scheme_height = seq_y + microhomologies.length * seq_height;
-    // total_scheme_height = scheme_height; 
     scheme_height = null;
     total_scheme_height = seq_y + microhomologies.length * seq_height; 
   } else {
@@ -423,16 +359,11 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
 
   // The title
   main_svg.append('g')
-    // .attr('x', 0)
-    // .attr('y', 0)
-    .attr('width', total_width)
-    .attr('height', title_height)
+      .attr('width', total_width)
+      .attr('height', title_height)
     .append('text')
       .attr('x', total_width / 2)
-      // .attr('y', title_y + title_height / 2)
       .attr('y', title_height / 2)
-      // .attr('width', total_width)
-      // .attr('height', title_height)
       .style('text-anchor', 'middle')
       .style('dominant-baseline', 'middle')
       .style('overflow', 'visible')
@@ -444,52 +375,37 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
     .attr('width', total_width)
     .attr('height', total_scheme_height);
 
-  // var svgs = combined ?
-  //   init_svgs_combined(content_selector, labels_width, full_width, scheme_height, seq_pad) :
-  //   init_svgs_separate(content_selector, microhomologies, labels_width, full_width, scheme_height, seq_pad);
-  // var svgs = combined ?
-  //   // init_svgs_combined(main_svg, labels_width, full_width, scheme_height) :
-  //   init_svgs_combined(scheme_svg, labels_width, content_width, total_scheme_height) :
-  //   init_svgs_separate(scheme_svg, microhomologies, labels_width, content_width, scheme_height);
   var scheme_svg;
   if (combined) {
     scheme_svg = scheme_svg_outer;
   } else {
-    // scheme_svg = init_svgs_separate(scheme_svg_outer, microhomologies, labels_width, content_width, scheme_height);
     scheme_svg = scheme_svg_outer
       .selectAll('g')
       .data(microhomologies)
       .enter()
       .append('g')
-      .attr('transform', (d, i) => `translate(0, ${i * scheme_height})`)
-      .attr('width', total_width)
-      .attr('height', scheme_height);
+        .attr('transform', (d, i) => `translate(0, ${i * scheme_height})`)
+        .attr('width', total_width)
+        .attr('height', scheme_height);
   }
 
   // The label SVGs
   if (!combined) {
     scheme_svg.append('g')
-      // .attr('x', 0)
-      // .attr('y', 0)
-      // .attr('transform', 'trans')
-      .attr('width', labels_width)
-      .attr('height', scheme_height)
-      .style('overflow', 'visible')
+        .attr('width', labels_width)
+        .attr('height', scheme_height)
+        .style('overflow', 'visible')
       .append('text')
-      .attr('width', labels_width)
-      .attr('height', scheme_height)
-      .attr('dy', scheme_height / 2)
-      .style('dominant-baseline', 'middle')
-      .style('font-family', 'monospace')
-      .style('font-weight', d => d['Bold'] == 1 ? 'bold' : 'light')
-      .text(d => d['Name'] + (d['Bold'] == 1 ? ' *' : ''));
+        .attr('x', 0)
+        .attr('y', scheme_height / 2)
+        .attr('dy', '.5ex')
+        .style('font-family', 'monospace')
+        .style('font-weight', d => d['Bold'] == 1 ? 'bold' : 'light')
+        .text(d => d['Name'] + (d['Bold'] == 1 ? ' *' : ''));
   }
 
   // The scale bar at the top
-  // var scale_svgs = scheme_svg.append('svg')
   var scale_svgs = scheme_svg.append('g')
-    // .attr('x', labels_width)
-    // .attr('y', scale_y)
     .attr('transform', `translate(${labels_width}, ${scale_y})`)
     .attr('width', scheme_width)
     .attr('height', scale_height);
@@ -499,11 +415,8 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   scale_svgs.append('g').call(x_axis);
 
   // The bars for DsRed and Intron
-  // var bars_1_svgs = scheme_svg.append('svg')
   var bars_1_svgs = scheme_svg.append('g')
     .style('overflow', 'visible')
-    // .attr('x', labels_width)
-    // .attr('y', bars_1_y)
     .attr('transform', `translate(${labels_width}, ${bars_1_y})`)
     .attr('width', scheme_width)
     .attr('height', bars_1_height);
@@ -520,19 +433,14 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .style('fill', color);
     bars_1_svgs.append('text')
       .attr('text-anchor', 'middle')
-      .style('dominant-baseline', 'middle')
       .attr('x', bar_x + bar_width / 2)
       .attr('y', bars_1_height / 2)
-      // .attr('dy', '1em')
-      .attr('height', bars_1_height)
+      .attr('dy', '.5ex')
       .text(BAR_TEXT[bar['name']]);
   }
 
   // The Primer windows
-  // var pcis_svgs = scheme_svg.append('svg')
   var pcis_svgs = scheme_svg.append('g')
-    // .attr('x', labels_width)
-    // .attr('y', pcis_y)
     .attr('transform', `translate(${labels_width}, ${pcis_y})`)
     .attr('width', scheme_width)
     .attr('height', pcis_height);
@@ -551,20 +459,14 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
 
     pcis_svgs.append('text')
       .attr('text-anchor', 'middle')
-      .style('dominant-baseline', 'middle')
       .attr('x', (((pcis['start'] + pcis['end']) / 2) - 1) * SCALE_X)
-      // .attr('y', 0)
       .attr('y', pcis_height / 2)
-      // .attr('dy', '1em')
-      .attr('height', pcis_height)
+      .attr('dy', '.5ex')
       .text(PCIS_TEXT[pcis['name']]);
   }
 
   // The Intron/Exon/Branch windows
-  // var areas_svgs = scheme_svg.append('svg')
   var areas_svgs = scheme_svg.append('g')
-    // .attr('x', labels_width)
-    // .attr('y', areas_y)
     .attr('transform', `translate(${labels_width}, ${areas_y})`)
     .attr('width', scheme_width)
     .attr('height', areas_height);
@@ -583,11 +485,9 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
 
     areas_svgs.append('text')
       .attr('text-anchor', 'middle')
-      .style('dominant-baseline', 'middle')
       .attr('x', (((area['start'] + area['end']) / 2) - 1) * SCALE_X)
       .attr('y', areas_height / 2)
-      // .attr('dy', '1em')
-      .attr('height', areas_height)
+      .attr('dy', '.5ex')
       .text(AREAS_TEXT[area['name']]);
   }
 
