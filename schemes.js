@@ -71,7 +71,7 @@ function reverse_complement_dna(s) {
 
 
 function draw_single_seq(
-  bar_width,
+  content_width,
   ref_seq,
   seq_height,
   seq_svgs,
@@ -129,16 +129,20 @@ function draw_single_seq(
 
   if (pass == 2) {
     // Reference sequence text
-    seq_svgs.append('text')
-      .attr('x', 0)
-      .attr('y', microhomology_y)
-      .attr("dy", "1em")
-      .attr('height', seq_height)
-      .attr('textLength', bar_width)
-      .style('font-family', 'monospace')
-      .style('font-weight', 'bold')
-      .text(ref_seq);
+    seq_svgs.append('g')
+        .attr('width', content_width)
+        .attr('height', seq_height)
+        .attr('transform', `translate(0, ${microhomology_y})`)
+      .append('text')
+        .attr('x', 0)
+        .attr('y', seq_height / 2)
+        .attr('dy', '.5ex')
+        .attr('textLength', content_width)
+        .style('font-family', 'monospace')
+        .style('font-weight', 'bold')
+        .text(ref_seq);
   }
+
 }
 
 function make_seq_svgs_separate(
@@ -511,5 +515,16 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       seq_height,
       REF_SEQ[Celltype][Strand],
     );
+  }
+
+  // Cut position
+  for (var cut_pos of CUT_POS[Breaks][Strand]) {
+    scheme_svg.append('line')
+      .attr('x1', labels_width + cut_pos * SCALE_X)
+      .attr('x2', labels_width + cut_pos * SCALE_X)
+      .attr('y1', 0)
+      .attr('y2', total_scheme_height)
+      .style('stroke', 'red')
+      .style('stroke-width', 2);
   }
 }

@@ -28,8 +28,11 @@
       <option value="combined" selected>Combined</option>
       <option value="separate">Separate</option>
     </select>
-    <button onclick="download_svg()">
+    <button onclick="download_svg()" style="margin-right: 10px;">
       Download SVG
+    </select>
+    <button onclick="download_all_svg()">
+      Download All SVG
     </select>
   </div>
   <div style="font-size: 30; margin-bottom: 50;" id="title">
@@ -71,6 +74,21 @@
     element.click();
 
     document.body.removeChild(element);
+  }
+
+  function download_all_svg() {
+    for (var Breaks of ['hg39', 'hg42', '2dsb']) {
+      for (var Strand of ['Forward', 'Reverse']) {
+        for (var Celltype of ['wt', 'db']) {
+          document.querySelector("#Breaks").value = Breaks;
+          document.querySelector("#Strand").value = Strand;
+          document.querySelector("#Celltype").value = Celltype;
+          document.querySelector("#Type").value = 'all'
+          document.querySelector("#combined").value = 'combined'
+          download_svg();
+        }
+      }
+    }
   }
 </script>
 

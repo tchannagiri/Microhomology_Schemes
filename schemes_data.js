@@ -3714,6 +3714,35 @@ var PCIS = {
   }
 };
 
+var CUT_POS = {
+  "hg39": {
+    "Forward": [
+      67
+    ],
+    "Reverse": [
+      162
+    ]
+  },
+  "hg42": {
+    "Forward": [
+      183
+    ],
+    "Reverse": [
+      46
+    ]
+  },
+  "2dsb": {
+    "Forward": [
+      67,
+      183
+    ],
+    "Reverse": [
+      46,
+      162
+    ]
+  }
+};
+
 var REF_SEQ = {
   "wt": {
     "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
