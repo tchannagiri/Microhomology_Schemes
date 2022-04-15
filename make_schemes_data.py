@@ -15,6 +15,7 @@ MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
 AREAS_VAR_JS = 'AREAS'
 BARS_VAR_JS = 'BARS'
 PCIS_VAR_JS = 'PCIS'
+CUT_POS_VAR_JS = 'CUT_POS'
 REF_SEQ_VAR_JS = 'REF_SEQ'
 
 REF_SEQ = {
@@ -169,6 +170,21 @@ BARS = {
   },
 }
 
+CUT_POS = {
+  'hg39': {
+    'Forward': 67.5, 
+    'Reverse':  46.5,
+  },
+  'hg42': {
+    'Forward': 67.5, 
+    'Reverse':  46.5,
+  },
+  '2dsb': {
+    'Forward': 50.5,
+    'Forward': 46.5,
+  },
+}
+
 microhomologies = pd.read_csv(MMEJ_LIST_CSV)
 microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern', 'Bold']]
 microhomologies = microhomologies.to_dict('records')
@@ -188,6 +204,10 @@ with open(SCHEMES_DATA_JS, 'w') as out:
   
   out.write(f'var {PCIS_VAR_JS} = ')
   json.dump(PCIS, out, indent=2)
+  out.write(';\n\n')
+  
+  out.write(f'var {CUT_POS_VAR_JS} = ')
+  json.dump(CUT_POS, out, indent=2)
   out.write(';\n\n')
   
   out.write(f'var {REF_SEQ_VAR_JS} = ')

@@ -28,6 +28,9 @@
       <option value="combined" selected>Combined</option>
       <option value="separate">Separate</option>
     </select>
+    <button onclick="download_svg()">
+      Download SVG
+    </select>
   </div>
   <div style="font-size: 30; margin-bottom: 50;" id="title">
   </div>
@@ -37,8 +40,39 @@
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="schemes_data.js"></script>
-
 <script src="schemes.js"></script>
+
+<script>
+  function get_svg_file_name() {
+    var Breaks = document.querySelector("#Breaks").value;
+    var Strand = document.querySelector("#Strand").value;
+    var Celltype = document.querySelector("#Celltype").value;
+    var Type = document.querySelector("#Type").value;
+    var combined = document.querySelector("#combined").value;
+
+    Breaks = {'hg39': 'sgA', 'hg42': 'sgB', '2dsb': 'sgAB'}[Breaks];
+    Celltype = {'wt': 'wt', 'db': 'branch'}[Celltype];
+
+    return `microhomology_schemes_${Breaks}_${Strand}_${Celltype}_${combined}`;
+  }
+
+  // function download_svg(file_name, text) {
+  function download_svg() {
+    var text = document.querySelector('#schemes').innerHTML;
+    var file_name = get_svg_file_name();
+
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/svg;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', file_name + '.svg');
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+  }
+</script>
 
 <script>
   function update_schemes() {
