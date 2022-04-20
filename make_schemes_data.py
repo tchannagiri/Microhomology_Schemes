@@ -10,6 +10,7 @@ import random
 import itertools
 
 MMEJ_LIST_CSV = 'MMEJ_list_bold.csv'
+MMEJ_LIST_ANTI_CSV = 'MMEJ_antisense_list_bold.csv'
 SCHEMES_DATA_JS = 'schemes_data.js'
 MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
 AREAS_VAR_JS = 'AREAS'
@@ -27,13 +28,13 @@ REF_SEQ = {
     'Forward': 'TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
     'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA',
   },
+  'awt': {
+    'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
+    'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
+  },
   'd5': {
     'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
     'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
-  },
-  'awt': {
-    'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAXXXXXXCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
-    'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCXXXXXXAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
   },
 }
 
@@ -84,7 +85,7 @@ AREAS = {
         {'name': 'intron', 'start': 47, 'end': 56},
         {'name': 'branch', 'start': 57, 'end': 111},
         {'name': 'intron', 'start': 112, 'end': 157},
-        {'name': 'exon1', 'start': 163, 'end': 209},
+        {'name': 'exon1', 'start': 158, 'end': 209},
       ],
     },
   },
@@ -122,21 +123,37 @@ AREAS = {
       'Reverse': [
         {'name': 'exon2', 'start': 21, 'end': 46},
         {'name': 'intron', 'start': 47, 'end': 102},
-        {'name': 'exon1', 'start': 108, 'end': 154},
+        {'name': 'exon1', 'start': 103, 'end': 154},
       ],
     },
   },
-  'd5': {
+  'awt': {
    '2dsb': {
-      'Forward': [
-        {'name': 'exon1', 'start': 21, 'end': 72},
-        {'name': 'intron', 'start': 73, 'end': 128},
-        {'name': 'exon2', 'start': 129, 'end': 154},
+      'Forward': [ #len 237
+        {'name': 'exon1', 'start': 21, 'end': 50},
+        {'name': 'intron', 'start': 51, 'end': 179},
+        {'name': 'splice', 'start': 180, 'end': 185},
+        {'name': 'exon2', 'start': 186, 'end': 217},
       ],
       'Reverse': [
-        {'name': 'exon2', 'start': 21, 'end': 46},
-        {'name': 'intron', 'start': 47, 'end': 102},
-        {'name': 'exon1', 'start': 103, 'end': 154},
+        {'name': 'exon2', 'start': 21, 'end': 52},
+        {'name': 'splice', 'start': 53, 'end': 58},
+        {'name': 'intron', 'start': 59, 'end': 187},
+        {'name': 'exon1', 'start': 188, 'end': 217},
+      ],
+    },
+  },
+  'd5': { # len 231
+   '2dsb': {
+      'Forward': [
+        {'name': 'exon1', 'start': 21, 'end': 50},
+        {'name': 'intron', 'start': 51, 'end': 179},
+        {'name': 'exon2', 'start': 180, 'end': 211},
+      ],
+      'Reverse': [
+        {'name': 'exon2', 'start': 21, 'end': 52},
+        {'name': 'intron', 'start': 53, 'end': 181},
+        {'name': 'exon1', 'start': 182, 'end': 211},
       ],
     },
   },
@@ -162,7 +179,27 @@ PCIS = {
       {'name': 'r5', 'start': 1, 'end': 20},
       {'name': 'f6', 'start': 155, 'end': 174},
     ],
-  }
+  },
+  'awt': {
+    'Forward': [
+      {'name': 'f6', 'start': 1, 'end': 20},
+      {'name': 'r5', 'start': 218, 'end': 237},
+    ],
+    'Reverse': [
+      {'name': 'r5', 'start': 1, 'end': 20},
+      {'name': 'f6', 'start': 218, 'end': 237},
+    ],
+  },
+  'd5': {
+    'Forward': [
+      {'name': 'f6', 'start': 1, 'end': 20},
+      {'name': 'r5', 'start': 212, 'end': 231},
+    ],
+    'Reverse': [
+      {'name': 'r5', 'start': 1, 'end': 20},
+      {'name': 'f6', 'start': 212, 'end': 231},
+    ],
+  },
 }
 
 BARS = {
@@ -190,24 +227,80 @@ BARS = {
       {'name': 'dsred', 'start': 103, 'end': 174},
     ],
   },
+  'awt': {
+    'Forward': [
+      {'name': 'dsred', 'start': 1, 'end': 50},
+      {'name': 'intron', 'start': 51, 'end': 185},
+      {'name': 'dsred', 'start': 186, 'end': 237},
+    ],
+    'Reverse': [
+      {'name': 'dsred', 'start': 1, 'end': 52},
+      {'name': 'intron', 'start': 53, 'end': 187},
+      {'name': 'dsred', 'start': 188, 'end': 237},
+    ],
+  },
+  'd5': {
+    'Forward': [
+      {'name': 'dsred', 'start': 1, 'end': 50},
+      {'name': 'intron', 'start': 51, 'end': 179},
+      {'name': 'dsred', 'start': 180, 'end': 231},
+    ],
+    'Reverse': [
+      {'name': 'dsred', 'start': 1, 'end': 52},
+      {'name': 'intron', 'start': 53, 'end': 181},
+      {'name': 'dsred', 'start': 182, 'end': 231},
+    ],
+  },
 }
 
 CUT_POS = {
-  'hg39': {
-    'Forward': [67], 
-    'Reverse':  [162],
+  'wt': {
+    'hg39': {
+      'Forward': [67], 
+      'Reverse':  [162],
+    },
+    'hg42': {
+      'Forward': [183], 
+      'Reverse':  [46],
+    },
+    '2dsb': {
+      'Forward': [67, 183],
+      'Reverse': [46, 162],
+    },
   },
-  'hg42': {
-    'Forward': [183], 
-    'Reverse':  [46],
+  'db': {
+    'hg39': {
+      'Forward': [67], 
+      'Reverse':  [107],
+    },
+    'hg42': {
+      'Forward': [128], 
+      'Reverse':  [46],
+    },
+    '2dsb': {
+      'Forward': [67, 128],
+      'Reverse': [46, 107],
+    },
   },
-  '2dsb': {
-    'Forward': [67, 183],
-    'Reverse': [46, 162],
+  'awt': {
+    '2dsb': {
+      'Forward': [50, 190],
+      'Reverse': [47, 187],
+    },
+  },
+  'd5': {
+    '2dsb': {
+      'Forward': [50, 184],
+      'Reverse': [47, 181],
+    },
   },
 }
 
-microhomologies = pd.read_csv(MMEJ_LIST_CSV)
+microhomologies = [
+  pd.read_csv(MMEJ_LIST_CSV),
+  pd.read_csv(MMEJ_LIST_ANTI_CSV),
+]
+microhomologies = pd.concat(microhomologies, axis='index')
 microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern', 'Bold']]
 microhomologies = microhomologies.to_dict('records')
 

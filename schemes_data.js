@@ -3298,6 +3298,358 @@ var MICROHOMOLOGIES = [
     "Right": 113,
     "Pattern": "TAGA",
     "Bold": 1
+  },
+  {
+    "Name": "EE1",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 21,
+    "Right": 189,
+    "Pattern": "GGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE1",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 21,
+    "Right": 195,
+    "Pattern": "GGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE1R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 209,
+    "Pattern": "GCC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE1R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 215,
+    "Pattern": "GCC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE2",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 24,
+    "Right": 207,
+    "Pattern": "GTG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE2",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 24,
+    "Right": 213,
+    "Pattern": "GTG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE2R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 23,
+    "Right": 206,
+    "Pattern": "CAC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE2R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 23,
+    "Right": 212,
+    "Pattern": "CAC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE3",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 26,
+    "Right": 189,
+    "Pattern": "GGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE3",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 26,
+    "Right": 195,
+    "Pattern": "GGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE3R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 204,
+    "Pattern": "GCC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE3R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 210,
+    "Pattern": "GCC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE4",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 186,
+    "Pattern": "GAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE4",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 192,
+    "Pattern": "GAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE4R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 201,
+    "Pattern": "GTC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE4R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 207,
+    "Pattern": "GTC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE5",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 33,
+    "Right": 207,
+    "Pattern": "GTGA",
+    "Bold": 1
+  },
+  {
+    "Name": "EE5",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 33,
+    "Right": 213,
+    "Pattern": "GTGA",
+    "Bold": 1
+  },
+  {
+    "Name": "EE5R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 22,
+    "Right": 196,
+    "Pattern": "TCAC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE5R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 22,
+    "Right": 202,
+    "Pattern": "TCAC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE6",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 35,
+    "Right": 186,
+    "Pattern": "GAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE6",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 35,
+    "Right": 192,
+    "Pattern": "GAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE6R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 195,
+    "Pattern": "GTC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE6R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 201,
+    "Pattern": "GTC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE7",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 40,
+    "Right": 205,
+    "Pattern": "AGG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE7",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 40,
+    "Right": 211,
+    "Pattern": "AGG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE7R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 25,
+    "Right": 190,
+    "Pattern": "CCT",
+    "Bold": 0
+  },
+  {
+    "Name": "EE7R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 25,
+    "Right": 196,
+    "Pattern": "CCT",
+    "Bold": 0
+  },
+  {
+    "Name": "EE8",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 41,
+    "Right": 185,
+    "Pattern": "GGAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE8",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 41,
+    "Right": 191,
+    "Pattern": "GGAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE8R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 188,
+    "Pattern": "GTCC",
+    "Bold": 0
+  },
+  {
+    "Name": "EE8R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 194,
+    "Pattern": "GTCC",
+    "Bold": 0
   }
 ];
 
@@ -3466,7 +3818,7 @@ var AREAS = {
         },
         {
           "name": "exon1",
-          "start": 163,
+          "start": 158,
           "end": 209
         }
       ]
@@ -3576,8 +3928,94 @@ var AREAS = {
         },
         {
           "name": "exon1",
-          "start": 108,
+          "start": 103,
           "end": 154
+        }
+      ]
+    }
+  },
+  "awt": {
+    "2dsb": {
+      "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 50
+        },
+        {
+          "name": "intron",
+          "start": 51,
+          "end": 179
+        },
+        {
+          "name": "splice",
+          "start": 180,
+          "end": 185
+        },
+        {
+          "name": "exon2",
+          "start": 186,
+          "end": 217
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 52
+        },
+        {
+          "name": "splice",
+          "start": 53,
+          "end": 58
+        },
+        {
+          "name": "intron",
+          "start": 59,
+          "end": 187
+        },
+        {
+          "name": "exon1",
+          "start": 188,
+          "end": 217
+        }
+      ]
+    }
+  },
+  "d5": {
+    "2dsb": {
+      "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 50
+        },
+        {
+          "name": "intron",
+          "start": 51,
+          "end": 179
+        },
+        {
+          "name": "exon2",
+          "start": 180,
+          "end": 211
+        }
+      ],
+      "Reverse": [
+        {
+          "name": "exon2",
+          "start": 21,
+          "end": 52
+        },
+        {
+          "name": "intron",
+          "start": 53,
+          "end": 181
+        },
+        {
+          "name": "exon1",
+          "start": 182,
+          "end": 211
         }
       ]
     }
@@ -3656,6 +4094,78 @@ var BARS = {
         "end": 174
       }
     ]
+  },
+  "awt": {
+    "Forward": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 50
+      },
+      {
+        "name": "intron",
+        "start": 51,
+        "end": 185
+      },
+      {
+        "name": "dsred",
+        "start": 186,
+        "end": 237
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 52
+      },
+      {
+        "name": "intron",
+        "start": 53,
+        "end": 187
+      },
+      {
+        "name": "dsred",
+        "start": 188,
+        "end": 237
+      }
+    ]
+  },
+  "d5": {
+    "Forward": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 50
+      },
+      {
+        "name": "intron",
+        "start": 51,
+        "end": 179
+      },
+      {
+        "name": "dsred",
+        "start": 180,
+        "end": 231
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "dsred",
+        "start": 1,
+        "end": 52
+      },
+      {
+        "name": "intron",
+        "start": 53,
+        "end": 181
+      },
+      {
+        "name": "dsred",
+        "start": 182,
+        "end": 231
+      }
+    ]
   }
 };
 
@@ -3711,35 +4221,141 @@ var PCIS = {
         "end": 174
       }
     ]
+  },
+  "awt": {
+    "Forward": [
+      {
+        "name": "f6",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "r5",
+        "start": 218,
+        "end": 237
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "r5",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "f6",
+        "start": 218,
+        "end": 237
+      }
+    ]
+  },
+  "d5": {
+    "Forward": [
+      {
+        "name": "f6",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "r5",
+        "start": 212,
+        "end": 231
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "r5",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "f6",
+        "start": 212,
+        "end": 231
+      }
+    ]
   }
 };
 
 var CUT_POS = {
-  "hg39": {
-    "Forward": [
-      67
-    ],
-    "Reverse": [
-      162
-    ]
+  "wt": {
+    "hg39": {
+      "Forward": [
+        67
+      ],
+      "Reverse": [
+        162
+      ]
+    },
+    "hg42": {
+      "Forward": [
+        183
+      ],
+      "Reverse": [
+        46
+      ]
+    },
+    "2dsb": {
+      "Forward": [
+        67,
+        183
+      ],
+      "Reverse": [
+        46,
+        162
+      ]
+    }
   },
-  "hg42": {
-    "Forward": [
-      183
-    ],
-    "Reverse": [
-      46
-    ]
+  "db": {
+    "hg39": {
+      "Forward": [
+        67
+      ],
+      "Reverse": [
+        107
+      ]
+    },
+    "hg42": {
+      "Forward": [
+        128
+      ],
+      "Reverse": [
+        46
+      ]
+    },
+    "2dsb": {
+      "Forward": [
+        67,
+        128
+      ],
+      "Reverse": [
+        46,
+        107
+      ]
+    }
   },
-  "2dsb": {
-    "Forward": [
-      67,
-      183
-    ],
-    "Reverse": [
-      46,
-      162
-    ]
+  "awt": {
+    "2dsb": {
+      "Forward": [
+        50,
+        190
+      ],
+      "Reverse": [
+        47,
+        187
+      ]
+    }
+  },
+  "d5": {
+    "2dsb": {
+      "Forward": [
+        50,
+        184
+      ],
+      "Reverse": [
+        47,
+        181
+      ]
+    }
   }
 };
 
@@ -3751,6 +4367,14 @@ var REF_SEQ = {
   "db": {
     "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
     "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  },
+  "awt": {
+    "Forward": "TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA"
+  },
+  "d5": {
+    "Forward": "TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA"
   }
 };
 

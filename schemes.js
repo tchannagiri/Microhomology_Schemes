@@ -13,13 +13,15 @@ var AREAS_COLOR = {
   'exon2': '#4471C4',
   'intron': '#00AF50',
   'branch': 'gray',
+  'splice': 'gray',
 };
 
 var AREAS_TEXT = {
-  'exon1': 'Exon',
-  'exon2': 'Exon',
+  'exon1': 'Exon 1',
+  'exon2': 'Exon 2',
   'intron': 'Intron',
   'branch': 'Intron (branch site)',
+  'splice': '5\' splice',
 };
 
 var PCIS_TEXT = {
@@ -30,11 +32,6 @@ var PCIS_TEXT = {
 };
 
 var PCIS_COLOR = 'purple';
-
-var DELETE_BRANCH = {
-  'wt': false,
-  'db': true,
-};
 
 var SCALE_X = 10;
 var SCALE_Y = 20;
@@ -48,11 +45,33 @@ var HIGHLIGHT_OPACITY = 0.3;
 var LABELS = {
   'hg39': 'sgRNA A',
   'hg42': 'sgRNA B',
-  '2dsb': 'sgRNA A & B',
   'Forward': 'Forward strand',
   'Reverse': 'Reverse strand',
-  'wt': 'WT',
+  'wt': 'Sense/pCMVΔ',
   'db': 'BranchΔ',
+  'awt': 'Antisense',
+  'd5': '5\' splicingΔ',
+  'all': null,
+  'exon_exon': 'Exon-Exon group',
+  'exon_intron': 'Exon-Intron group',
+}
+
+function get_label(key, Celltype) {
+  if (key in LABELS) {
+    return LABELS[key];
+  } else if (key == '2dsb') {
+    if (['wt', 'db'].includes(Celltype)) {
+      return 'sgRNA A & B';
+    } else if (Celltype == 'awt') {
+      return 'sgRNA C & D';
+    } else if (Celltype == 'd5') {
+      return 'sgRNA C\' & D';
+    } else {
+      throw 'Unknown Celltype: ' + Celltype;
+    }
+  } else {
+    throw 'Unknown key: ' + key;
+  }
 }
 
 function reverse_complement_dna(s) {
@@ -280,14 +299,14 @@ function make_seq_svgs_combined(
 
 function get_title(Breaks, Strand, Celltype, Type) {
   var title = [
-    LABELS[Breaks], 
-    LABELS[Strand], 
-    LABELS[Celltype], 
-    LABELS[Type], 
+    get_label(Celltype), 
+    get_label(Breaks, Celltype), 
+    get_label(Strand), 
+    get_label(Type), 
   ];
   title = title.filter(x => x != null);
   title = title.join(', ')
-  return 'Microhomology schemes: ' + title;
+  return 'Microhomology scheme: ' + title;
 }
 
 function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined) {
@@ -302,6 +321,7 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
 
   var pad = 3;
   var title_height = 50;
+  var caption_height = 20;
   var scale_height = 20;
   var pcis_height = 20;
   var areas_height = 20;
@@ -336,7 +356,8 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   //   }
   // );
 
-  var scale_y = 0;
+  var caption_y = 0;
+  var scale_y = caption_y + caption_height + pad;
   var bars_1_y = scale_y + scale_height + pad; 
   var pcis_y = bars_1_y + bars_1_height + pad;
   var areas_y = pcis_y;
@@ -487,11 +508,14 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .style('stroke-opacity', 1)
       .style('stroke-width', areas_stroke_width);
 
+    // CONTINUE FIXING HERE!!!
+    var text_transform = `'translate()`;
     areas_svgs.append('text')
       .attr('text-anchor', 'middle')
-      .attr('x', (((area['start'] + area['end']) / 2) - 1) * SCALE_X)
-      .attr('y', areas_height / 2)
+      // .attr('x', (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X)
+      // .attr('y', areas_height / 2)
       .attr('dy', '.5ex')
+      .attr('transform', (['awt', 'd5'].includes(Celltype) && area['name'] == 'intron') ? 'rotate(180)' : '')
       .text(AREAS_TEXT[area['name']]);
   }
 
@@ -518,13 +542,22 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   }
 
   // Cut position
-  for (var cut_pos of CUT_POS[Breaks][Strand]) {
+  for (var cut_pos of CUT_POS[Celltype][Breaks][Strand]) {
     scheme_svg.append('line')
       .attr('x1', labels_width + cut_pos * SCALE_X)
       .attr('x2', labels_width + cut_pos * SCALE_X)
-      .attr('y1', 0)
+      .attr('y1', scale_y)
       .attr('y2', total_scheme_height)
       .style('stroke', 'red')
       .style('stroke-width', 2);
+
+    scheme_svg.append('text')
+      .attr('text-anchor', 'middle')
+      .attr('x', labels_width + cut_pos * SCALE_X)
+      .attr('y', caption_y + caption_height / 2)
+      .attr('dy', '.5ex')
+      .style('fill', 'red')
+      .style('font-weight', 'bold')
+      .text('DSB');
   }
 }

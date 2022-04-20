@@ -1,21 +1,23 @@
 
 <body>
   <div style="font-size: 20">
-    <label>Guide:</label>
+    <label>Cell Type:</label>
+    <select name="Celltype" id="Celltype" onchange="update_schemes()">
+      <option value="wt">Sense/pCMVΔ</option>
+      <option value="db">BranchΔ</option>
+      <option value="awt">Antisense</option>
+      <option value="d5">5' splicingΔ</option>
+    </select>
+    <label>Breaks:</label>
     <select name="Breaks" id="Breaks" onchange="update_schemes()">
       <option value="hg39">sgRNA A</option>
       <option value="hg42">sgRNA B</option>
-      <option value="2dsb">sgRNA A & B</option>
+      <option value="2dsb">2 DSB</option>
     </select>
     <label>Strand:</label>
     <select name="strand" id="strand" onchange="update_schemes()">
       <option value="Forward">Forward</option>
       <option value="Reverse">Reverse</option>
-    </select>
-    <label>Cell Type:</label>
-    <select name="Celltype" id="Celltype" onchange="update_schemes()">
-      <option value="wt">Normal</option>
-      <option value="db">BranchΔ</option>
     </select>
     <label>Group:</label>
     <select name="Type" id="Type" onchange="update_schemes()">
@@ -94,11 +96,38 @@
 
 <script>
   function update_schemes() {
+    var Celltype = document.querySelector("#Celltype");
     var Breaks = document.querySelector("#Breaks");
     var Strand = document.querySelector("#Strand");
-    var Celltype = document.querySelector("#Celltype");
     var Type = document.querySelector("#Type");
     var combined = document.querySelector("#combined");
+
+    if (Celltype.value == 'awt' || Celltype.value == 'd5') {
+      for (var option of Breaks.options) {
+        if (option.value != '2dsb') {
+          option.disabled = true;
+          option.selected = false;
+        }
+      }
+    } else {
+      for (var option of Breaks.options) {
+        option.disabled = false;
+      }
+    }
+    
+    if (Breaks.value == '2dsb') {
+      for (var option of Type.options) {
+        if (option.value == 'exon_intron') {
+          option.disabled = true;
+          option.selected = false;
+        }
+      }
+    } else {
+      for (var option of Type.options) {
+        option.disabled = false;
+      }
+    }
+
     document.querySelector("#title").innerHTML = (
       `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
       `${Strand.value} ` +
