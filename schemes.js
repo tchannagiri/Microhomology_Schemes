@@ -456,10 +456,19 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .attr('width', bar_width)
       .attr('height', bars_1_height)
       .style('fill', color);
+
+    var x = bar_x + bar_width / 2;
+    var y = bars_1_height / 2;
+    var text_transform = `translate(${x}, ${y})`;
+    if (['awt', 'd5'].includes(Celltype) && bar['name'] == 'intron') {
+      text_transform += 'rotate(180)';
+    }
+
     bars_1_svgs.append('text')
       .attr('text-anchor', 'middle')
-      .attr('x', bar_x + bar_width / 2)
-      .attr('y', bars_1_height / 2)
+      // .attr('x', bar_x + bar_width / 2)
+      // .attr('y', bars_1_height / 2)
+      .attr('transform', text_transform)
       .attr('dy', '.5ex')
       .text(BAR_TEXT[bar['name']]);
   }
@@ -509,14 +518,27 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .style('stroke-width', areas_stroke_width);
 
     // CONTINUE FIXING HERE!!!
-    var text_transform = `'translate()`;
+    var x = (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X;
+    var y = areas_height / 2;
+    var text_transform = `translate(${x}, ${y})`;
+    if (['awt', 'd5'].includes(Celltype) && area['name'] == 'intron') {
+      text_transform += 'rotate(180)';
+    }
+
     areas_svgs.append('text')
       .attr('text-anchor', 'middle')
-      // .attr('x', (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X)
-      // .attr('y', areas_height / 2)
+      .attr('transform', text_transform)
       .attr('dy', '.5ex')
-      .attr('transform', (['awt', 'd5'].includes(Celltype) && area['name'] == 'intron') ? 'rotate(180)' : '')
       .text(AREAS_TEXT[area['name']]);
+    
+    // areas_svgs.append('text')
+    //   .attr('text-anchor', 'middle')
+    //   // .attr('x', (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X)
+    //   // .attr('y', areas_height / 2)
+    //   .attr('dy', '.5ex')
+    //   // .attr('transform', (['awt', 'd5'].includes(Celltype) && area['name'] == 'intron') ? 'rotate(180)' : '')
+    //   .attr('transform', text_transform)
+    //   .text(AREAS_TEXT[area['name']]);
   }
 
   // The actual microhomologies
