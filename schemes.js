@@ -9,11 +9,11 @@ var BAR_TEXT = {
 };
 
 var AREAS_COLOR = {
-  'exon1': '#4471C4',
-  'exon2': '#4471C4',
-  'intron': '#00AF50',
-  'branch': 'gray',
-  'splice': 'gray',
+  'exon1': '#4472c4', 
+  'exon2': '#4472c4',
+  'intron': '#00b050',
+  'branch': '#548235',
+  'splice': '#548235', 
 };
 
 var AREAS_TEXT = {
