@@ -1,6 +1,6 @@
 var BAR_COLOR = {
-  'dsred': 'red',
-  'intron': 'pink',
+  'dsred': '#4472c4',
+  'intron': '#00b050',
 };
 
 var BAR_TEXT = {
