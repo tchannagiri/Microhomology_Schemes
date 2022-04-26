@@ -17,8 +17,8 @@ var AREAS_COLOR = {
 };
 
 var AREAS_TEXT = {
-  'exon1': 'Exon 1',
-  'exon2': 'Exon 2',
+  'exon1': 'Exon1',
+  'exon2': 'Exon2',
   'intron': 'Intron',
   'branch': 'Intron (branch site)',
   'splice': '5\' splice',
