@@ -86,10 +86,8 @@
   function download_all_svg() {
     var zip = new JSZip();
     for (var Breaks of ['hg39', 'hg42', '2dsb']) {
-    // for (var Breaks of ['2dsb']) {
       for (var Strand of ['Forward', 'Reverse']) {
         for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
-        // for (var Celltype of ['awt', 'd5']) {
           if (['awt', 'd5'].includes(Celltype) && (Breaks != '2dsb')) {
             continue;
           }
@@ -98,7 +96,6 @@
           document.querySelector("#Celltype").value = Celltype;
           document.querySelector("#Type").value = 'all';
           document.querySelector("#combined").value = 'combined';
-          // download_svg();
           zip.file(get_svg_file_name(), get_svg_text());
         }
       }
