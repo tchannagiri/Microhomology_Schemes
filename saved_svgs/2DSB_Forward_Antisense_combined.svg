@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="11in"
-   height="8.5in"
+   width="8.5in"
+   height="11in"
    version="1.1"
-   id="svg1022"
+   id="svg494"
    sodipodi:docname="2DSB_Forward_Antisense_combined.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -11,9 +11,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1026" />
+     id="defs498" />
   <sodipodi:namedview
-     id="namedview1024"
+     id="namedview496"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -22,47 +22,47 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      units="in"
-     inkscape:zoom="0.62604098"
-     inkscape:cx="598.20365"
-     inkscape:cy="442.46305"
+     inkscape:zoom="0.42834008"
+     inkscape:cx="426.06333"
+     inkscape:cy="504.27221"
      inkscape:window-width="1600"
      inkscape:window-height="829"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1022"
+     inkscape:current-layer="svg494"
      inkscape:document-units="in" />
   <g
-     width="2390"
+     width="2470"
      height="50"
      id="g4"
-     transform="matrix(0.43156005,0,0,0.43156005,11.92414,210.26173)">
+     transform="matrix(0,-0.42730128,0.42730128,0,340.4035,1056.0751)">
     <text
-       x="1195"
+       x="1235"
        y="25"
        style="font-size:30px;dominant-baseline:middle;text-anchor:middle;overflow:visible"
-       id="text2">Microhomology scheme: Sense/pCMVΔ, sgRNA A, Forward strand</text>
+       id="text2">Microhomology scheme: Antisense, sgRNA C &amp; D, Forward strand</text>
   </g>
   <g
-     transform="matrix(0.43156005,0,0,0.43156005,11.92414,233.13442)"
-     width="2390"
-     height="852"
-     id="g1020">
+     transform="matrix(0,-0.41758695,0.42732095,0,363.05032,1044.0734)"
+     width="2470"
+     height="252"
+     id="g492">
     <g
        transform="translate(100,23)"
-       width="2290"
+       width="2370"
        height="20"
-       id="g280">
+       id="g292">
       <g
          fill="none"
          font-size="10px"
          font-family="sans-serif"
          text-anchor="middle"
-         id="g278">
+         id="g290">
         <path
            class="domain"
            stroke="currentColor"
-           d="M 5.5,6 V 0.5 h 2280 V 6"
+           d="M 5.5,6 V 0.5 h 2360 V 6"
            id="path6" />
         <g
            class="tick"
@@ -874,182 +874,180 @@
              dy="0.70999998em"
              id="text274">225</text>
         </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(2295.5)"
+           id="g282">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line278"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text280">230</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(2345.5)"
+           id="g288">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line284"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text286">235</text>
+        </g>
       </g>
     </g>
     <g
        transform="translate(100,46)"
-       width="2290"
+       width="2370"
        height="20"
        style="overflow:visible"
-       id="g294">
+       id="g306">
       <rect
          x="0"
          y="0"
-         width="720"
+         width="500"
          height="20"
          style="fill:#4472c4"
-         id="rect282" />
+         id="rect294" />
       <text
          text-anchor="middle"
-         transform="translate(360,10)"
+         transform="translate(250,10)"
          dy="0.5ex"
-         id="text284">DS Red</text>
+         id="text296">DS Red</text>
       <rect
-         x="720"
+         x="500"
          y="0"
-         width="1110"
+         width="1350"
          height="20"
          style="fill:#00b050"
-         id="rect286" />
+         id="rect298" />
       <text
          text-anchor="middle"
-         transform="translate(1275,10)"
+         transform="rotate(180,587.5,5)"
          dy="0.5ex"
-         id="text288">Intron</text>
+         id="text300">Intron</text>
       <rect
-         x="1830"
+         x="1850"
          y="0"
-         width="460"
+         width="520"
          height="20"
          style="fill:#4472c4"
-         id="rect290" />
+         id="rect302" />
       <text
          text-anchor="middle"
-         transform="translate(2060,10)"
+         transform="translate(2110,10)"
          dy="0.5ex"
-         id="text292">DS Red</text>
+         id="text304">DS Red</text>
     </g>
     <g
        transform="translate(100,69)"
-       width="2290"
+       width="2370"
        height="20"
-       id="g304">
+       id="g316">
       <rect
          x="0"
          y="0"
          width="200"
          height="20"
          style="fill-opacity:0;stroke:#800080;stroke-width:3;stroke-opacity:1"
-         id="rect296" />
+         id="rect308" />
       <text
          text-anchor="middle"
          x="95"
          y="10"
          dy="0.5ex"
-         id="text298">Primer</text>
+         id="text310">Primer</text>
       <rect
-         x="2090"
+         x="2170"
          y="0"
          width="200"
          height="20"
          style="fill-opacity:0;stroke:#800080;stroke-width:3;stroke-opacity:1"
-         id="rect300" />
+         id="rect312" />
       <text
          text-anchor="middle"
-         x="2185"
+         x="2265"
          y="10"
          dy="0.5ex"
-         id="text302">Primer</text>
+         id="text314">Primer</text>
     </g>
     <g
        transform="translate(100,69)"
-       width="2290"
+       width="2370"
        height="20"
-       id="g326">
+       id="g334">
       <rect
          x="200"
          y="0"
-         width="520"
+         width="300"
          height="20"
          style="fill-opacity:0;stroke:#4472c4;stroke-width:3;stroke-opacity:1"
-         id="rect306" />
-      <text
-         text-anchor="middle"
-         transform="translate(460,10)"
-         dy="0.5ex"
-         id="text308">Exon1</text>
-      <rect
-         x="720"
-         y="0"
-         width="460"
-         height="20"
-         style="fill-opacity:0;stroke:#00b050;stroke-width:3;stroke-opacity:1"
-         id="rect310" />
-      <text
-         text-anchor="middle"
-         transform="translate(950,10)"
-         dy="0.5ex"
-         id="text312">Intron</text>
-      <rect
-         x="1180"
-         y="0"
-         width="550"
-         height="20"
-         style="fill-opacity:0;stroke:#548235;stroke-width:3;stroke-opacity:1"
-         id="rect314" />
-      <text
-         text-anchor="middle"
-         transform="translate(1455,10)"
-         dy="0.5ex"
-         id="text316">Intron (branch site)</text>
-      <rect
-         x="1730"
-         y="0"
-         width="100"
-         height="20"
-         style="fill-opacity:0;stroke:#00b050;stroke-width:3;stroke-opacity:1"
          id="rect318" />
       <text
          text-anchor="middle"
-         transform="translate(1780,10)"
+         transform="translate(350,10)"
          dy="0.5ex"
-         id="text320">Intron</text>
+         id="text320">Exon1</text>
       <rect
-         x="1830"
+         x="500"
          y="0"
-         width="260"
+         width="1290"
          height="20"
-         style="fill-opacity:0;stroke:#4472c4;stroke-width:3;stroke-opacity:1"
+         style="fill-opacity:0;stroke:#00b050;stroke-width:3;stroke-opacity:1"
          id="rect322" />
       <text
          text-anchor="middle"
-         transform="translate(1960,10)"
+         transform="rotate(180,572.5,5)"
          dy="0.5ex"
-         id="text324">Exon2</text>
+         id="text324">Intron</text>
+      <rect
+         x="1790"
+         y="0"
+         width="60"
+         height="20"
+         style="fill-opacity:0;stroke:#548235;stroke-width:3;stroke-opacity:1"
+         id="rect326" />
+      <text
+         text-anchor="middle"
+         transform="translate(1820,10)"
+         dy="0.5ex"
+         id="text328">5' splice</text>
+      <rect
+         x="1850"
+         y="0"
+         width="320"
+         height="20"
+         style="fill-opacity:0;stroke:#4472c4;stroke-width:3;stroke-opacity:1"
+         id="rect330" />
+      <text
+         text-anchor="middle"
+         transform="translate(2010,10)"
+         dy="0.5ex"
+         id="text332">Exon2</text>
     </g>
     <g
        transform="translate(0,92)"
        width="100"
-       height="760"
+       height="160"
        style="overflow:visible"
-       id="g480">
+       id="g368">
       <g
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g330">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:normal;font-family:monospace"
-           id="text328">EE1</text>
-      </g>
-      <g
-         transform="translate(0,20)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g334">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:normal;font-family:monospace"
-           id="text332">EE2</text>
-      </g>
-      <g
-         transform="translate(0,40)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1058,11 +1056,11 @@
            x="0"
            y="10"
            dy="0.5ex"
-           style="font-weight:normal;font-family:monospace"
-           id="text336">EE3</text>
+           style="font-weight:bold;font-family:monospace"
+           id="text336">EE1 *</text>
       </g>
       <g
-         transform="translate(0,60)"
+         transform="translate(0,20)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1072,10 +1070,10 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text340">EE4 *</text>
+           id="text340">EE2 *</text>
       </g>
       <g
-         transform="translate(0,80)"
+         transform="translate(0,40)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1085,10 +1083,10 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text344">EE5 *</text>
+           id="text344">EE3 *</text>
       </g>
       <g
-         transform="translate(0,100)"
+         transform="translate(0,60)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1098,10 +1096,10 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text348">EE6 *</text>
+           id="text348">EE4 *</text>
       </g>
       <g
-         transform="translate(0,120)"
+         transform="translate(0,80)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1111,10 +1109,10 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text352">EE7 *</text>
+           id="text352">EE5 *</text>
       </g>
       <g
-         transform="translate(0,140)"
+         transform="translate(0,100)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1124,10 +1122,10 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text356">EE8 *</text>
+           id="text356">EE6 *</text>
       </g>
       <g
-         transform="translate(0,160)"
+         transform="translate(0,120)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1137,10 +1135,10 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text360">EE9 *</text>
+           id="text360">EE7 *</text>
       </g>
       <g
-         transform="translate(0,180)"
+         transform="translate(0,140)"
          width="100"
          height="20"
          style="overflow:visible"
@@ -1150,2291 +1148,441 @@
            y="10"
            dy="0.5ex"
            style="font-weight:bold;font-family:monospace"
-           id="text364">EE10 *</text>
-      </g>
-      <g
-         transform="translate(0,200)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g370">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text368">EE11 *</text>
-      </g>
-      <g
-         transform="translate(0,220)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g374">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text372">EE12 *</text>
-      </g>
-      <g
-         transform="translate(0,240)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g378">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text376">EI1 *</text>
-      </g>
-      <g
-         transform="translate(0,260)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g382">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:normal;font-family:monospace"
-           id="text380">EI2</text>
-      </g>
-      <g
-         transform="translate(0,280)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g386">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text384">EI3 *</text>
-      </g>
-      <g
-         transform="translate(0,300)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g390">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text388">EI4 *</text>
-      </g>
-      <g
-         transform="translate(0,320)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g394">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text392">EI5 *</text>
-      </g>
-      <g
-         transform="translate(0,340)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g398">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text396">EI6 *</text>
-      </g>
-      <g
-         transform="translate(0,360)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g402">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text400">EI7 *</text>
-      </g>
-      <g
-         transform="translate(0,380)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g406">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text404">EI8 *</text>
-      </g>
-      <g
-         transform="translate(0,400)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g410">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text408">EI9 *</text>
-      </g>
-      <g
-         transform="translate(0,420)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g414">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text412">EI10 *</text>
-      </g>
-      <g
-         transform="translate(0,440)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g418">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text416">EI11 *</text>
-      </g>
-      <g
-         transform="translate(0,460)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g422">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text420">EI12 *</text>
-      </g>
-      <g
-         transform="translate(0,480)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g426">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text424">EI13 *</text>
-      </g>
-      <g
-         transform="translate(0,500)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g430">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text428">EI14 *</text>
-      </g>
-      <g
-         transform="translate(0,520)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g434">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text432">EI15 *</text>
-      </g>
-      <g
-         transform="translate(0,540)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g438">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text436">EI16 *</text>
-      </g>
-      <g
-         transform="translate(0,560)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g442">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text440">EI17 *</text>
-      </g>
-      <g
-         transform="translate(0,580)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g446">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text444">EI18 *</text>
-      </g>
-      <g
-         transform="translate(0,600)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g450">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text448">EI19 *</text>
-      </g>
-      <g
-         transform="translate(0,620)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g454">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text452">EI20 *</text>
-      </g>
-      <g
-         transform="translate(0,640)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g458">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text456">EI21 *</text>
-      </g>
-      <g
-         transform="translate(0,660)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g462">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text460">EI22 *</text>
-      </g>
-      <g
-         transform="translate(0,680)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g466">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text464">EI23 *</text>
-      </g>
-      <g
-         transform="translate(0,700)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g470">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text468">EI24 *</text>
-      </g>
-      <g
-         transform="translate(0,720)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g474">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text472">EI25 *</text>
-      </g>
-      <g
-         transform="translate(0,740)"
-         width="100"
-         height="20"
-         style="overflow:visible"
-         id="g478">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           style="font-weight:bold;font-family:monospace"
-           id="text476">EI26 *</text>
+           id="text364">EE8 *</text>
       </g>
     </g>
     <g
        transform="translate(100,92)"
-       height="760"
+       height="160"
        style="overflow:visible"
-       id="g1014">
+       id="g482">
       <rect
          x="100"
          y="0"
          width="100"
          height="20"
          style="opacity:0.3;fill:#00ff00"
-         id="rect482" />
+         id="rect370" />
       <rect
-         x="2090"
+         x="1970"
          y="0"
          width="100"
          height="20"
          style="opacity:0.3;fill:#00ff00"
-         id="rect484" />
+         id="rect372" />
       <rect
          x="230"
          y="0"
-         width="1830"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect486" />
-      <rect
-         x="130"
-         y="20"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect488" />
-      <rect
-         x="1950"
-         y="20"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect490" />
-      <rect
-         x="270"
-         y="20"
-         width="1640"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect492" />
-      <rect
-         x="180"
-         y="40"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect494" />
-      <rect
-         x="2050"
-         y="40"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect496" />
-      <rect
-         x="310"
-         y="40"
          width="1710"
          height="20"
          opacity="0.3"
          style="fill:#000000"
-         id="rect498" />
+         id="rect374" />
       <rect
-         x="200"
-         y="60"
+         x="130"
+         y="20"
          width="100"
          height="20"
          style="opacity:0.3;fill:#00ff00"
-         id="rect500" />
+         id="rect376" />
       <rect
-         x="1890"
-         y="60"
+         x="2150"
+         y="20"
          width="100"
          height="20"
          style="opacity:0.3;fill:#00ff00"
-         id="rect502" />
+         id="rect378" />
       <rect
-         x="360"
-         y="60"
-         width="1470"
+         x="260"
+         y="20"
+         width="1860"
          height="20"
          opacity="0.3"
          style="fill:#000000"
-         id="rect504" />
+         id="rect380" />
       <rect
-         x="250"
+         x="150"
+         y="40"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect382" />
+      <rect
+         x="1970"
+         y="40"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect384" />
+      <rect
+         x="280"
+         y="40"
+         width="1660"
+         height="20"
+         opacity="0.3"
+         style="fill:#000000"
+         id="rect386" />
+      <rect
+         x="180"
+         y="60"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect388" />
+      <rect
+         x="1940"
+         y="60"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect390" />
+      <rect
+         x="310"
+         y="60"
+         width="1600"
+         height="20"
+         opacity="0.3"
+         style="fill:#000000"
+         id="rect392" />
+      <rect
+         x="220"
          y="80"
          width="100"
          height="20"
          style="opacity:0.3;fill:#00ff00"
-         id="rect506" />
+         id="rect394" />
       <rect
-         x="1890"
+         x="2160"
          y="80"
          width="100"
          height="20"
          style="opacity:0.3;fill:#00ff00"
-         id="rect508" />
+         id="rect396" />
       <rect
-         x="390"
+         x="360"
          y="80"
+         width="1760"
+         height="20"
+         opacity="0.3"
+         style="fill:#000000"
+         id="rect398" />
+      <rect
+         x="240"
+         y="100"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect400" />
+      <rect
+         x="1940"
+         y="100"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect402" />
+      <rect
+         x="370"
+         y="100"
+         width="1540"
+         height="20"
+         opacity="0.3"
+         style="fill:#000000"
+         id="rect404" />
+      <rect
+         x="290"
+         y="120"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect406" />
+      <rect
+         x="2130"
+         y="120"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect408" />
+      <rect
+         x="420"
+         y="120"
+         width="1680"
+         height="20"
+         opacity="0.3"
+         style="fill:#000000"
+         id="rect410" />
+      <rect
+         x="300"
+         y="140"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect412" />
+      <rect
+         x="1940"
+         y="140"
+         width="100"
+         height="20"
+         style="opacity:0.3;fill:#00ff00"
+         id="rect414" />
+      <rect
+         x="440"
+         y="140"
          width="1460"
          height="20"
          opacity="0.3"
          style="fill:#000000"
-         id="rect510" />
-      <rect
-         x="290"
-         y="100"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect512" />
-      <rect
-         x="2070"
-         y="100"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect514" />
-      <rect
-         x="420"
-         y="100"
-         width="1620"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect516" />
-      <rect
-         x="310"
-         y="120"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect518" />
-      <rect
-         x="1890"
-         y="120"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect520" />
-      <rect
-         x="440"
-         y="120"
-         width="1420"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect522" />
-      <rect
-         x="340"
-         y="140"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect524" />
-      <rect
-         x="1860"
-         y="140"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect526" />
-      <rect
-         x="470"
-         y="140"
-         width="1360"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect528" />
-      <rect
-         x="380"
-         y="160"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect530" />
-      <rect
-         x="2080"
-         y="160"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect532" />
-      <rect
-         x="520"
-         y="160"
-         width="1520"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect534" />
-      <rect
-         x="400"
-         y="180"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect536" />
-      <rect
-         x="1860"
-         y="180"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect538" />
-      <rect
-         x="530"
-         y="180"
-         width="1300"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect540" />
-      <rect
-         x="450"
-         y="200"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect542" />
-      <rect
-         x="2050"
-         y="200"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect544" />
-      <rect
-         x="580"
-         y="200"
-         width="1440"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect546" />
-      <rect
-         x="470"
-         y="220"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect548" />
-      <rect
-         x="1860"
-         y="220"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect550" />
-      <rect
-         x="600"
-         y="220"
-         width="1230"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect552" />
-      <rect
-         x="120"
-         y="240"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect554" />
-      <rect
-         x="890"
-         y="240"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect556" />
-      <rect
-         x="250"
-         y="240"
-         width="610"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect558" />
-      <rect
-         x="120"
-         y="260"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect560" />
-      <rect
-         x="1140"
-         y="260"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect562" />
-      <rect
-         x="250"
-         y="260"
-         width="860"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect564" />
-      <rect
-         x="130"
-         y="280"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect566" />
-      <rect
-         x="1000"
-         y="280"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect568" />
-      <rect
-         x="260"
-         y="280"
-         width="710"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect570" />
-      <rect
-         x="140"
-         y="300"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect572" />
-      <rect
-         x="1030"
-         y="300"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect574" />
-      <rect
-         x="270"
-         y="300"
-         width="730"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect576" />
-      <rect
-         x="150"
-         y="320"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect578" />
-      <rect
-         x="1120"
-         y="320"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect580" />
-      <rect
-         x="290"
-         y="320"
-         width="790"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect582" />
-      <rect
-         x="170"
-         y="340"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect584" />
-      <rect
-         x="970"
-         y="340"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect586" />
-      <rect
-         x="310"
-         y="340"
-         width="620"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect588" />
-      <rect
-         x="180"
-         y="360"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect590" />
-      <rect
-         x="1080"
-         y="360"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect592" />
-      <rect
-         x="310"
-         y="360"
-         width="740"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect594" />
-      <rect
-         x="180"
-         y="380"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect596" />
-      <rect
-         x="950"
-         y="380"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect598" />
-      <rect
-         x="320"
-         y="380"
-         width="590"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect600" />
-      <rect
-         x="190"
-         y="400"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect602" />
-      <rect
-         x="880"
-         y="400"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect604" />
-      <rect
-         x="330"
-         y="400"
-         width="510"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect606" />
-      <rect
-         x="200"
-         y="420"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect608" />
-      <rect
-         x="1130"
-         y="420"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect610" />
-      <rect
-         x="330"
-         y="420"
-         width="770"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect612" />
-      <rect
-         x="230"
-         y="440"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect614" />
-      <rect
-         x="980"
-         y="440"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect616" />
-      <rect
-         x="360"
-         y="440"
-         width="590"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect618" />
-      <rect
-         x="260"
-         y="460"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect620" />
-      <rect
-         x="980"
-         y="460"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect622" />
-      <rect
-         x="390"
-         y="460"
-         width="560"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect624" />
-      <rect
-         x="300"
-         y="480"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect626" />
-      <rect
-         x="860"
-         y="480"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect628" />
-      <rect
-         x="430"
-         y="480"
-         width="400"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect630" />
-      <rect
-         x="310"
-         y="500"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect632" />
-      <rect
-         x="980"
-         y="500"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect634" />
-      <rect
-         x="440"
-         y="500"
-         width="510"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect636" />
-      <rect
-         x="340"
-         y="520"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect638" />
-      <rect
-         x="880"
-         y="520"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect640" />
-      <rect
-         x="470"
-         y="520"
-         width="380"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect642" />
-      <rect
-         x="330"
-         y="540"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect644" />
-      <rect
-         x="1130"
-         y="540"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect646" />
-      <rect
-         x="470"
-         y="540"
-         width="620"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect648" />
-      <rect
-         x="400"
-         y="560"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect650" />
-      <rect
-         x="880"
-         y="560"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect652" />
-      <rect
-         x="530"
-         y="560"
-         width="320"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect654" />
-      <rect
-         x="400"
-         y="580"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect656" />
-      <rect
-         x="1130"
-         y="580"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect658" />
-      <rect
-         x="530"
-         y="580"
-         width="570"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect660" />
-      <rect
-         x="450"
-         y="600"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect662" />
-      <rect
-         x="970"
-         y="600"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect664" />
-      <rect
-         x="580"
-         y="600"
-         width="360"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect666" />
-      <rect
-         x="440"
-         y="620"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect668" />
-      <rect
-         x="1080"
-         y="620"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect670" />
-      <rect
-         x="580"
-         y="620"
-         width="460"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect672" />
-      <rect
-         x="450"
-         y="640"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect674" />
-      <rect
-         x="950"
-         y="640"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect676" />
-      <rect
-         x="590"
-         y="640"
-         width="320"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect678" />
-      <rect
-         x="460"
-         y="660"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect680" />
-      <rect
-         x="890"
-         y="660"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect682" />
-      <rect
-         x="610"
-         y="660"
-         width="230"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect684" />
-      <rect
-         x="490"
-         y="680"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect686" />
-      <rect
-         x="1050"
-         y="680"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect688" />
-      <rect
-         x="620"
-         y="680"
-         width="400"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect690" />
-      <rect
-         x="470"
-         y="700"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect692" />
-      <rect
-         x="1150"
-         y="700"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect694" />
-      <rect
-         x="620"
-         y="700"
-         width="480"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect696" />
-      <rect
-         x="520"
-         y="720"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect698" />
-      <rect
-         x="1050"
-         y="720"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect700" />
-      <rect
-         x="650"
-         y="720"
-         width="370"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect702" />
-      <rect
-         x="520"
-         y="740"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect704" />
-      <rect
-         x="1150"
-         y="740"
-         width="100"
-         height="20"
-         style="opacity:0.3;fill:#00ff00"
-         id="rect706" />
-      <rect
-         x="650"
-         y="740"
-         width="470"
-         height="20"
-         opacity="0.3"
-         style="fill:#000000"
-         id="rect708" />
+         id="rect416" />
       <rect
          x="200"
          y="0"
          width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect710" />
+         id="rect418" />
       <rect
-         x="2060"
+         x="1940"
          y="0"
          width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect712" />
+         id="rect420" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         id="g716">
+         id="g424">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text714"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text422"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
          x="230"
          y="20"
-         width="40"
+         width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect718" />
+         id="rect426" />
       <rect
-         x="1910"
+         x="2120"
          y="20"
-         width="40"
+         width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect720" />
+         id="rect428" />
       <g
-         width="2290"
+         width="2370"
          height="20"
          transform="translate(0,20)"
-         id="g724">
+         id="g432">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text722"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="280"
-         y="40"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect726" />
-      <rect
-         x="2020"
-         y="40"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect728" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,40)"
-         id="g732">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text730"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="300"
-         y="60"
-         width="60"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect734" />
-      <rect
-         x="1830"
-         y="60"
-         width="60"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect736" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,60)"
-         id="g740">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text738"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="350"
-         y="80"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect742" />
-      <rect
-         x="1850"
-         y="80"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect744" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,80)"
-         id="g748">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text746"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="390"
-         y="100"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect750" />
-      <rect
-         x="2040"
-         y="100"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect752" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,100)"
-         id="g756">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text754"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="410"
-         y="120"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect758" />
-      <rect
-         x="1860"
-         y="120"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect760" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,120)"
-         id="g764">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text762"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="440"
-         y="140"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect766" />
-      <rect
-         x="1830"
-         y="140"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect768" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,140)"
-         id="g772">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text770"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="480"
-         y="160"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect774" />
-      <rect
-         x="2040"
-         y="160"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect776" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,160)"
-         id="g780">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text778"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="500"
-         y="180"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect782" />
-      <rect
-         x="1830"
-         y="180"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect784" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,180)"
-         id="g788">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text786"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="550"
-         y="200"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect790" />
-      <rect
-         x="2020"
-         y="200"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect792" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,200)"
-         id="g796">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text794"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="570"
-         y="220"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect798" />
-      <rect
-         x="1830"
-         y="220"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect800" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,220)"
-         id="g804">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text802"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="220"
-         y="240"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect806" />
-      <rect
-         x="860"
-         y="240"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect808" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,240)"
-         id="g812">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text810"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="220"
-         y="260"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect814" />
-      <rect
-         x="1110"
-         y="260"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect816" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,260)"
-         id="g820">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text818"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="230"
-         y="280"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect822" />
-      <rect
-         x="970"
-         y="280"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect824" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,280)"
-         id="g828">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text826"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="240"
-         y="300"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect830" />
-      <rect
-         x="1000"
-         y="300"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect832" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,300)"
-         id="g836">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text834"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text430"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
          x="250"
-         y="320"
-         width="40"
+         y="40"
+         width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect838" />
+         id="rect434" />
       <rect
-         x="1080"
-         y="320"
-         width="40"
+         x="1940"
+         y="40"
+         width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect840" />
+         id="rect436" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         transform="translate(0,320)"
-         id="g844">
+         transform="translate(0,40)"
+         id="g440">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text842"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="270"
-         y="340"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect846" />
-      <rect
-         x="930"
-         y="340"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect848" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,340)"
-         id="g852">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text850"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text438"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
          x="280"
-         y="360"
+         y="60"
          width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect854" />
+         id="rect442" />
       <rect
-         x="1050"
-         y="360"
+         x="1910"
+         y="60"
          width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect856" />
+         id="rect444" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         transform="translate(0,360)"
-         id="g860">
+         transform="translate(0,60)"
+         id="g448">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text858"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text446"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
-         x="280"
-         y="380"
+         x="320"
+         y="80"
          width="40"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect862" />
+         id="rect450" />
       <rect
-         x="910"
-         y="380"
+         x="2120"
+         y="80"
          width="40"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect864" />
+         id="rect452" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         transform="translate(0,380)"
-         id="g868">
+         transform="translate(0,80)"
+         id="g456">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text866"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text454"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
-         x="290"
-         y="400"
-         width="40"
+         x="340"
+         y="100"
+         width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect870" />
+         id="rect458" />
       <rect
-         x="840"
-         y="400"
-         width="40"
+         x="1910"
+         y="100"
+         width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect872" />
+         id="rect460" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         transform="translate(0,400)"
-         id="g876">
+         transform="translate(0,100)"
+         id="g464">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text874"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text462"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
-         x="300"
-         y="420"
+         x="390"
+         y="120"
          width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect878" />
+         id="rect466" />
       <rect
-         x="1100"
-         y="420"
+         x="2100"
+         y="120"
          width="30"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect880" />
+         id="rect468" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         transform="translate(0,420)"
-         id="g884">
+         transform="translate(0,120)"
+         id="g472">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text882"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="330"
-         y="440"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect886" />
-      <rect
-         x="950"
-         y="440"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect888" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,440)"
-         id="g892">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text890"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="360"
-         y="460"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect894" />
-      <rect
-         x="950"
-         y="460"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect896" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,460)"
-         id="g900">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text898"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text470"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
       <rect
          x="400"
-         y="480"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect902" />
-      <rect
-         x="830"
-         y="480"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect904" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,480)"
-         id="g908">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text906"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="410"
-         y="500"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect910" />
-      <rect
-         x="950"
-         y="500"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect912" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,500)"
-         id="g916">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text914"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="440"
-         y="520"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect918" />
-      <rect
-         x="850"
-         y="520"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect920" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,520)"
-         id="g924">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text922"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="430"
-         y="540"
+         y="140"
          width="40"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect926" />
+         id="rect474" />
       <rect
-         x="1090"
-         y="540"
+         x="1900"
+         y="140"
          width="40"
          height="20"
          style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect928" />
+         id="rect476" />
       <g
-         width="2290"
+         width="2370"
          height="20"
-         transform="translate(0,540)"
-         id="g932">
+         transform="translate(0,140)"
+         id="g480">
         <text
            x="0"
            y="10"
            dy="0.5ex"
-           textLength="2290"
+           textLength="2370"
            style="font-weight:bold;font-family:monospace"
-           id="text930"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="500"
-         y="560"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect934" />
-      <rect
-         x="850"
-         y="560"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect936" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,560)"
-         id="g940">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text938"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="500"
-         y="580"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect942" />
-      <rect
-         x="1100"
-         y="580"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect944" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,580)"
-         id="g948">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text946"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="550"
-         y="600"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect950" />
-      <rect
-         x="940"
-         y="600"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect952" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,600)"
-         id="g956">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text954"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="540"
-         y="620"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect958" />
-      <rect
-         x="1040"
-         y="620"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect960" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,620)"
-         id="g964">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text962"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="550"
-         y="640"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect966" />
-      <rect
-         x="910"
-         y="640"
-         width="40"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect968" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,640)"
-         id="g972">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text970"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="560"
-         y="660"
-         width="50"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect974" />
-      <rect
-         x="840"
-         y="660"
-         width="50"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect976" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,660)"
-         id="g980">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text978"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="590"
-         y="680"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect982" />
-      <rect
-         x="1020"
-         y="680"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect984" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,680)"
-         id="g988">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text986"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="570"
-         y="700"
-         width="50"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect990" />
-      <rect
-         x="1100"
-         y="700"
-         width="50"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect992" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,700)"
-         id="g996">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text994"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="620"
-         y="720"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect998" />
-      <rect
-         x="1020"
-         y="720"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect1000" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,720)"
-         id="g1004">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text1002"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
-      </g>
-      <rect
-         x="620"
-         y="740"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect1006" />
-      <rect
-         x="1120"
-         y="740"
-         width="30"
-         height="20"
-         style="fill:#ffc000;fill-opacity:0.3;stroke:#ffc000;stroke-width:2;stroke-opacity:1"
-         id="rect1008" />
-      <g
-         width="2290"
-         height="20"
-         transform="translate(0,740)"
-         id="g1012">
-        <text
-           x="0"
-           y="10"
-           dy="0.5ex"
-           textLength="2290"
-           style="font-weight:bold;font-family:monospace"
-           id="text1010"
-           lengthAdjust="spacing">TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
+           id="text478"
+           lengthAdjust="spacing">TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC</text>
       </g>
     </g>
     <line
-       x1="770"
-       x2="770"
+       x1="600"
+       x2="600"
        y1="23"
-       y2="852"
+       y2="252"
        style="stroke:#ff0000;stroke-width:2"
-       id="line1016" />
+       id="line484" />
     <text
        text-anchor="middle"
-       x="770"
+       x="600"
        y="10"
        dy="0.5ex"
        style="font-weight:bold;fill:#ff0000"
-       id="text1018">DSB</text>
+       id="text486">DSB</text>
+    <line
+       x1="2000"
+       x2="2000"
+       y1="23"
+       y2="252"
+       style="stroke:#ff0000;stroke-width:2"
+       id="line488" />
+    <text
+       text-anchor="middle"
+       x="2000"
+       y="10"
+       dy="0.5ex"
+       style="font-weight:bold;fill:#ff0000"
+       id="text490">DSB</text>
   </g>
 </svg>

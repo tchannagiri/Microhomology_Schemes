@@ -68,6 +68,8 @@
   }
 
   function download_svg() {
+    update_schemes();
+
     var text = get_svg_text();
     var file_name = get_svg_file_name();
 
@@ -96,6 +98,7 @@
           document.querySelector("#Celltype").value = Celltype;
           document.querySelector("#Type").value = 'all';
           document.querySelector("#combined").value = 'combined';
+          update_schemes();
           zip.file(get_svg_file_name(), get_svg_text());
         }
       }
