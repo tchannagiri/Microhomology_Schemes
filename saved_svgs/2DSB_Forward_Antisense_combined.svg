@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="8.5in"
+   width="1.3464451in"
    height="11in"
    version="1.1"
    id="svg494"
@@ -23,7 +23,7 @@
      showgrid="false"
      units="in"
      inkscape:zoom="0.42834008"
-     inkscape:cx="426.06333"
+     inkscape:cx="82.878072"
      inkscape:cy="504.27221"
      inkscape:window-width="1600"
      inkscape:window-height="829"
@@ -31,12 +31,16 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg494"
-     inkscape:document-units="in" />
+     inkscape:document-units="in"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
      width="2470"
      height="50"
      id="g4"
-     transform="matrix(0,-0.42730128,0.42730128,0,340.4035,1056.0751)">
+     transform="matrix(0,-0.43724159,0.43724159,0,-4.5421459,1068.356)">
     <text
        x="1235"
        y="25"
@@ -44,7 +48,7 @@
        id="text2">Microhomology scheme: Antisense, sgRNA C &amp; D, Forward strand</text>
   </g>
   <g
-     transform="matrix(0,-0.41758695,0.42732095,0,363.05032,1044.0734)"
+     transform="matrix(0,-0.42730128,0.43726172,0,18.631514,1056.0751)"
      width="2470"
      height="252"
      id="g492">
