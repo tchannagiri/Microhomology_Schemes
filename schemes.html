@@ -90,8 +90,11 @@
     for (var Breaks of ['hg39', 'hg42', '2dsb']) {
       for (var Strand of ['Forward', 'Reverse']) {
         for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
-          if (['awt', 'd5'].includes(Celltype) && (Breaks != '2dsb')) {
-            continue;
+          if (['awt', 'd5'].includes(Celltype)) {
+            if ((Breaks != '2dsb') || (Strand != 'Forward')) {
+              // There is no data for these cases
+              continue;
+            }
           }
           document.querySelector("#Breaks").value = Breaks;
           document.querySelector("#Strand").value = Strand;

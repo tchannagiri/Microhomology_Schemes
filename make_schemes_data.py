@@ -10,7 +10,7 @@ import random
 import itertools
 
 MMEJ_LIST_CSV = 'MMEJ_list_bold.csv'
-MMEJ_LIST_ANTI_CSV = 'MMEJ_antisense_list_bold.csv'
+MMEJ_LIST_ANTI_CSV = 'Antisense_MH_list_bold.csv'
 SCHEMES_DATA_JS = 'schemes_data.js'
 MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
 AREAS_VAR_JS = 'AREAS'
