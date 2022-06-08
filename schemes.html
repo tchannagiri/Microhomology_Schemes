@@ -128,6 +128,12 @@
           option.selected = false;
         }
       }
+      for (var option of Strand.options) {
+        if (option.value != 'Forward') {
+          option.disabled = true;
+          option.selected = false;
+        }
+      }
     } else {
       for (var option of Breaks.options) {
         option.disabled = false;
