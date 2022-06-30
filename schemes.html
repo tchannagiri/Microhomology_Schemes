@@ -91,7 +91,7 @@
       for (var Strand of ['Forward', 'Reverse']) {
         for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
           if (['awt', 'd5'].includes(Celltype)) {
-            if ((Breaks != '2dsb') || (Strand != 'Forward')) {
+            if ((Breaks != '2dsb')) {
               // There is no data for these cases
               continue;
             }
@@ -124,12 +124,6 @@
     if (['awt', 'd5'].includes(Celltype.value)) {
       for (var option of Breaks.options) {
         if (option.value != '2dsb') {
-          option.disabled = true;
-          option.selected = false;
-        }
-      }
-      for (var option of Strand.options) {
-        if (option.value != 'Forward') {
           option.disabled = true;
           option.selected = false;
         }
