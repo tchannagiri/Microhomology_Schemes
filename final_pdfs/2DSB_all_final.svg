@@ -41,19 +41,19 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      units="in"
-     inkscape:zoom="0.18995098"
-     inkscape:cx="276.3871"
-     inkscape:cy="142.14194"
+     inkscape:zoom="1.5196078"
+     inkscape:cx="145.10323"
+     inkscape:cy="491.5742"
      inkscape:window-width="1600"
      inkscape:window-height="829"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg584"
+     inkscape:current-layer="g9718"
      inkscape:document-units="in" />
   <text
      xml:space="preserve"
-     style="font-size:21.33333333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';stroke-width:1.00417;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';stroke-width:1.00417"
      x="10.481983"
      y="28.345167"
      id="text11296"><tspan
@@ -61,7 +61,7 @@
        x="10.481983"
        y="28.345167"
        id="tspan11298"
-       style="stroke-width:1.00417;font-size:21.33333333px;-inkscape-font-specification:'Calibri Bold';font-family:Calibri;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Extended Data Fig. 8</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';stroke-width:1.00417">Extended Data Fig. 10</tspan></text>
   <text
      xml:space="preserve"
      id="text18034-3"
@@ -69,7 +69,7 @@
      transform="matrix(1.0041682,0,0,1.0041682,3.0128102,13.12226)"><tspan
        x="8.171875"
        y="55.358732"
-       id="tspan10877">i</tspan></text>
+       id="tspan5909">c</tspan></text>
   <g
      id="g9718"
      transform="translate(0,-36.778965)">
@@ -80,7 +80,7 @@
        transform="matrix(1.0041682,0,0,1.0041682,4.1794762,423.46431)"><tspan
          x="8.171875"
          y="55.358732"
-         id="tspan10879">j</tspan></text>
+         id="tspan5911">d</tspan></text>
     <g
        id="g6812"
        transform="translate(0,1.8636776e-5)">
