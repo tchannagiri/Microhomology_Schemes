@@ -1,13 +1,5 @@
 import json
-import time
-import os
-import pathlib
 import pandas as pd
-import numpy as np
-import re
-import seaborn as sns
-import random
-import itertools
 
 MMEJ_LIST_CSV = 'Sense_MH_list.csv'
 MMEJ_LIST_ANTI_CSV = 'Antisense_MH_list.csv'
@@ -29,13 +21,22 @@ REF_SEQ = {
     'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA',
   },
   'awt': {
-    'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
-    'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
+    'Forward': 'TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
+    'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA',
   },
   'd5': {
-    'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
-    'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
+    'Forward': 'TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
+    'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA',
   },
+  # For the OLD Antisense reference sequences
+  # 'awt': {
+  #   'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
+  #   'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
+  # },
+  # 'd5': {
+  #   'Forward': 'TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC',
+  #   'Reverse': 'GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA',
+  # },
 }
 
 AREAS = {
@@ -128,35 +129,66 @@ AREAS = {
     },
   },
   'awt': {
-   '2dsb': {
-      'Forward': [ #len 237
-        {'name': 'exon1', 'start': 21, 'end': 50},
-        {'name': 'intron', 'start': 51, 'end': 179},
-        {'name': 'splice', 'start': 180, 'end': 185},
-        {'name': 'exon2', 'start': 186, 'end': 217},
+   '2dsb': { # len 253
+      'Forward': [ 
+        {'name': 'exon1', 'start': 21, 'end': 66},
+        {'name': 'intron', 'start': 67, 'end': 195},
+        {'name': 'splice', 'start': 196, 'end': 201},
+        {'name': 'exon2', 'start': 202, 'end': 233},
       ],
-      'Reverse': [
+      'Reverse': [ # len 253
         {'name': 'exon2', 'start': 21, 'end': 52},
         {'name': 'splice', 'start': 53, 'end': 58},
         {'name': 'intron', 'start': 59, 'end': 187},
-        {'name': 'exon1', 'start': 188, 'end': 217},
+        {'name': 'exon1', 'start': 188, 'end': 233},
       ],
     },
   },
-  'd5': { # len 231
+  'd5': { # len 247
    '2dsb': {
       'Forward': [
-        {'name': 'exon1', 'start': 21, 'end': 50},
-        {'name': 'intron', 'start': 51, 'end': 179},
-        {'name': 'exon2', 'start': 180, 'end': 211},
+        {'name': 'exon1', 'start': 21, 'end': 66},
+        {'name': 'intron', 'start': 67, 'end': 195},
+        {'name': 'exon2', 'start': 196, 'end': 227},
       ],
       'Reverse': [
         {'name': 'exon2', 'start': 21, 'end': 52},
         {'name': 'intron', 'start': 53, 'end': 181},
-        {'name': 'exon1', 'start': 182, 'end': 211},
+        {'name': 'exon1', 'start': 182, 'end': 227},
       ],
     },
   },
+  # For the OLD Antisense reference sequences
+  # 'awt': {
+  #  '2dsb': {
+  #     'Forward': [ #len 237
+  #       {'name': 'exon1', 'start': 21, 'end': 50},
+  #       {'name': 'intron', 'start': 51, 'end': 179},
+  #       {'name': 'splice', 'start': 180, 'end': 185},
+  #       {'name': 'exon2', 'start': 186, 'end': 217},
+  #     ],
+  #     'Reverse': [
+  #       {'name': 'exon2', 'start': 21, 'end': 52},
+  #       {'name': 'splice', 'start': 53, 'end': 58},
+  #       {'name': 'intron', 'start': 59, 'end': 187},
+  #       {'name': 'exon1', 'start': 188, 'end': 217},
+  #     ],
+  #   },
+  # },
+  # 'd5': { # len 231
+  #  '2dsb': {
+  #     'Forward': [
+  #       {'name': 'exon1', 'start': 21, 'end': 50},
+  #       {'name': 'intron', 'start': 51, 'end': 179},
+  #       {'name': 'exon2', 'start': 180, 'end': 211},
+  #     ],
+  #     'Reverse': [
+  #       {'name': 'exon2', 'start': 21, 'end': 52},
+  #       {'name': 'intron', 'start': 53, 'end': 181},
+  #       {'name': 'exon1', 'start': 182, 'end': 211},
+  #     ],
+  #   },
+  # },
 }
 
 PCIS = {
@@ -183,23 +215,44 @@ PCIS = {
   'awt': {
     'Forward': [
       {'name': 'f6', 'start': 1, 'end': 20},
-      {'name': 'r5', 'start': 218, 'end': 237},
+      {'name': 'r5', 'start': 234, 'end': 253},
     ],
     'Reverse': [
       {'name': 'r5', 'start': 1, 'end': 20},
-      {'name': 'f6', 'start': 218, 'end': 237},
+      {'name': 'f6', 'start': 234, 'end': 253},
     ],
   },
   'd5': {
     'Forward': [
       {'name': 'f6', 'start': 1, 'end': 20},
-      {'name': 'r5', 'start': 212, 'end': 231},
+      {'name': 'r5', 'start': 228, 'end': 247},
     ],
     'Reverse': [
       {'name': 'r5', 'start': 1, 'end': 20},
-      {'name': 'f6', 'start': 212, 'end': 231},
+      {'name': 'f6', 'start': 228, 'end': 247},
     ],
   },
+  # For the OLD Antisense reference sequences
+  # 'awt': {
+  #   'Forward': [
+  #     {'name': 'f6', 'start': 1, 'end': 20},
+  #     {'name': 'r5', 'start': 218, 'end': 237},
+  #   ],
+  #   'Reverse': [
+  #     {'name': 'r5', 'start': 1, 'end': 20},
+  #     {'name': 'f6', 'start': 218, 'end': 237},
+  #   ],
+  # },
+  # 'd5': {
+  #   'Forward': [
+  #     {'name': 'f6', 'start': 1, 'end': 20},
+  #     {'name': 'r5', 'start': 212, 'end': 231},
+  #   ],
+  #   'Reverse': [
+  #     {'name': 'r5', 'start': 1, 'end': 20},
+  #     {'name': 'f6', 'start': 212, 'end': 231},
+  #   ],
+  # },
 }
 
 BARS = {
@@ -229,28 +282,53 @@ BARS = {
   },
   'awt': {
     'Forward': [
-      {'name': 'dsred', 'start': 1, 'end': 50},
-      {'name': 'intron', 'start': 51, 'end': 185},
-      {'name': 'dsred', 'start': 186, 'end': 237},
+      {'name': 'dsred', 'start': 1, 'end': 66},
+      {'name': 'intron', 'start': 67, 'end': 201},
+      {'name': 'dsred', 'start': 202, 'end': 253},
     ],
     'Reverse': [
       {'name': 'dsred', 'start': 1, 'end': 52},
       {'name': 'intron', 'start': 53, 'end': 187},
-      {'name': 'dsred', 'start': 188, 'end': 237},
+      {'name': 'dsred', 'start': 188, 'end': 253},
     ],
   },
   'd5': {
     'Forward': [
-      {'name': 'dsred', 'start': 1, 'end': 50},
-      {'name': 'intron', 'start': 51, 'end': 179},
-      {'name': 'dsred', 'start': 180, 'end': 231},
+      {'name': 'dsred', 'start': 1, 'end': 66},
+      {'name': 'intron', 'start': 67, 'end': 195},
+      {'name': 'dsred', 'start': 196, 'end': 247},
     ],
     'Reverse': [
       {'name': 'dsred', 'start': 1, 'end': 52},
       {'name': 'intron', 'start': 53, 'end': 181},
-      {'name': 'dsred', 'start': 182, 'end': 231},
+      {'name': 'dsred', 'start': 182, 'end': 247},
     ],
   },
+  # For the OLD Antisense reference sequences
+  # 'awt': {
+  #   'Forward': [
+  #     {'name': 'dsred', 'start': 1, 'end': 50},
+  #     {'name': 'intron', 'start': 51, 'end': 185},
+  #     {'name': 'dsred', 'start': 186, 'end': 237},
+  #   ],
+  #   'Reverse': [
+  #     {'name': 'dsred', 'start': 1, 'end': 52},
+  #     {'name': 'intron', 'start': 53, 'end': 187},
+  #     {'name': 'dsred', 'start': 188, 'end': 237},
+  #   ],
+  # },
+  # 'd5': {
+  #   'Forward': [
+  #     {'name': 'dsred', 'start': 1, 'end': 50},
+  #     {'name': 'intron', 'start': 51, 'end': 179},
+  #     {'name': 'dsred', 'start': 180, 'end': 231},
+  #   ],
+  #   'Reverse': [
+  #     {'name': 'dsred', 'start': 1, 'end': 52},
+  #     {'name': 'intron', 'start': 53, 'end': 181},
+  #     {'name': 'dsred', 'start': 182, 'end': 231},
+  #   ],
+  # },
 }
 
 CUT_POS = {
@@ -284,16 +362,29 @@ CUT_POS = {
   },
   'awt': {
     '2dsb': {
-      'Forward': [50, 190],
+      'Forward': [66, 206],
       'Reverse': [47, 187],
     },
   },
   'd5': {
     '2dsb': {
-      'Forward': [50, 184],
+      'Forward': [66, 200],
       'Reverse': [47, 181],
     },
   },
+  # For the OLD Antisense reference sequences
+  # 'awt': {
+  #   '2dsb': {
+  #     'Forward': [50, 190],
+  #     'Reverse': [47, 187],
+  #   },
+  # },
+  # 'd5': {
+  #   '2dsb': {
+  #     'Forward': [50, 184],
+  #     'Reverse': [47, 181],
+  #   },
+  # },
 }
 
 microhomologies = [
@@ -348,5 +439,4 @@ with open(SCHEMES_DATA_JS, 'w') as out:
 #     "visual_comparison": "++++++++++++++++++++MMM---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MMM++++++++++++++++++++",
 #     "scheme": "                    EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                                                                    EEEEEEEEEEEEEEEEEEEEEEEEEE                    "
 #   },
-
 

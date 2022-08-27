@@ -1919,10 +1919,10 @@ var MICROHOMOLOGIES = [
     "Breaks": "2dsb",
     "Type": "exon_exon",
     "Strand": "Forward",
-    "Left": 13,
-    "Right": 211,
-    "Pattern": "AGG",
-    "Bold": 0
+    "Left": 21,
+    "Right": 231,
+    "Pattern": "GAA",
+    "Bold": 1
   },
   {
     "Name": "EE1",
@@ -1930,277 +1930,101 @@ var MICROHOMOLOGIES = [
     "Breaks": "2dsb",
     "Type": "exon_exon",
     "Strand": "Forward",
-    "Left": 13,
-    "Right": 205,
-    "Pattern": "AGG",
-    "Bold": 0
-  },
-  {
-    "Name": "EE2",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 14,
-    "Right": 191,
-    "Pattern": "GGACGGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE2",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 14,
-    "Right": 185,
-    "Pattern": "GGACGGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE3",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 17,
-    "Right": 224,
-    "Pattern": "CGGC",
-    "Bold": 0
-  },
-  {
-    "Name": "EE3",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 17,
-    "Right": 218,
-    "Pattern": "CGGC",
-    "Bold": 0
-  },
-  {
-    "Name": "EE4",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 20,
-    "Right": 194,
-    "Pattern": "CGGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE4",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 20,
-    "Right": 188,
-    "Pattern": "CGGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE5",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 20,
-    "Right": 224,
-    "Pattern": "CGGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE5",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 20,
-    "Right": 218,
-    "Pattern": "CGGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE6",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 24,
-    "Right": 213,
-    "Pattern": "GTG",
-    "Bold": 1
-  },
-  {
-    "Name": "EE6",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 24,
-    "Right": 207,
-    "Pattern": "GTG",
-    "Bold": 1
-  },
-  {
-    "Name": "EE7",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 26,
-    "Right": 195,
-    "Pattern": "GGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE7",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 26,
-    "Right": 189,
-    "Pattern": "GGC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE8",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 26,
+    "Left": 21,
     "Right": 225,
-    "Pattern": "GGC",
-    "Bold": 0
-  },
-  {
-    "Name": "EE8",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 26,
-    "Right": 219,
-    "Pattern": "GGC",
-    "Bold": 0
-  },
-  {
-    "Name": "EE9",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 29,
-    "Right": 192,
-    "Pattern": "GAC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE9",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 29,
-    "Right": 186,
-    "Pattern": "GAC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE10",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 33,
-    "Right": 213,
-    "Pattern": "GTGA",
-    "Bold": 1
-  },
-  {
-    "Name": "EE10",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 33,
-    "Right": 207,
-    "Pattern": "GTGA",
-    "Bold": 1
-  },
-  {
-    "Name": "EE11",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 35,
-    "Right": 192,
-    "Pattern": "GAC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE11",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 35,
-    "Right": 186,
-    "Pattern": "GAC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE12",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 40,
-    "Right": 211,
-    "Pattern": "AGG",
-    "Bold": 1
-  },
-  {
-    "Name": "EE12",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 40,
-    "Right": 205,
-    "Pattern": "AGG",
-    "Bold": 1
-  },
-  {
-    "Name": "EE13",
-    "Celltype": "awt",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 41,
-    "Right": 191,
-    "Pattern": "GGAC",
-    "Bold": 1
-  },
-  {
-    "Name": "EE13",
-    "Celltype": "d5",
-    "Breaks": "2dsb",
-    "Type": "exon_exon",
-    "Strand": "Forward",
-    "Left": 41,
-    "Right": 185,
-    "Pattern": "GGAC",
+    "Pattern": "GAA",
     "Bold": 1
   },
   {
     "Name": "EE1R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 21,
+    "Right": 231,
+    "Pattern": "TTC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE1R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 21,
+    "Right": 225,
+    "Pattern": "TTC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE2",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 24,
+    "Right": 216,
+    "Pattern": "CTTC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE2",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 24,
+    "Right": 210,
+    "Pattern": "CTTC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE2R",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 35,
+    "Right": 227,
+    "Pattern": "GAAG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE2R",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 35,
+    "Right": 221,
+    "Pattern": "GAAG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE3",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 227,
+    "Pattern": "AGG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE3",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 221,
+    "Pattern": "AGG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE3R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2208,10 +2032,10 @@ var MICROHOMOLOGIES = [
     "Left": 25,
     "Right": 223,
     "Pattern": "CCT",
-    "Bold": 0
+    "Bold": 1
   },
   {
-    "Name": "EE1R",
+    "Name": "EE3R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2219,10 +2043,32 @@ var MICROHOMOLOGIES = [
     "Left": 25,
     "Right": 217,
     "Pattern": "CCT",
-    "Bold": 0
+    "Bold": 1
   },
   {
-    "Name": "EE2R",
+    "Name": "EE4",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 30,
+    "Right": 207,
+    "Pattern": "GGACGGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE4",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 30,
+    "Right": 201,
+    "Pattern": "GGACGGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE4R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2233,7 +2079,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE2R",
+    "Name": "EE4R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2244,29 +2090,29 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE3R",
+    "Name": "EE5",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
-    "Strand": "Reverse",
-    "Left": 11,
-    "Right": 218,
-    "Pattern": "GCCG",
-    "Bold": 0
+    "Strand": "Forward",
+    "Left": 36,
+    "Right": 210,
+    "Pattern": "CGGC",
+    "Bold": 1
   },
   {
-    "Name": "EE3R",
+    "Name": "EE5",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
-    "Strand": "Reverse",
-    "Left": 11,
-    "Right": 212,
-    "Pattern": "GCCG",
-    "Bold": 0
+    "Strand": "Forward",
+    "Left": 36,
+    "Right": 204,
+    "Pattern": "CGGC",
+    "Bold": 1
   },
   {
-    "Name": "EE4R",
+    "Name": "EE5R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2277,7 +2123,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE4R",
+    "Name": "EE5R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2288,25 +2134,25 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE5R",
+    "Name": "EE6",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
-    "Strand": "Reverse",
-    "Left": 11,
-    "Right": 215,
-    "Pattern": "GCCG",
+    "Strand": "Forward",
+    "Left": 40,
+    "Right": 229,
+    "Pattern": "GTG",
     "Bold": 1
   },
   {
-    "Name": "EE5R",
+    "Name": "EE6",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
-    "Strand": "Reverse",
-    "Left": 11,
-    "Right": 209,
-    "Pattern": "GCCG",
+    "Strand": "Forward",
+    "Left": 40,
+    "Right": 223,
+    "Pattern": "GTG",
     "Bold": 1
   },
   {
@@ -2332,6 +2178,28 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
+    "Name": "EE7",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 42,
+    "Right": 211,
+    "Pattern": "GGC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE7",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 42,
+    "Right": 205,
+    "Pattern": "GGC",
+    "Bold": 1
+  },
+  {
     "Name": "EE7R",
     "Celltype": "awt",
     "Breaks": "2dsb",
@@ -2354,29 +2222,29 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE8R",
+    "Name": "EE8",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
-    "Strand": "Reverse",
-    "Left": 11,
-    "Right": 210,
-    "Pattern": "GCC",
-    "Bold": 0
+    "Strand": "Forward",
+    "Left": 45,
+    "Right": 208,
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
-    "Name": "EE8R",
+    "Name": "EE8",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
-    "Strand": "Reverse",
-    "Left": 11,
-    "Right": 204,
-    "Pattern": "GCC",
-    "Bold": 0
+    "Strand": "Forward",
+    "Left": 45,
+    "Right": 202,
+    "Pattern": "GAC",
+    "Bold": 1
   },
   {
-    "Name": "EE9R",
+    "Name": "EE8R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2387,7 +2255,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE9R",
+    "Name": "EE8R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2398,7 +2266,29 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE10R",
+    "Name": "EE9",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 49,
+    "Right": 229,
+    "Pattern": "GTGA",
+    "Bold": 1
+  },
+  {
+    "Name": "EE9",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 49,
+    "Right": 223,
+    "Pattern": "GTGA",
+    "Bold": 1
+  },
+  {
+    "Name": "EE9R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2409,7 +2299,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE10R",
+    "Name": "EE9R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2420,7 +2310,29 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE11R",
+    "Name": "EE10",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 51,
+    "Right": 208,
+    "Pattern": "GAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE10",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 51,
+    "Right": 202,
+    "Pattern": "GAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE10R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2431,7 +2343,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE11R",
+    "Name": "EE10R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2442,7 +2354,29 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE12R",
+    "Name": "EE11",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 56,
+    "Right": 227,
+    "Pattern": "AGG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE11",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 56,
+    "Right": 221,
+    "Pattern": "AGG",
+    "Bold": 1
+  },
+  {
+    "Name": "EE11R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2453,7 +2387,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE12R",
+    "Name": "EE11R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2464,7 +2398,29 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE13R",
+    "Name": "EE12",
+    "Celltype": "awt",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 57,
+    "Right": 207,
+    "Pattern": "GGAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE12",
+    "Celltype": "d5",
+    "Breaks": "2dsb",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 57,
+    "Right": 201,
+    "Pattern": "GGAC",
+    "Bold": 1
+  },
+  {
+    "Name": "EE12R",
     "Celltype": "awt",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2475,7 +2431,7 @@ var MICROHOMOLOGIES = [
     "Bold": 1
   },
   {
-    "Name": "EE13R",
+    "Name": "EE12R",
     "Celltype": "d5",
     "Breaks": "2dsb",
     "Type": "exon_exon",
@@ -2774,22 +2730,22 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 21,
-          "end": 50
+          "end": 66
         },
         {
           "name": "intron",
-          "start": 51,
-          "end": 179
+          "start": 67,
+          "end": 195
         },
         {
           "name": "splice",
-          "start": 180,
-          "end": 185
+          "start": 196,
+          "end": 201
         },
         {
           "name": "exon2",
-          "start": 186,
-          "end": 217
+          "start": 202,
+          "end": 233
         }
       ],
       "Reverse": [
@@ -2811,7 +2767,7 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 188,
-          "end": 217
+          "end": 233
         }
       ]
     }
@@ -2822,17 +2778,17 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 21,
-          "end": 50
+          "end": 66
         },
         {
           "name": "intron",
-          "start": 51,
-          "end": 179
+          "start": 67,
+          "end": 195
         },
         {
           "name": "exon2",
-          "start": 180,
-          "end": 211
+          "start": 196,
+          "end": 227
         }
       ],
       "Reverse": [
@@ -2849,7 +2805,7 @@ var AREAS = {
         {
           "name": "exon1",
           "start": 182,
-          "end": 211
+          "end": 227
         }
       ]
     }
@@ -2934,17 +2890,17 @@ var BARS = {
       {
         "name": "dsred",
         "start": 1,
-        "end": 50
+        "end": 66
       },
       {
         "name": "intron",
-        "start": 51,
-        "end": 185
+        "start": 67,
+        "end": 201
       },
       {
         "name": "dsred",
-        "start": 186,
-        "end": 237
+        "start": 202,
+        "end": 253
       }
     ],
     "Reverse": [
@@ -2961,7 +2917,7 @@ var BARS = {
       {
         "name": "dsred",
         "start": 188,
-        "end": 237
+        "end": 253
       }
     ]
   },
@@ -2970,17 +2926,17 @@ var BARS = {
       {
         "name": "dsred",
         "start": 1,
-        "end": 50
+        "end": 66
       },
       {
         "name": "intron",
-        "start": 51,
-        "end": 179
+        "start": 67,
+        "end": 195
       },
       {
         "name": "dsred",
-        "start": 180,
-        "end": 231
+        "start": 196,
+        "end": 247
       }
     ],
     "Reverse": [
@@ -2997,7 +2953,7 @@ var BARS = {
       {
         "name": "dsred",
         "start": 182,
-        "end": 231
+        "end": 247
       }
     ]
   }
@@ -3065,8 +3021,8 @@ var PCIS = {
       },
       {
         "name": "r5",
-        "start": 218,
-        "end": 237
+        "start": 234,
+        "end": 253
       }
     ],
     "Reverse": [
@@ -3077,8 +3033,8 @@ var PCIS = {
       },
       {
         "name": "f6",
-        "start": 218,
-        "end": 237
+        "start": 234,
+        "end": 253
       }
     ]
   },
@@ -3091,8 +3047,8 @@ var PCIS = {
       },
       {
         "name": "r5",
-        "start": 212,
-        "end": 231
+        "start": 228,
+        "end": 247
       }
     ],
     "Reverse": [
@@ -3103,8 +3059,8 @@ var PCIS = {
       },
       {
         "name": "f6",
-        "start": 212,
-        "end": 231
+        "start": 228,
+        "end": 247
       }
     ]
   }
@@ -3170,8 +3126,8 @@ var CUT_POS = {
   "awt": {
     "2dsb": {
       "Forward": [
-        50,
-        190
+        66,
+        206
       ],
       "Reverse": [
         47,
@@ -3182,8 +3138,8 @@ var CUT_POS = {
   "d5": {
     "2dsb": {
       "Forward": [
-        50,
-        184
+        66,
+        200
       ],
       "Reverse": [
         47,
@@ -3203,12 +3159,12 @@ var REF_SEQ = {
     "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
   },
   "awt": {
-    "Forward": "TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA"
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
   },
   "d5": {
-    "Forward": "TGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCA"
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
   }
 };
 
