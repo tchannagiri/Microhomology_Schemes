@@ -2443,6 +2443,25 @@ var MICROHOMOLOGIES = [
   }
 ];
 
+var REF_SEQ = {
+  "wt": {
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  },
+  "db": {
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  },
+  "awt": {
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  },
+  "d5": {
+    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
+    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
+  }
+};
+
 var AREAS = {
   "wt": {
     "hg39": {
@@ -2812,6 +2831,113 @@ var AREAS = {
   }
 };
 
+var PRIMER = {
+  "wt": {
+    "Forward": [
+      {
+        "name": "p1",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p2",
+        "start": 210,
+        "end": 229
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "p2",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p1",
+        "start": 210,
+        "end": 229
+      }
+    ]
+  },
+  "db": {
+    "Forward": [
+      {
+        "name": "p1",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p2",
+        "start": 155,
+        "end": 174
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "p2",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p1",
+        "start": 155,
+        "end": 174
+      }
+    ]
+  },
+  "awt": {
+    "Forward": [
+      {
+        "name": "p1",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p2",
+        "start": 234,
+        "end": 253
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "p2",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p1",
+        "start": 234,
+        "end": 253
+      }
+    ]
+  },
+  "d5": {
+    "Forward": [
+      {
+        "name": "p1",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p2",
+        "start": 228,
+        "end": 247
+      }
+    ],
+    "Reverse": [
+      {
+        "name": "p2",
+        "start": 1,
+        "end": 20
+      },
+      {
+        "name": "p1",
+        "start": 228,
+        "end": 247
+      }
+    ]
+  }
+};
+
 var BARS = {
   "wt": {
     "Forward": [
@@ -2959,113 +3085,6 @@ var BARS = {
   }
 };
 
-var PCIS = {
-  "wt": {
-    "Forward": [
-      {
-        "name": "f6",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "r5",
-        "start": 210,
-        "end": 229
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "r5",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "f6",
-        "start": 210,
-        "end": 229
-      }
-    ]
-  },
-  "db": {
-    "Forward": [
-      {
-        "name": "f6",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "r5",
-        "start": 155,
-        "end": 174
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "r5",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "f6",
-        "start": 155,
-        "end": 174
-      }
-    ]
-  },
-  "awt": {
-    "Forward": [
-      {
-        "name": "f6",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "r5",
-        "start": 234,
-        "end": 253
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "r5",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "f6",
-        "start": 234,
-        "end": 253
-      }
-    ]
-  },
-  "d5": {
-    "Forward": [
-      {
-        "name": "f6",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "r5",
-        "start": 228,
-        "end": 247
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "r5",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "f6",
-        "start": 228,
-        "end": 247
-      }
-    ]
-  }
-};
-
 var CUT_POS = {
   "wt": {
     "hg39": {
@@ -3149,22 +3168,53 @@ var CUT_POS = {
   }
 };
 
-var REF_SEQ = {
-  "wt": {
-    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
-  },
-  "db": {
-    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGTTATCCACAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGTGGATAACTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
-  },
-  "awt": {
-    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTAACATACCTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGGTATGTTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
-  },
-  "d5": {
-    "Forward": "TTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGTGGATAAATAATACCATTTGTTAGTAAAAATTCGAGCTCGGTACCCGGGGGATCCTACGCGTTAGGGATAACAGGGTAATACGCGTCTAGAGTCGACCTGAGAAAAGCCTCCTTTAGTCCATATTACTGCAGGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCC",
-    "Reverse": "GGAAGTTCACGCCGATGAACTTCACCTTGTAGATGAAGCAGCCGTCCTGCAGTAATATGGACTAAAGGAGGCTTTTCTCAGGTCGACTCTAGACGCGTATTACCCTGTTATCCCTAACGCGTAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTATCCACAGGGAGGAGTCCTGGGTCACGGTCGCCACGCCGCCGTCCTCGAAGTTCATCACGCGCTCCCACTTGAA"
-  }
+var BAR_COLOR = {
+  "dsred": "#4472c4",
+  "intron": "#00b050"
 };
+
+var BAR_TEXT = {
+  "dsred": "DS Red",
+  "intron": "Intron"
+};
+
+var AREAS_COLOR = {
+  "exon1": "#4472c4",
+  "exon2": "#4472c4",
+  "intron": "#00b050",
+  "branch": "#548235",
+  "splice": "#548235"
+};
+
+var AREAS_TEXT = {
+  "exon1": "Exon1",
+  "exon2": "Exon2",
+  "intron": "Intron",
+  "branch": "Intron (branch site)",
+  "splice": "5' splice"
+};
+
+var PRIMER_TEXT = {
+  "p2": "Primer",
+  "p1": "Primer"
+};
+
+var LABELS = {
+  "hg39": "sgRNA A",
+  "hg42": "sgRNA B",
+  "Forward": "Forward strand",
+  "Reverse": "Reverse strand",
+  "wt": "Sense/pCMV\u0394",
+  "db": "Branch\u0394",
+  "awt": "Antisense",
+  "d5": "5' splicing\u0394",
+  "all": null,
+  "exon_exon": "Exon-Exon group",
+  "exon_intron": "Exon-Intron group"
+};
+
+var CELLTYPE_FLIPPED_INTRON = [
+  "d5",
+  "awt"
+];
 

@@ -5,12 +5,6 @@ import os
 MMEJ_LIST_CSV = os.path.join('csv', 'plasmid', 'Sense_MH_list.csv')
 MMEJ_LIST_ANTI_CSV = os.path.join('csv', 'plasmid', 'Antisense_MH_list.csv')
 SCHEMES_DATA_JS = os.path.join('html', 'plasmid', 'data.js')
-# MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
-# AREAS_VAR_JS = 'AREAS'
-# BARS_VAR_JS = 'BARS'
-# PRIMER_VAR_JS = 'PRIMER'
-# CUT_POS_VAR_JS = 'CUT_POS'
-# REF_SEQ_VAR_JS = 'REF_SEQ'
 
 JS_VARS = {
   'REF_SEQ': {
