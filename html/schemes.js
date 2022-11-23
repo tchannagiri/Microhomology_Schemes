@@ -460,7 +460,10 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
     var x = (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X;
     var y = areas_height / 2;
     var text_transform = `translate(${x}, ${y})`;
-    if (['awt', 'd5'].includes(Celltype) && area['name'] == 'intron') {
+    if (
+      CELLTYPE_FLIPPED_INTRON.includes(Celltype) &&
+      ((area['name'] == 'intron') || (area['name'] == 'branch'))
+    ) {
       text_transform += 'rotate(180)';
     }
 
