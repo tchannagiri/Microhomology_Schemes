@@ -47,6 +47,25 @@
 <script src="../FileSaver.js-2.0.4/FileSaver.min.js"></script>
 <script src="../JSZip/jszip.min.js"></script>
 <script src="data.js"></script>
+<script>
+  function get_label(key, Celltype) {
+    if (key in LABELS) {
+      return LABELS[key];
+    } else if (key == '2dsb') {
+      if (['wt', 'db'].includes(Celltype)) {
+        return 'sgRNA A & B';
+      } else if (Celltype == 'awt') {
+        return 'sgRNA C & D';
+      } else if (Celltype == 'd5') {
+        return 'sgRNA C\' & D';
+      } else {
+        throw 'Unknown Celltype: ' + Celltype;
+      }
+    } else {
+      throw 'Unknown key: ' + key;
+    }
+  }
+</script>
 <script src="../schemes.js"></script>
 
 <script>
