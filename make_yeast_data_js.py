@@ -75,26 +75,26 @@ JS_VARS = {
   'BARS': {
     'wt': {
       'Forward': [
-        {'name': 'his3', 'start': 21, 'end': 112},
+        {'name': 'his3', 'start': 1, 'end': 112},
         {'name': 'intron', 'start': 113, 'end': 341},
-        {'name': 'his3', 'start': 342, 'end': 405},
+        {'name': 'his3', 'start': 342, 'end': 425},
       ],
       'Reverse': [
-        {'name': 'his3', 'start': 21, 'end': 84},
+        {'name': 'his3', 'start': 1, 'end': 84},
         {'name': 'intron', 'start': 85, 'end': 313},
-        {'name': 'his3', 'start': 314, 'end': 405},
+        {'name': 'his3', 'start': 314, 'end': 425},
       ],
     },
     'db': {
       'Forward': [
-        {'name': 'his3', 'start': 21, 'end': 112},
+        {'name': 'his3', 'start': 1, 'end': 112},
         {'name': 'intron', 'start': 113, 'end': 308},
         {'name': 'his3', 'start': 309, 'end': 405},
       ],
       'Reverse': [
-        {'name': 'his3', 'start': 21, 'end': 84},
+        {'name': 'his3', 'start': 1, 'end': 84},
         {'name': 'intron', 'start': 85, 'end': 280},
-        {'name': 'his3', 'start': 281, 'end': 372},
+        {'name': 'his3', 'start': 281, 'end': 405},
       ],
     },
   },

@@ -3119,7 +3119,7 @@ var BARS = {
     "Forward": [
       {
         "name": "his3",
-        "start": 21,
+        "start": 1,
         "end": 112
       },
       {
@@ -3130,13 +3130,13 @@ var BARS = {
       {
         "name": "his3",
         "start": 342,
-        "end": 405
+        "end": 425
       }
     ],
     "Reverse": [
       {
         "name": "his3",
-        "start": 21,
+        "start": 1,
         "end": 84
       },
       {
@@ -3147,7 +3147,7 @@ var BARS = {
       {
         "name": "his3",
         "start": 314,
-        "end": 405
+        "end": 425
       }
     ]
   },
@@ -3155,7 +3155,7 @@ var BARS = {
     "Forward": [
       {
         "name": "his3",
-        "start": 21,
+        "start": 1,
         "end": 112
       },
       {
@@ -3172,7 +3172,7 @@ var BARS = {
     "Reverse": [
       {
         "name": "his3",
-        "start": 21,
+        "start": 1,
         "end": 84
       },
       {
@@ -3183,7 +3183,7 @@ var BARS = {
       {
         "name": "his3",
         "start": 281,
-        "end": 372
+        "end": 405
       }
     ]
   }
