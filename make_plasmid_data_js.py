@@ -8,7 +8,7 @@ SCHEMES_DATA_JS = os.path.join('html', 'plasmid', 'data.js')
 MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
 AREAS_VAR_JS = 'AREAS'
 BARS_VAR_JS = 'BARS'
-PCIS_VAR_JS = 'PCIS'
+PRIMER_VAR_JS = 'PRIMER'
 CUT_POS_VAR_JS = 'CUT_POS'
 REF_SEQ_VAR_JS = 'REF_SEQ'
 
@@ -192,66 +192,66 @@ AREAS = {
   # },
 }
 
-PCIS = {
+PRIMER = {
   'wt': {
     'Forward': [
-      {'name': 'f6', 'start': 1, 'end': 20},
-      {'name': 'r5', 'start': 210, 'end': 229},
+      {'name': 'p1', 'start': 1, 'end': 20},
+      {'name': 'p2', 'start': 210, 'end': 229},
     ],
     'Reverse': [
-      {'name': 'r5', 'start': 1, 'end': 20},
-      {'name': 'f6', 'start': 210, 'end': 229},
+      {'name': 'p2', 'start': 1, 'end': 20},
+      {'name': 'p1', 'start': 210, 'end': 229},
     ],
   },
   'db': {
     'Forward': [
-      {'name': 'f6', 'start': 1, 'end': 20},
-      {'name': 'r5', 'start': 155, 'end': 174},
+      {'name': 'p1', 'start': 1, 'end': 20},
+      {'name': 'p2', 'start': 155, 'end': 174},
     ],
     'Reverse': [
-      {'name': 'r5', 'start': 1, 'end': 20},
-      {'name': 'f6', 'start': 155, 'end': 174},
+      {'name': 'p2', 'start': 1, 'end': 20},
+      {'name': 'p1', 'start': 155, 'end': 174},
     ],
   },
   'awt': {
     'Forward': [
-      {'name': 'f6', 'start': 1, 'end': 20},
-      {'name': 'r5', 'start': 234, 'end': 253},
+      {'name': 'p1', 'start': 1, 'end': 20},
+      {'name': 'p2', 'start': 234, 'end': 253},
     ],
     'Reverse': [
-      {'name': 'r5', 'start': 1, 'end': 20},
-      {'name': 'f6', 'start': 234, 'end': 253},
+      {'name': 'p2', 'start': 1, 'end': 20},
+      {'name': 'p1', 'start': 234, 'end': 253},
     ],
   },
   'd5': {
     'Forward': [
-      {'name': 'f6', 'start': 1, 'end': 20},
-      {'name': 'r5', 'start': 228, 'end': 247},
+      {'name': 'p1', 'start': 1, 'end': 20},
+      {'name': 'p2', 'start': 228, 'end': 247},
     ],
     'Reverse': [
-      {'name': 'r5', 'start': 1, 'end': 20},
-      {'name': 'f6', 'start': 228, 'end': 247},
+      {'name': 'p2', 'start': 1, 'end': 20},
+      {'name': 'p1', 'start': 228, 'end': 247},
     ],
   },
   # For the OLD Antisense reference sequences
   # 'awt': {
   #   'Forward': [
-  #     {'name': 'f6', 'start': 1, 'end': 20},
-  #     {'name': 'r5', 'start': 218, 'end': 237},
+  #     {'name': 'p1', 'start': 1, 'end': 20},
+  #     {'name': 'p2', 'start': 218, 'end': 237},
   #   ],
   #   'Reverse': [
-  #     {'name': 'r5', 'start': 1, 'end': 20},
-  #     {'name': 'f6', 'start': 218, 'end': 237},
+  #     {'name': 'p2', 'start': 1, 'end': 20},
+  #     {'name': 'p1', 'start': 218, 'end': 237},
   #   ],
   # },
   # 'd5': {
   #   'Forward': [
-  #     {'name': 'f6', 'start': 1, 'end': 20},
-  #     {'name': 'r5', 'start': 212, 'end': 231},
+  #     {'name': 'p1', 'start': 1, 'end': 20},
+  #     {'name': 'p2', 'start': 212, 'end': 231},
   #   ],
   #   'Reverse': [
-  #     {'name': 'r5', 'start': 1, 'end': 20},
-  #     {'name': 'f6', 'start': 212, 'end': 231},
+  #     {'name': 'p2', 'start': 1, 'end': 20},
+  #     {'name': 'p1', 'start': 212, 'end': 231},
   #   ],
   # },
 }
@@ -409,8 +409,8 @@ with open(SCHEMES_DATA_JS, 'w') as out:
   json.dump(BARS, out, indent=2)
   out.write(';\n\n')
   
-  out.write(f'var {PCIS_VAR_JS} = ')
-  json.dump(PCIS, out, indent=2)
+  out.write(f'var {PRIMER_VAR_JS} = ')
+  json.dump(PRIMER, out, indent=2)
   out.write(';\n\n')
   
   out.write(f'var {CUT_POS_VAR_JS} = ')

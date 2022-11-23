@@ -1,0 +1,167 @@
+
+<body>
+  <div style="font-size: 20">
+    <label>Cell Type:</label>
+    <select name="Celltype" id="Celltype" onchange="update_schemes()">
+      <option value="wt">Sense/pCMVΔ</option>
+      <option value="db">BranchΔ</option>
+      <option value="awt">Antisense</option>
+      <option value="d5">5' splicingΔ</option>
+    </select>
+    <label>Breaks:</label>
+    <select name="Breaks" id="Breaks" onchange="update_schemes()">
+      <option value="hg39">sgRNA A</option>
+      <option value="hg42">sgRNA B</option>
+      <option value="2dsb">2 DSB</option>
+    </select>
+    <label>Strand:</label>
+    <select name="strand" id="strand" onchange="update_schemes()">
+      <option value="Forward">Forward</option>
+      <option value="Reverse">Reverse</option>
+    </select>
+    <label>Group:</label>
+    <select name="Type" id="Type" onchange="update_schemes()">
+      <option value="all">All</option>
+      <option value="exon_exon">Exon & Exon</option>
+      <option value="exon_intron">Exon & Intron</option>
+    </select>
+    <label>Display format:</label>
+    <select name="combined" id="combined" onchange="update_schemes()">
+      <option value="combined" selected>Combined</option>
+      <option value="separate">Separate</option>
+    </select>
+    <button onclick="download_svg()" style="margin-right: 10px;">
+      Download SVG
+    </select>
+    <button onclick="download_all_svg()">
+      Download All SVG
+    </select>
+  </div>
+  <div style="font-size: 30; margin-bottom: 50;" id="title">
+  </div>
+  <div id="schemes">
+  </div>
+</body>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="../FileSaver.js-2.0.4/FileSaver.min.js"></script>
+<script src="../JSZip/jszip.min.js"></script>
+<script src="data.js"></script>
+<script src="../schemes.js"></script>
+
+<script>
+  function get_svg_file_name() {
+    var Breaks = document.querySelector("#Breaks").value;
+    var Strand = document.querySelector("#Strand").value;
+    var Celltype = document.querySelector("#Celltype").value;
+    var Type = document.querySelector("#Type").value;
+    var combined = document.querySelector("#combined").value;
+
+    Breaks = {'hg39': 'sgA', 'hg42': 'sgB', '2dsb': '2DSB'}[Breaks];
+    Celltype = {'wt': 'Sense', 'db': 'Branch', 'awt': 'Antisense', 'd5': 'Splicing'}[Celltype];
+
+    return `${Breaks}_${Strand}_${Celltype}_${combined}.svg`;
+  }
+
+  function get_svg_text() {
+    return document.querySelector('#schemes').innerHTML;
+  }
+
+  function download_svg() {
+    update_schemes();
+
+    var text = get_svg_text();
+    var file_name = get_svg_file_name();
+
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/svg;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', file_name);
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+  }
+
+  function download_all_svg() {
+    var zip = new JSZip();
+    for (var Breaks of ['hg39', 'hg42', '2dsb']) {
+      for (var Strand of ['Forward', 'Reverse']) {
+        for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
+          if (['awt', 'd5'].includes(Celltype)) {
+            if ((Breaks != '2dsb')) {
+              // There is no data for these cases
+              continue;
+            }
+          }
+          document.querySelector("#Breaks").value = Breaks;
+          document.querySelector("#Strand").value = Strand;
+          document.querySelector("#Celltype").value = Celltype;
+          document.querySelector("#Type").value = 'all';
+          document.querySelector("#combined").value = 'combined';
+          update_schemes();
+          zip.file(get_svg_file_name(), get_svg_text());
+        }
+      }
+    }
+    zip.generateAsync({type:"blob"})
+      .then(function(content) {
+          saveAs(content, "all_schemes.zip");
+      });
+  }
+</script>
+
+<script>
+  function update_schemes() {
+    var Celltype = document.querySelector("#Celltype");
+    var Breaks = document.querySelector("#Breaks");
+    var Strand = document.querySelector("#Strand");
+    var Type = document.querySelector("#Type");
+    var combined = document.querySelector("#combined");
+
+    if (['awt', 'd5'].includes(Celltype.value)) {
+      for (var option of Breaks.options) {
+        if (option.value != '2dsb') {
+          option.disabled = true;
+          option.selected = false;
+        }
+      }
+    } else {
+      for (var option of Breaks.options) {
+        option.disabled = false;
+      }
+    }
+    
+    if (Breaks.value == '2dsb') {
+      for (var option of Type.options) {
+        if (option.value == 'exon_intron') {
+          option.disabled = true;
+          option.selected = false;
+        }
+      }
+    } else {
+      for (var option of Type.options) {
+        option.disabled = false;
+      }
+    }
+
+    document.querySelector("#title").innerHTML = (
+      `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
+      `${Strand.value} ` +
+      `${Celltype.options[Celltype.selectedIndex].innerHTML} ` +
+      `Microhomologies (${combined.value})`
+    );
+    make_schemes(
+      '#schemes',
+      Breaks.value,
+      Strand.value,
+      Celltype.value,
+      Type.value,
+      combined.value == "combined"
+    );
+  }
+
+  window.addEventListener('load', () => update_schemes());
+</script>

@@ -26,23 +26,10 @@ var AREAS_TEXT = {
   'splice': '5\' splice',
 };
 
-var PCIS_TEXT = {
-  // 'r5': 'DsRed.pCis.R5',
-  // 'f6': 'DsRed.pCis.F6',
-  'r5': 'Primer',
-  'f6': 'Primer',
+var PRIMER_TEXT = {
+  'p2': 'Primer',
+  'p1': 'Primer',
 };
-
-var PCIS_COLOR = 'purple';
-
-var SCALE_X = 10;
-var SCALE_Y = 20;
-
-var WINDOW_NUCLEOTIDES = 10;
-var PATTERN_COLOR = '#FFC000';
-var WINDOW_COLOR = '#00FF00';
-var DELETION_COLOR = 'black';
-var HIGHLIGHT_OPACITY = 0.3;
 
 var LABELS = {
   'hg39': 'sgRNA A',
@@ -57,6 +44,8 @@ var LABELS = {
   'exon_exon': 'Exon-Exon group',
   'exon_intron': 'Exon-Intron group',
 }
+
+var CELLTYPE_FLIPPED_INTRON = ['d5', 'awt']
 
 function get_label(key, Celltype) {
   if (key in LABELS) {
@@ -76,6 +65,18 @@ function get_label(key, Celltype) {
   }
 }
 
+var PRIMER_COLOR = 'purple';
+
+var SCALE_X = 10;
+var SCALE_Y = 20;
+
+var WINDOW_NUCLEOTIDES = 10;
+var PATTERN_COLOR = '#FFC000';
+var WINDOW_COLOR = '#00FF00';
+var DELETION_COLOR = 'black';
+var HIGHLIGHT_OPACITY = 0.3;
+
+
 function reverse_complement_dna(s) {
   var t = '';
   for (var i = s.length - 1; i >= 0; i--) {
@@ -89,7 +90,6 @@ function reverse_complement_dna(s) {
   }
   return t;
 }
-
 
 function draw_single_seq(
   content_width,
@@ -311,6 +311,28 @@ function get_title(Breaks, Strand, Celltype, Type) {
   return 'Microhomology scheme: ' + title;
 }
 
+function sort_microhomologies(microhomologies) {
+  microhomologies.sort(
+    (x, y) => {
+      if (x['microhomology_group'] < y['microhomology_group']) {
+        return -1;
+      } else if (x['microhomology_group'] > y['microhomology_group']) {
+        return 1;
+      } else if (x['pos_left'] < y['pos_left']) {
+        return -1; 
+      } else if (x['pos_left'] > y['pos_left']) {
+        return 1;
+      } else if (x['pos_right'] < y['pos_right']) {
+        return -1;
+      } else if (x['pos_right'] > y['pos_right']) {
+        return 1;
+      } else {
+        return 0;
+      }
+    }
+  )
+}
+
 function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined) {
   var dna_length = REF_SEQ[Celltype][Strand].length;
   var scheme_width = dna_length * SCALE_X;
@@ -325,7 +347,7 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   var title_height = 50;
   var caption_height = 20;
   var scale_height = 20;
-  var pcis_height = 20;
+  var primer_height = 20;
   var areas_height = 20;
   var seq_height = 20;
   var bars_1_height = 20;
@@ -338,32 +360,16 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       x => x['Type'] == Type
     );
   }
-  // microhomologies = microhomologies.sort(
-  //   (x, y) => {
-  //     if (x['microhomology_group'] < y['microhomology_group']) {
-  //       return -1;
-  //     } else if (x['microhomology_group'] > y['microhomology_group']) {
-  //       return 1;
-  //     } else if (x['pos_left'] < y['pos_left']) {
-  //       return -1; 
-  //     } else if (x['pos_left'] > y['pos_left']) {
-  //       return 1;
-  //     } else if (x['pos_right'] < y['pos_right']) {
-  //       return -1;
-  //     } else if (x['pos_right'] > y['pos_right']) {
-  //       return 1;
-  //     } else {
-  //       return 0;
-  //     }
-  //   }
-  // );
+
+  // The imcrohomologies shuld be pre-sorted now
+  // microhomologies = sort_microhomologies(microhomologies);
 
   var caption_y = 0;
   var scale_y = caption_y + caption_height + pad;
   var bars_1_y = scale_y + scale_height + pad; 
-  var pcis_y = bars_1_y + bars_1_height + pad;
-  var areas_y = pcis_y;
-  var seq_y =  pcis_y + pcis_height + pad; 
+  var primer_y = bars_1_y + bars_1_height + pad;
+  var areas_y = primer_y;
+  var seq_y =  primer_y + primer_height + pad; 
 
   var scheme_height;
   var total_scheme_height;
@@ -462,43 +468,41 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
     var x = bar_x + bar_width / 2;
     var y = bars_1_height / 2;
     var text_transform = `translate(${x}, ${y})`;
-    if (['awt', 'd5'].includes(Celltype) && bar['name'] == 'intron') {
+    if (CELLTYPE_FLIPPED_INTRON.includes(Celltype) && (bar['name'] == 'intron')) {
       text_transform += 'rotate(180)';
     }
 
     bars_1_svgs.append('text')
       .attr('text-anchor', 'middle')
-      // .attr('x', bar_x + bar_width / 2)
-      // .attr('y', bars_1_height / 2)
       .attr('transform', text_transform)
       .attr('dy', '.5ex')
       .text(BAR_TEXT[bar['name']]);
   }
 
   // The Primer windows
-  var pcis_svgs = scheme_svg.append('g')
-    .attr('transform', `translate(${labels_width}, ${pcis_y})`)
+  var primer_svgs = scheme_svg.append('g')
+    .attr('transform', `translate(${labels_width}, ${primer_y})`)
     .attr('width', scheme_width)
-    .attr('height', pcis_height);
+    .attr('height', primer_height);
 
-  for (var pcis of PCIS[Celltype][Strand]) {
-    pcis_svgs.append('rect')
-      .attr('x', (pcis['start'] - 1) * SCALE_X)
+  for (var primer of PRIMER[Celltype][Strand]) {
+    primer_svgs.append('rect')
+      .attr('x', (primer['start'] - 1) * SCALE_X)
       .attr('y', 0)
-      .attr('width', (pcis['end'] - pcis['start'] + 1) * SCALE_X)
-      .attr('height', pcis_height)
+      .attr('width', (primer['end'] - primer['start'] + 1) * SCALE_X)
+      .attr('height', primer_height)
       .style('fill', 'rgba(0, 0, 0, 0)')
       .style('fill-opacity', 0)
-      .style('stroke', PCIS_COLOR)
+      .style('stroke', PRIMER_COLOR)
       .style('stroke-opacity', 1)
       .style('stroke-width', areas_stroke_width);
 
-    pcis_svgs.append('text')
+    primer_svgs.append('text')
       .attr('text-anchor', 'middle')
-      .attr('x', (((pcis['start'] + pcis['end']) / 2) - 1) * SCALE_X)
-      .attr('y', pcis_height / 2)
+      .attr('x', (((primer['start'] + primer['end']) / 2) - 1) * SCALE_X)
+      .attr('y', primer_height / 2)
       .attr('dy', '.5ex')
-      .text(PCIS_TEXT[pcis['name']]);
+      .text(PRIMER_TEXT[primer['name']]);
   }
 
   // The Intron/Exon/Branch windows
@@ -519,7 +523,6 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .style('stroke-opacity', 1)
       .style('stroke-width', areas_stroke_width);
 
-    // CONTINUE FIXING HERE!!!
     var x = (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X;
     var y = areas_height / 2;
     var text_transform = `translate(${x}, ${y})`;
@@ -532,15 +535,6 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .attr('transform', text_transform)
       .attr('dy', '.5ex')
       .text(AREAS_TEXT[area['name']]);
-    
-    // areas_svgs.append('text')
-    //   .attr('text-anchor', 'middle')
-    //   // .attr('x', (((area['start'] + area['end']) / 2) - 0.5) * SCALE_X)
-    //   // .attr('y', areas_height / 2)
-    //   .attr('dy', '.5ex')
-    //   // .attr('transform', (['awt', 'd5'].includes(Celltype) && area['name'] == 'intron') ? 'rotate(180)' : '')
-    //   .attr('transform', text_transform)
-    //   .text(AREAS_TEXT[area['name']]);
   }
 
   // The actual microhomologies
