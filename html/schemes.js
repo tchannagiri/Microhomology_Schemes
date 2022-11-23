@@ -1,3 +1,5 @@
+// Common code for making the schemes work
+
 var BAR_COLOR = {
   'dsred': '#4472c4',
   'intron': '#00b050',

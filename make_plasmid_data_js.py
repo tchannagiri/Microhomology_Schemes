@@ -1,9 +1,10 @@
 import json
 import pandas as pd
+import os
 
-MMEJ_LIST_CSV = 'Sense_MH_list.csv'
-MMEJ_LIST_ANTI_CSV = 'Antisense_MH_list.csv'
-SCHEMES_DATA_JS = 'schemes_data.js'
+MMEJ_LIST_CSV = os.path.join('csv', 'plasmid', 'Sense_MH_list.csv')
+MMEJ_LIST_ANTI_CSV = os.path.join('csv', 'plasmid', 'Antisense_MH_list.csv')
+SCHEMES_DATA_JS = os.path.join('html', 'plasmid', 'data.js')
 MICROHOMOLOGIES_VAR_JS = 'MICROHOMOLOGIES'
 AREAS_VAR_JS = 'AREAS'
 BARS_VAR_JS = 'BARS'
@@ -419,8 +420,6 @@ with open(SCHEMES_DATA_JS, 'w') as out:
   out.write(f'var {REF_SEQ_VAR_JS} = ')
   json.dump(REF_SEQ, out, indent=2)
   out.write(';\n\n')
-
-
 
 #  {
 #     "microhomology_id": "spliced_HG39_R1_G1_exon1_exon2_P21_P207_GAA",
