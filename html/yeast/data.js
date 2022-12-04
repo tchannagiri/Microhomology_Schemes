@@ -2516,7 +2516,7 @@ var MICROHOMOLOGIES = [
     "Left": 91,
     "Right": 313,
     "Pattern": "AGC",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE58",
@@ -2538,7 +2538,7 @@ var MICROHOMOLOGIES = [
     "Left": 78,
     "Right": 300,
     "Pattern": "GCT",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE58R",
@@ -2780,7 +2780,7 @@ var MICROHOMOLOGIES = [
     "Left": 96,
     "Right": 330,
     "Pattern": "CCAG",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE64",
@@ -2802,7 +2802,7 @@ var MICROHOMOLOGIES = [
     "Left": 60,
     "Right": 294,
     "Pattern": "CTGG",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE64R",
@@ -2824,7 +2824,7 @@ var MICROHOMOLOGIES = [
     "Left": 98,
     "Right": 313,
     "Pattern": "AGC",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE65",
@@ -2912,7 +2912,7 @@ var MICROHOMOLOGIES = [
     "Left": 103,
     "Right": 333,
     "Pattern": "GAA",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE67",
@@ -2934,7 +2934,7 @@ var MICROHOMOLOGIES = [
     "Left": 58,
     "Right": 288,
     "Pattern": "TTC",
-    "Bold": 1
+    "Bold": 0
   },
   {
     "Name": "EE67R",
@@ -2945,7 +2945,7 @@ var MICROHOMOLOGIES = [
     "Left": 58,
     "Right": 321,
     "Pattern": "TTC",
-    "Bold": 1
+    "Bold": 0
   }
 ];
 
