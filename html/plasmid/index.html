@@ -109,7 +109,7 @@
       for (var Strand of ['Forward', 'Reverse']) {
         for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
           if (['awt', 'd5'].includes(Celltype)) {
-            if ((Breaks != '2dsb')) {
+            if (Breaks != '2dsb') {
               // There is no data for these cases
               continue;
             }

@@ -3166,7 +3166,7 @@ var BARS = {
       {
         "name": "his3",
         "start": 309,
-        "end": 405
+        "end": 392
       }
     ],
     "Reverse": [
@@ -3183,7 +3183,7 @@ var BARS = {
       {
         "name": "his3",
         "start": 281,
-        "end": 405
+        "end": 392
       }
     ]
   }
