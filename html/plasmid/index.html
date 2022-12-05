@@ -24,10 +24,9 @@
       <option value="exon_exon">Exon & Exon</option>
       <option value="exon_intron">Exon & Intron</option>
     </select>
-    <label>Display format:</label>
-    <select name="combined" id="combined" onchange="update_schemes()">
-      <option value="combined" selected>Combined</option>
-      <option value="separate">Separate</option>
+    <label>Bolded:</label>
+    <select name="Boldtype" id="Boldtype" onchange="update_schemes()">
+      <option value="Default" selected>Default</option>
     </select>
     <button onclick="download_svg()" style="margin-right: 10px;">
       Download SVG
@@ -73,12 +72,11 @@
     var Strand = document.querySelector("#Strand").value;
     var Celltype = document.querySelector("#Celltype").value;
     var Type = document.querySelector("#Type").value;
-    var combined = document.querySelector("#combined").value;
 
     Breaks = {'hg39': 'sgA', 'hg42': 'sgB', '2dsb': '2DSB'}[Breaks];
     Celltype = {'wt': 'Sense', 'db': 'Branch', 'awt': 'Antisense', 'd5': 'Splicing'}[Celltype];
 
-    return `$plasmid_{Breaks}_${Strand}_${Celltype}_${combined}.svg`;
+    return `$plasmid_{Breaks}_${Strand}_${Celltype}.svg`;
   }
 
   function get_svg_text() {
@@ -118,7 +116,6 @@
           document.querySelector("#Strand").value = Strand;
           document.querySelector("#Celltype").value = Celltype;
           document.querySelector("#Type").value = 'all';
-          document.querySelector("#combined").value = 'combined';
           update_schemes();
           zip.file(get_svg_file_name(), get_svg_text());
         }
@@ -137,7 +134,7 @@
     var Breaks = document.querySelector("#Breaks");
     var Strand = document.querySelector("#Strand");
     var Type = document.querySelector("#Type");
-    var combined = document.querySelector("#combined");
+    var Boldtype = document.querySelector("#Boldtype");
 
     if (['awt', 'd5'].includes(Celltype.value)) {
       for (var option of Breaks.options) {
@@ -169,7 +166,7 @@
       `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
       `${Strand.value} ` +
       `${Celltype.options[Celltype.selectedIndex].innerHTML} ` +
-      `Microhomologies (${combined.value})`
+      'Microhomologies'
     );
     make_schemes(
       '#schemes',
@@ -177,7 +174,7 @@
       Strand.value,
       Celltype.value,
       Type.value,
-      combined.value == "combined"
+      Boldtype.value
     );
   }
 

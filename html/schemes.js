@@ -100,86 +100,7 @@ function draw_single_seq(
 
 }
 
-function make_seq_svgs_separate(
-  scheme_svgs,
-  labels_width,
-  content_width,
-  seq_y,
-  seq_height,
-  ref_seq,
-) {
-  var seq_svgs = scheme_svgs.append('g')
-    .style('overflow', 'visible')
-    .attr('transform', `translate(${labels_width}, ${seq_y})`)
-    .attr('width', content_width)
-    .attr('height', seq_height);
-    
-    for (var pos of ['Left', 'Right']) {
-      // Window highlights
-      if (pos == 'Left') {
-        seq_svgs.append('rect')
-          .attr('x', d => (d[pos] - 1 - WINDOW_NUCLEOTIDES) * SCALE_X)
-          .attr('y', 0)
-          .attr('width', WINDOW_NUCLEOTIDES * SCALE_X)
-          .attr('height', seq_height)
-          .style('fill', WINDOW_COLOR)
-          .style('opacity', HIGHLIGHT_OPACITY);
-      } else {
-        seq_svgs.append('rect')
-          .attr('x', d => (d[pos] + d['Pattern'].length - 1) * SCALE_X)
-          .attr('y', 0)
-          .attr('width', WINDOW_NUCLEOTIDES * SCALE_X)
-          .attr('height', seq_height)
-          .style('fill', WINDOW_COLOR)
-          .style('opacity', HIGHLIGHT_OPACITY);
-      }
-
-      // Pattern highlights
-      seq_svgs.append('rect')
-        .attr('x', d => (d[pos] - 1) * SCALE_X)
-        .attr('y', 0)
-        .attr('width', d => d['Pattern'].length * SCALE_X)
-        .attr('height', seq_height)
-        .style('fill', PATTERN_COLOR)
-        .style('opacity', HIGHLIGHT_OPACITY);
-    }
-
-  // Pattern outline
-  for (var pos of ['Left', 'Right']) {
-    seq_svgs.append('rect')
-    .attr('x', d => (d[pos] - 1) * SCALE_X)
-    .attr('y', 0)
-    .attr('width', d => d['Pattern'].length * SCALE_X)
-    .attr('height', seq_height)
-    .style('fill', 'transparent')
-    .style('stroke', PATTERN_COLOR)
-    .style('stroke-width', 2);
-  }
-
-  // Deletion highlight
-  seq_svgs.append('rect')
-    .attr('x', d => (d['Left'] + d['Pattern'].length - 1) * SCALE_X)
-    .attr('y', 0)
-    .attr('width', d => (d['Right'] - d['Left'] - d['Pattern'].length) * SCALE_X)
-    .attr('height', seq_height)
-    .attr('opacity', HIGHLIGHT_OPACITY)
-    .style('fill', DELETION_COLOR)
-    .style('stroke', 'transparent');
-  
-  // Reference sequence text
-  seq_svgs.append('text')
-    .attr('x', 0)
-    .attr('y', seq_height / 2)
-    .attr('dy', '.5ex')
-    .attr('textLength', content_width)
-    .style('font-family', 'monospace')
-    .style('font-weight', 'bold')
-    .text(ref_seq);
-    
-  return seq_svgs;
-}
-
-function make_seq_svgs_combined(
+function make_seq_svgs(
   scheme_svg,
   labels_width,
   bar_width,
@@ -187,7 +108,7 @@ function make_seq_svgs_combined(
   seq_height,
   ref_seq,
   microhomologies,
-  cut_pos,
+  bolded,
 ) {
   var label_svgs = scheme_svg.append('g')
     .style('overflow', 'visible')
@@ -226,8 +147,8 @@ function make_seq_svgs_combined(
         .attr('y', seq_height / 2)
         .attr('dy', '.5ex')
         .style('font-family', 'monospace')
-        .style('font-weight', microhomologies[micro_idx]['Bold'] == 1 ? 'bold' : 'normal')
-        .text(microhomologies[micro_idx]['Name'] + (microhomologies[micro_idx]['Bold'] == 1 ? ' *' : ''));
+        .style('font-weight', bolded.includes(microhomologies[micro_idx]['Name']) ? 'bold' : 'normal')
+        .text(microhomologies[micro_idx]['Name'] + (bolded.includes(microhomologies[micro_idx]['Name']) ? ' *' : ''));
   }
 
   return seq_svgs;
@@ -267,7 +188,7 @@ function sort_microhomologies(microhomologies) {
   )
 }
 
-function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined) {
+function make_schemes(content_selector, Breaks, Strand, Celltype, Type, Boldtype) {
   var dna_length = REF_SEQ[Celltype][Strand].length;
   var scheme_width = dna_length * SCALE_X;
   var labels_width = 100;
@@ -305,15 +226,7 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   var areas_y = primer_y;
   var seq_y =  primer_y + primer_height + pad; 
 
-  var scheme_height;
-  var total_scheme_height;
-  if (combined) {
-    scheme_height = null;
-    total_scheme_height = seq_y + microhomologies.length * seq_height; 
-  } else {
-    scheme_height = seq_y + seq_height + pad;
-    total_scheme_height = scheme_height * microhomologies.length;
-  }
+  var total_scheme_height = seq_y + microhomologies.length * seq_height;
 
   var title_y = 0;
   var scheme_y = title_y + title_height + pad;
@@ -337,39 +250,10 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
       .style('font-size', title_font_size)
       .text(get_title(Breaks, Strand, Celltype, Type));
 
-  var scheme_svg_outer = main_svg.append('g')
+  var scheme_svg = main_svg.append('g')
     .attr('transform', `translate(0, ${scheme_y})`)
     .attr('width', total_width)
     .attr('height', total_scheme_height);
-
-  var scheme_svg;
-  if (combined) {
-    scheme_svg = scheme_svg_outer;
-  } else {
-    scheme_svg = scheme_svg_outer
-      .selectAll('g')
-      .data(microhomologies)
-      .enter()
-      .append('g')
-        .attr('transform', (d, i) => `translate(0, ${i * scheme_height})`)
-        .attr('width', total_width)
-        .attr('height', scheme_height);
-  }
-
-  // The label SVGs
-  if (!combined) {
-    scheme_svg.append('g')
-        .attr('width', labels_width)
-        .attr('height', scheme_height)
-        .style('overflow', 'visible')
-      .append('text')
-        .attr('x', 0)
-        .attr('y', scheme_height / 2)
-        .attr('dy', '.5ex')
-        .style('font-family', 'monospace')
-        .style('font-weight', d => d['Bold'] == 1 ? 'bold' : 'light')
-        .text(d => d['Name'] + (d['Bold'] == 1 ? ' *' : ''));
-  }
 
   // The scale bar at the top
   var scale_svgs = scheme_svg.append('g')
@@ -475,26 +359,16 @@ function make_schemes(content_selector, Breaks, Strand, Celltype, Type, combined
   }
 
   // The actual microhomologies
-  if (combined) {
-    make_seq_svgs_combined(
-      scheme_svg,
-      labels_width,
-      scheme_width,
-      seq_y,
-      seq_height,
-      REF_SEQ[Celltype][Strand],
-      microhomologies,
-    );
-  } else {
-    make_seq_svgs_separate(
-      scheme_svg,
-      labels_width,
-      scheme_width,
-      seq_y,
-      seq_height,
-      REF_SEQ[Celltype][Strand],
-    );
-  }
+  make_seq_svgs(
+    scheme_svg,
+    labels_width,
+    scheme_width,
+    seq_y,
+    seq_height,
+    REF_SEQ[Celltype][Strand],
+    microhomologies,
+    BOLDED[Boldtype][Celltype][Breaks],
+  )
 
   // Cut position
   for (var cut_pos of CUT_POS[Celltype][Breaks][Strand]) {

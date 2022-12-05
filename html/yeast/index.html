@@ -19,10 +19,10 @@
       <option value="all">All</option>
       <option value="exon_exon">Exon & Exon</option>
     </select>
-    <label>Display format:</label>
-    <select name="combined" id="combined" onchange="update_schemes()">
-      <option value="combined" selected>Combined</option>
-      <option value="separate">Separate</option>
+    <label>Bolded:</label>
+    <select name="Boldtype" id="Boldtype" onchange="update_schemes()">
+      <option value="WT" selected>WT</option>
+      <option value="KO">KO</option>
     </select>
     <button onclick="download_svg()" style="margin-right: 10px;">
       Download SVG
@@ -58,12 +58,11 @@
     var Strand = document.querySelector("#Strand").value;
     var Celltype = document.querySelector("#Celltype").value;
     var Type = document.querySelector("#Type").value;
-    var combined = document.querySelector("#combined").value;
 
     Breaks = {'2dsb': '2DSB'}[Breaks];
-    Celltype = {'wt': 'WT', 'db': 'BranchD'}[Celltype];
+    Celltype = {'wt': 'WT', 'db': 'Branch'}[Celltype];
 
-    return `yeast_${Breaks}_${Strand}_${Celltype}_${combined}.svg`;
+    return `yeast_${Breaks}_${Strand}_${Celltype}.svg`;
   }
 
   function get_svg_text() {
@@ -97,7 +96,6 @@
           document.querySelector("#Strand").value = Strand;
           document.querySelector("#Celltype").value = Celltype;
           document.querySelector("#Type").value = 'all';
-          document.querySelector("#combined").value = 'combined';
           update_schemes();
           zip.file(get_svg_file_name(), get_svg_text());
         }
@@ -116,7 +114,7 @@
     var Breaks = document.querySelector("#Breaks");
     var Strand = document.querySelector("#Strand");
     var Type = document.querySelector("#Type");
-    var combined = document.querySelector("#combined");
+    var Boldtype = document.querySelector("#Boldtype");
 
     for (var option of Breaks.options) {
       option.disabled = false;
@@ -139,7 +137,7 @@
       `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
       `${Strand.value} ` +
       `${Celltype.options[Celltype.selectedIndex].innerHTML} ` +
-      `Microhomologies (${combined.value})`
+      'Microhomologies'
     );
     make_schemes(
       '#schemes',
@@ -147,7 +145,7 @@
       Strand.value,
       Celltype.value,
       Type.value,
-      combined.value == "combined"
+      Boldtype.value,
     );
   }
 

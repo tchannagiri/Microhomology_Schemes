@@ -2949,6 +2949,53 @@ var MICROHOMOLOGIES = [
   }
 ];
 
+var BOLDED = {
+  "WT": {
+    "wt": {
+      "2dsb": [
+        "EE58",
+        "EE63",
+        "EE64",
+        "EE65",
+        "EE67",
+        "EE58R",
+        "EE63R",
+        "EE64R",
+        "EE65R"
+      ]
+    },
+    "db": {
+      "2dsb": [
+        "EE58",
+        "EE63",
+        "EE64",
+        "EE65",
+        "EE67",
+        "EE58R",
+        "EE63R",
+        "EE64R",
+        "EE65R"
+      ]
+    }
+  },
+  "KO": {
+    "wt": {
+      "2dsb": [
+        "EE63",
+        "EE63R",
+        "EE65R"
+      ]
+    },
+    "db": {
+      "2dsb": [
+        "EE63",
+        "EE63R",
+        "EE65R"
+      ]
+    }
+  }
+};
+
 var REF_SEQ = {
   "wt": {
     "Forward": "GCCTCTTTAAAAGCTTGACCGAGAGCAATCCCGCAGTCTTCAGTGGTGTGATGGTCGTCTATGTGTAAGTCACCAATGCACTCAACGATTAGCGACCAGCCGGAATGCTTGGGTATGTTAATATGGACTAAAGGAGGCTTTTCTGCAGGTCGACTCTAGAACCACTCTACAAAACCAAAACCAGGGTTTATAAAATTATACTGTTGCGGAAAGCTGAAACTAAAAGAAAAACCCGACTATGCTATTTTAATCATTGAAAACGAATTTATTTAGATCCCCGTACAGGATCCCCCGGGTACCGAGCTCGAATTTTTACTAACAAATGGTATTATTTCCAACAGCCAGAGCATGTATCATATGGTCCAGAAACCCTATACCTGTGTGGACGTTAATCACTTGCGATTGTGTGGCCTGTTCTGCTACTG",
