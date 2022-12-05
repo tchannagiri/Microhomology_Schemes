@@ -72,11 +72,12 @@
     var Strand = document.querySelector("#Strand").value;
     var Celltype = document.querySelector("#Celltype").value;
     var Type = document.querySelector("#Type").value;
+    var Boldtype = document.querySelector("#Boldtype").value;
 
     Breaks = {'hg39': 'sgA', 'hg42': 'sgB', '2dsb': '2DSB'}[Breaks];
     Celltype = {'wt': 'Sense', 'db': 'Branch', 'awt': 'Antisense', 'd5': 'Splicing'}[Celltype];
 
-    return `$plasmid_{Breaks}_${Strand}_${Celltype}.svg`;
+    return `$plasmid_{Breaks}_${Strand}_${Celltype}_${Boldtype}.svg`;
   }
 
   function get_svg_text() {

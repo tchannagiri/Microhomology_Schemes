@@ -6,9 +6,6 @@ MMEJ_LIST_CSV = os.path.join('csv', 'plasmid', 'Sense_MH_list.csv')
 MMEJ_LIST_ANTI_CSV = os.path.join('csv', 'plasmid', 'Antisense_MH_list.csv')
 SCHEMES_DATA_JS = os.path.join('html', 'plasmid', 'data.js')
 
-
-
-
 JS_VARS = {
   'BOLDED': {
     'Default': {
