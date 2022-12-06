@@ -158,7 +158,7 @@ JS_VARS = {
     '2dsb': '2 DSB',
     'Forward': 'Forward strand',
     'Reverse': 'Reverse strand',
-    'wt': 'Wild Type',
+    'wt': 'Antisense',
     'db': 'BranchΔ',
     'all': None,
     'exon_exon': 'Exon-Exon group',

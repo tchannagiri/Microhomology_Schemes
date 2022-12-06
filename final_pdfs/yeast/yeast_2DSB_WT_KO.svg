@@ -22,15 +22,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.60229885"
-     inkscape:cx="691.51718"
-     inkscape:cy="381.04008"
+     inkscape:zoom="2.4091954"
+     inkscape:cx="565.12643"
+     inkscape:cy="501.61975"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1530"
+     inkscape:current-layer="g6293"
      inkscape:document-units="in" />
   <g
      id="g3171"
@@ -43,7 +43,7 @@
          x="2175"
          y="25"
          style="font-size:30px;dominant-baseline:middle;text-anchor:middle;overflow:visible"
-         id="text2">Microhomology scheme: Wild Type, 2 DSB, Forward strand</text>
+         id="text2">Microhomology scheme: Antisense, 2 DSB, Forward strand</text>
     </g>
     <g
        transform="translate(0,53)"
@@ -5238,7 +5238,7 @@
          x="2175"
          y="25"
          style="font-size:30px;dominant-baseline:middle;text-anchor:middle;overflow:visible"
-         id="text3995">Microhomology scheme: Wild Type, 2 DSB, Reverse strand</text>
+         id="text3995">Microhomology scheme: Antisense, 2 DSB, Reverse strand</text>
     </g>
     <g
        transform="translate(0,53)"

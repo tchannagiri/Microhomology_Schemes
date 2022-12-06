@@ -3296,7 +3296,7 @@ var LABELS = {
   "2dsb": "2 DSB",
   "Forward": "Forward strand",
   "Reverse": "Reverse strand",
-  "wt": "Wild Type",
+  "wt": "Antisense",
   "db": "Branch\u0394",
   "all": null,
   "exon_exon": "Exon-Exon group",

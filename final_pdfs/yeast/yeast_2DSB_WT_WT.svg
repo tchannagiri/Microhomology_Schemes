@@ -4,7 +4,7 @@
    height="8.5in"
    version="1.1"
    id="svg1530"
-   sodipodi:docname="yeast_2DSB_Forward_WT.svg"
+   sodipodi:docname="yeast_2DSB_WT_WT.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.9497549"
-     inkscape:cx="528.03097"
-     inkscape:cy="155.30323"
+     inkscape:zoom="2.6863125"
+     inkscape:cx="535.12017"
+     inkscape:cy="506.8286"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -43,7 +43,7 @@
          x="2175"
          y="25"
          style="font-size:30px;dominant-baseline:middle;text-anchor:middle;overflow:visible"
-         id="text2">Microhomology scheme: Wild Type, 2 DSB, Forward strand</text>
+         id="text2">Microhomology scheme: Antisense, 2 DSB, Forward strand</text>
     </g>
     <g
        transform="translate(0,53)"
@@ -5238,7 +5238,7 @@
          x="2175"
          y="25"
          style="font-size:30px;dominant-baseline:middle;text-anchor:middle;overflow:visible"
-         id="text3941">Microhomology scheme: Wild Type, 2 DSB, Reverse strand</text>
+         id="text3941">Microhomology scheme: Antisense, 2 DSB, Reverse strand</text>
     </g>
     <g
        transform="translate(0,53)"
