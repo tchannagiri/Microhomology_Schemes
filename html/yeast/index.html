@@ -66,7 +66,7 @@
     var Boldtype = document.querySelector("#Boldtype").value;
 
     Breaks = {'2dsb': '2DSB'}[Breaks];
-    Celltype = {'wt': 'WT', 'db': 'Branch'}[Celltype];
+    Celltype = {'wt': 'Sense', 'db': 'Branch'}[Celltype];
 
     return `yeast_${Breaks}_${Strand}_${Celltype}_${Boldtype}.svg`;
   }
@@ -98,18 +98,21 @@
     for (var Breaks of ['2dsb']) {
       for (var Strand of ['Forward', 'Reverse']) {
         for (var Celltype of ['wt', 'db']) {
-          document.querySelector("#Breaks").value = Breaks;
-          document.querySelector("#Strand").value = Strand;
-          document.querySelector("#Celltype").value = Celltype;
-          document.querySelector("#Type").value = 'all';
-          update_schemes();
-          zip.file(get_svg_file_name(), get_svg_text());
+          for (var Boldtype of ['WT', 'KO']) {
+            document.querySelector("#Breaks").value = Breaks;
+            document.querySelector("#Strand").value = Strand;
+            document.querySelector("#Celltype").value = Celltype;
+            document.querySelector("#Type").value = 'all';
+            document.querySelector("#Boldtype").value = Boldtype;
+            update_schemes();
+            zip.file(get_svg_file_name(), get_svg_text());
+          }
         }
       }
     }
     zip.generateAsync({type:"blob"})
       .then(function(content) {
-          saveAs(content, "all_schemes.zip");
+          saveAs(content, "yeast_schemes.zip");
       });
   }
 </script>

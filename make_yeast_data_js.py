@@ -156,8 +156,8 @@ JS_VARS = {
   },
   'LABELS': {
     '2dsb': '2 DSB',
-    'Forward': 'Forward strand',
-    'Reverse': 'Reverse strand',
+    'Forward': 'forward strand',
+    'Reverse': 'reverse strand',
     'wt': 'Antisense',
     'db': 'BranchΔ',
     'all': None,

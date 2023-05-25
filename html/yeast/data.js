@@ -3294,8 +3294,8 @@ var PRIMER_TEXT = {
 
 var LABELS = {
   "2dsb": "2 DSB",
-  "Forward": "Forward strand",
-  "Reverse": "Reverse strand",
+  "Forward": "forward strand",
+  "Reverse": "reverse strand",
   "wt": "Antisense",
   "db": "Branch\u0394",
   "all": null,

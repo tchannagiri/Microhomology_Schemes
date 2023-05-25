@@ -3443,12 +3443,12 @@ var PRIMER_TEXT = {
 var LABELS = {
   "hg39": "sgRNA A",
   "hg42": "sgRNA B",
-  "Forward": "Forward strand",
-  "Reverse": "Reverse strand",
+  "Forward": "forward strand",
+  "Reverse": "reverse strand",
   "wt": "Sense/pCMV\u0394",
   "db": "Branch\u0394",
   "awt": "Antisense",
-  "d5": "5' splicing\u0394",
+  "d5": "5' Splicing\u0394",
   "all": null,
   "exon_exon": "Exon-Exon group",
   "exon_intron": "Exon-Intron group"
