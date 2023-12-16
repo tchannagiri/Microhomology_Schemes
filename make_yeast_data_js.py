@@ -171,7 +171,7 @@ microhomologies = [
   pd.read_csv(MMEJ_LIST_CSV)
 ]
 microhomologies = pd.concat(microhomologies, axis='index')
-microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern', 'Bold']]
+microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern']]
 microhomologies = microhomologies.to_dict('records')
 
 with open(SCHEMES_DATA_JS, 'w') as out:

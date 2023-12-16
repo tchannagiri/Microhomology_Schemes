@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-  <title>Plasmid schemes</title>
+  <title>Plasmid 2 schemes</title>
 </head>
 <body>
   <h1>Plasmid schemes</h1>
@@ -14,9 +14,10 @@
     </select>
     <label>Breaks:</label>
     <select name="Breaks" id="Breaks" onchange="update_schemes()">
-      <option value="hg39">sgRNA A</option>
-      <option value="hg42">sgRNA B</option>
-      <option value="2dsb">2 DSB</option>
+      <option value="E">sgRNA E</option>
+      <option value="EI">sgRNA E & I</option>
+      <option value="EJ">sgRNA E & J</option>
+      <option value="KL">sgRNA K & L</option>
     </select>
     <label>Strand:</label>
     <select name="Strand" id="Strand" onchange="update_schemes()">
@@ -27,7 +28,7 @@
     <select name="Type" id="Type" onchange="update_schemes()">
       <option value="all">All</option>
       <option value="exon_exon">Exon & Exon</option>
-      <option value="exon_intron">Exon & Intron</option>
+      <option value="intron_intron">Intron & Intron</option>
     </select>
     <label>Bolded:</label>
     <select name="Boldtype" id="Boldtype" onchange="update_schemes()">
@@ -54,16 +55,6 @@
   function get_label(key, Celltype) {
     if (key in LABELS) {
       return LABELS[key];
-    } else if (key == '2dsb') {
-      if (['wt', 'db'].includes(Celltype)) {
-        return 'sgRNA A & B';
-      } else if (Celltype == 'awt') {
-        return 'sgRNA C & D';
-      } else if (Celltype == 'd5') {
-        return 'sgRNA C\' & D';
-      } else {
-        throw 'Unknown Celltype: ' + Celltype;
-      }
     } else {
       throw 'Unknown key: ' + key;
     }
@@ -79,7 +70,6 @@
     var Type = document.querySelector("#Type").value;
     var Boldtype = document.querySelector("#Boldtype").value;
 
-    Breaks = {'hg39': 'sgA', 'hg42': 'sgB', '2dsb': '2DSB'}[Breaks];
     Celltype = {'wt': 'Sense', 'db': 'Branch', 'awt': 'Antisense', 'd5': 'Splicing'}[Celltype];
 
     return `plasmid_${Breaks}_${Strand}_${Celltype}_${Boldtype}.svg`;
@@ -109,15 +99,17 @@
 
   function download_all_svg() {
     var zip = new JSZip();
-    for (var Breaks of ['hg39', 'hg42', '2dsb']) {
+    for (var Breaks of ['E', 'EI', 'EJ', 'KL']) {
       for (var Strand of ['Forward', 'Reverse']) {
         for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
-          if (['awt', 'd5'].includes(Celltype)) {
-            if (Breaks != '2dsb') {
-              // There is no data for these cases
-              continue;
-            }
+          
+          // There is no data for these cases
+          if (['awt', 'd5'].includes(Celltype) && (Breaks != 'KL')) {
+            continue;
+          } else if (['wt', 'db'].includes(Celltype) && !['E', 'EI', 'EJ'].includes(Breaks)) {
+            continue;
           }
+
           for (var Boldtype of ['Default']) {
             document.querySelector("#Breaks").value = Breaks;
             document.querySelector("#Strand").value = Strand;
@@ -132,7 +124,7 @@
     }
     zip.generateAsync({type:"blob"})
       .then(function(content) {
-          saveAs(content, "plasmid_schemes.zip");
+        saveAs(content, "plasmid_schemes.zip");
       });
   }
 </script>
@@ -146,33 +138,68 @@
     var Boldtype = document.querySelector("#Boldtype");
 
     if (['awt', 'd5'].includes(Celltype.value)) {
-      // Disable all Breaks except for '2dsb' for awt and d5
+      // Disable all Breaks except for 'KL'
       for (var option of Breaks.options) {
-        if (option.value != '2dsb') {
+        if (option.value != 'KL') {
           option.disabled = true;
           option.selected = false;
+        } else {
+          option.disabled = false;
+        }
+      }
+    } else if (['wt', 'db'].includes(Celltype.value)) {
+      // Disable all Breaks except for 'E', 'EI', 'EJ'
+      for (var option of Breaks.options) {
+        if (!['E', 'EI', 'EJ'].includes(option.value)) {
+          option.disabled = true;
+          option.selected = false;
+        } else {
+          option.disabled = false;
         }
       }
     } else {
+      throw "Impossible.";
+    }
+
+    // If no Breaks selected pick the first not disabled
+    if (Breaks.value == '') {
       for (var option of Breaks.options) {
-        option.disabled = false;
+        if (!option.disabled) {
+          option.selected = true;
+          break;
+        }
       }
     }
     
-    if (Breaks.value == '2dsb') {
-      // Disable all Types except for 'exon_exon' for awt and d5
+    if (['E', 'EI', 'EJ'].includes(Breaks.value)) {
+      // Disable all Types except for 'exon_exon'
       for (var option of Type.options) {
         if (!['all', 'exon_exon'].includes(option.value)) {
           option.disabled = true;
           option.selected = false;
+        } else {
+          option.disabled = false;
         }
       }
-    } else {
+    } else if (Breaks.value == "KL") {
       for (var option of Type.options) {
         option.disabled = false;
       }
+    } else {
+      throw "Imossible.";
     }
 
+    // If no Type selected pick the first not disabled
+    if (Type.value == '') {
+      for (var option of Type.options) {
+        if (!option.disabled) {
+          option.selected = true;
+          break;
+        }
+      }
+    }
+console.log(Celltype)
+console.log(Strand)
     document.querySelector("#title").innerHTML = (
       `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
       `${Strand.value} ` +

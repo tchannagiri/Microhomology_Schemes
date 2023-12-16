@@ -317,7 +317,7 @@ JS_VARS = {
       },
     },
     'db': {
-    'hg39': {
+      'hg39': {
         'Forward': [
           {'name': 'exon1', 'start': 21, 'end': 72},
           {'name': 'intron', 'start': 73, 'end': 128},
@@ -355,7 +355,7 @@ JS_VARS = {
       },
     },
     'awt': {
-    '2dsb': {
+      '2dsb': {
         'Forward': [ 
           {'name': 'exon1', 'start': 21, 'end': 66},
           {'name': 'intron', 'start': 67, 'end': 195},
@@ -371,7 +371,7 @@ JS_VARS = {
       },
     },
     'd5': {
-    '2dsb': {
+      '2dsb': {
         'Forward': [
           {'name': 'exon1', 'start': 21, 'end': 66},
           {'name': 'intron', 'start': 67, 'end': 195},
@@ -566,7 +566,7 @@ microhomologies = [
   pd.read_csv(MMEJ_LIST_ANTI_CSV),
 ]
 microhomologies = pd.concat(microhomologies, axis='index')
-microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern', 'Bold']]
+microhomologies = microhomologies[['Name', 'Celltype', 'Breaks', 'Type', 'Strand', 'Left', 'Right', 'Pattern']]
 microhomologies = microhomologies.to_dict('records')
 
 with open(SCHEMES_DATA_JS, 'w') as out:
