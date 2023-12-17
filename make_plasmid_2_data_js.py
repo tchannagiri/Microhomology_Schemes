@@ -194,42 +194,42 @@ JS_VARS = {
   'BARS': {
     'wt': {
       'Forward': [
-        {'name': 'exon1', 'start': 1, 'end': 252},
+        {'name': 'dsred', 'start': 1, 'end': 252},
       ],
       'Reverse': [
-        {'name': 'exon1', 'start': 1, 'end': 252},
+        {'name': 'dsred', 'start': 1, 'end': 252},
       ],
     },
     'db': {
       'Forward': [
-        {'name': 'exon1', 'start': 1, 'end': 252},
+        {'name': 'dsred', 'start': 1, 'end': 252},
       ],
       'Reverse': [
-        {'name': 'exon1', 'start': 1, 'end': 252},
+        {'name': 'dsred', 'start': 1, 'end': 252},
       ],
     },
     'awt': {
       'Forward': [
-        {'name': 'exon1', 'start': 1, 'end': 66},
+        {'name': 'dsred', 'start': 1, 'end': 66},
         {'name': 'intron', 'start': 67, 'end': 201},
-        {'name': 'exon2', 'start': 202, 'end': 253},
+        {'name': 'dsred', 'start': 202, 'end': 253},
       ],
       'Reverse': [
-        {'name': 'exon2', 'start': 1, 'end': 52},
+        {'name': 'dsred', 'start': 1, 'end': 52},
         {'name': 'intron', 'start': 53, 'end': 187},
-        {'name': 'exon1', 'start': 188, 'end': 253},
+        {'name': 'dsred', 'start': 188, 'end': 253},
       ],
     },
     'd5': {
       'Forward': [
-        {'name': 'exon1', 'start': 1, 'end': 66},
+        {'name': 'dsred', 'start': 1, 'end': 66},
         {'name': 'intron', 'start': 67, 'end': 195},
-        {'name': 'exon2', 'start': 196, 'end': 247},
+        {'name': 'dsred', 'start': 196, 'end': 247},
       ],
       'Reverse': [
-        {'name': 'exon2', 'start': 1, 'end': 52},
+        {'name': 'dsred', 'start': 1, 'end': 52},
         {'name': 'intron', 'start': 53, 'end': 181},
-        {'name': 'exon1', 'start': 182, 'end': 247},
+        {'name': 'dsred', 'start': 182, 'end': 247},
       ],
     },
   },
@@ -276,13 +276,11 @@ JS_VARS = {
     },
   },
   'BAR_COLOR': {
-    'exon1': '#ff0000',
-    'exon2': '#ff0000',
-    'intron': '#548235',
+    'dsred': '#4472c4',
+    'intron': '#00b050',
   },
   'BAR_TEXT': {
-    'exon1': 'Exon1',
-    'exon2': 'Exon2',
+    'dsred': 'DS Red',
     'intron': 'Intron',
   },
   'AREAS_COLOR': {
@@ -291,6 +289,7 @@ JS_VARS = {
     'intron': '#548235',
     'region1': '#ff0000',
     'region2': '#548235',
+    'splice': '#548235',
   },
   'AREAS_TEXT': {
     'exon1': 'Exon1',

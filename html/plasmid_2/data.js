@@ -7932,14 +7932,14 @@ var BARS = {
   "wt": {
     "Forward": [
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 1,
         "end": 252
       }
     ],
     "Reverse": [
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 1,
         "end": 252
       }
@@ -7948,14 +7948,14 @@ var BARS = {
   "db": {
     "Forward": [
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 1,
         "end": 252
       }
     ],
     "Reverse": [
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 1,
         "end": 252
       }
@@ -7964,7 +7964,7 @@ var BARS = {
   "awt": {
     "Forward": [
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 1,
         "end": 66
       },
@@ -7974,14 +7974,14 @@ var BARS = {
         "end": 201
       },
       {
-        "name": "exon2",
+        "name": "dsred",
         "start": 202,
         "end": 253
       }
     ],
     "Reverse": [
       {
-        "name": "exon2",
+        "name": "dsred",
         "start": 1,
         "end": 52
       },
@@ -7991,7 +7991,7 @@ var BARS = {
         "end": 187
       },
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 188,
         "end": 253
       }
@@ -8000,7 +8000,7 @@ var BARS = {
   "d5": {
     "Forward": [
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 1,
         "end": 66
       },
@@ -8010,14 +8010,14 @@ var BARS = {
         "end": 195
       },
       {
-        "name": "exon2",
+        "name": "dsred",
         "start": 196,
         "end": 247
       }
     ],
     "Reverse": [
       {
-        "name": "exon2",
+        "name": "dsred",
         "start": 1,
         "end": 52
       },
@@ -8027,7 +8027,7 @@ var BARS = {
         "end": 181
       },
       {
-        "name": "exon1",
+        "name": "dsred",
         "start": 182,
         "end": 247
       }
@@ -8123,14 +8123,12 @@ var CUT_POS = {
 };
 
 var BAR_COLOR = {
-  "exon1": "#ff0000",
-  "exon2": "#ff0000",
-  "intron": "#548235"
+  "dsred": "#4472c4",
+  "intron": "#00b050"
 };
 
 var BAR_TEXT = {
-  "exon1": "Exon1",
-  "exon2": "Exon2",
+  "dsred": "DS Red",
   "intron": "Intron"
 };
 
@@ -8139,7 +8137,8 @@ var AREAS_COLOR = {
   "exon2": "#ff0000",
   "intron": "#548235",
   "region1": "#ff0000",
-  "region2": "#548235"
+  "region2": "#548235",
+  "splice": "#548235"
 };
 
 var AREAS_TEXT = {
