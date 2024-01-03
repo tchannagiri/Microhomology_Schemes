@@ -7558,6 +7558,1766 @@ var MICROHOMOLOGIES = [
     "Left": 27,
     "Right": 181,
     "Pattern": "GGG"
+  },
+  {
+    "Name": "EE1",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 21,
+    "Right": 225,
+    "Pattern": "GAA"
+  },
+  {
+    "Name": "EE1",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 21,
+    "Right": 231,
+    "Pattern": "GAA"
+  },
+  {
+    "Name": "EE1R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 21,
+    "Right": 225,
+    "Pattern": "TTC"
+  },
+  {
+    "Name": "EE1R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 21,
+    "Right": 231,
+    "Pattern": "TTC"
+  },
+  {
+    "Name": "EE2",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 24,
+    "Right": 210,
+    "Pattern": "CTTC"
+  },
+  {
+    "Name": "EE2",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 24,
+    "Right": 216,
+    "Pattern": "CTTC"
+  },
+  {
+    "Name": "EE2R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 35,
+    "Right": 221,
+    "Pattern": "GAAG"
+  },
+  {
+    "Name": "EE2R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 35,
+    "Right": 227,
+    "Pattern": "GAAG"
+  },
+  {
+    "Name": "EE3",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 221,
+    "Pattern": "AGG"
+  },
+  {
+    "Name": "EE3",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 227,
+    "Pattern": "AGG"
+  },
+  {
+    "Name": "EE3R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 25,
+    "Right": 217,
+    "Pattern": "CCT"
+  },
+  {
+    "Name": "EE3R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 25,
+    "Right": 223,
+    "Pattern": "CCT"
+  },
+  {
+    "Name": "EE4",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 200,
+    "Pattern": "AGGACGGC"
+  },
+  {
+    "Name": "EE4",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 29,
+    "Right": 206,
+    "Pattern": "AGGACGGC"
+  },
+  {
+    "Name": "EE4R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 212,
+    "Pattern": "GCCGTCCT"
+  },
+  {
+    "Name": "EE4R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 218,
+    "Pattern": "GCCGTCCT"
+  },
+  {
+    "Name": "EE5",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 36,
+    "Right": 204,
+    "Pattern": "CGGC"
+  },
+  {
+    "Name": "EE5",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 36,
+    "Right": 210,
+    "Pattern": "CGGC"
+  },
+  {
+    "Name": "EE5R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 209,
+    "Pattern": "GCCG"
+  },
+  {
+    "Name": "EE5R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 215,
+    "Pattern": "GCCG"
+  },
+  {
+    "Name": "EE6",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 40,
+    "Right": 223,
+    "Pattern": "GTG"
+  },
+  {
+    "Name": "EE6",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 40,
+    "Right": 229,
+    "Pattern": "GTG"
+  },
+  {
+    "Name": "EE6R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 23,
+    "Right": 206,
+    "Pattern": "CAC"
+  },
+  {
+    "Name": "EE6R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 23,
+    "Right": 212,
+    "Pattern": "CAC"
+  },
+  {
+    "Name": "EE7",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 42,
+    "Right": 205,
+    "Pattern": "GGC"
+  },
+  {
+    "Name": "EE7",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 42,
+    "Right": 211,
+    "Pattern": "GGC"
+  },
+  {
+    "Name": "EE7R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 204,
+    "Pattern": "GCC"
+  },
+  {
+    "Name": "EE7R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 41,
+    "Right": 210,
+    "Pattern": "GCC"
+  },
+  {
+    "Name": "EE8",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 45,
+    "Right": 202,
+    "Pattern": "GAC"
+  },
+  {
+    "Name": "EE8",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 45,
+    "Right": 208,
+    "Pattern": "GAC"
+  },
+  {
+    "Name": "EE8R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 201,
+    "Pattern": "GTC"
+  },
+  {
+    "Name": "EE8R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 207,
+    "Pattern": "GTC"
+  },
+  {
+    "Name": "EE9",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 49,
+    "Right": 223,
+    "Pattern": "GTGA"
+  },
+  {
+    "Name": "EE9",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 49,
+    "Right": 229,
+    "Pattern": "GTGA"
+  },
+  {
+    "Name": "EE9R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 22,
+    "Right": 196,
+    "Pattern": "TCAC"
+  },
+  {
+    "Name": "EE9R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 22,
+    "Right": 202,
+    "Pattern": "TCAC"
+  },
+  {
+    "Name": "EE10",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 51,
+    "Right": 202,
+    "Pattern": "GAC"
+  },
+  {
+    "Name": "EE10",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 51,
+    "Right": 208,
+    "Pattern": "GAC"
+  },
+  {
+    "Name": "EE10R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 195,
+    "Pattern": "GTC"
+  },
+  {
+    "Name": "EE10R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 201,
+    "Pattern": "GTC"
+  },
+  {
+    "Name": "EE11",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 56,
+    "Right": 221,
+    "Pattern": "AGG"
+  },
+  {
+    "Name": "EE11",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 56,
+    "Right": 227,
+    "Pattern": "AGG"
+  },
+  {
+    "Name": "EE11R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 25,
+    "Right": 190,
+    "Pattern": "CCT"
+  },
+  {
+    "Name": "EE11R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 25,
+    "Right": 196,
+    "Pattern": "CCT"
+  },
+  {
+    "Name": "EE12",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 55,
+    "Right": 199,
+    "Pattern": "CAGGAC"
+  },
+  {
+    "Name": "EE12",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Forward",
+    "Left": 55,
+    "Right": 205,
+    "Pattern": "CAGGAC"
+  },
+  {
+    "Name": "EE12R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 188,
+    "Pattern": "GTCCTG"
+  },
+  {
+    "Name": "EE12R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "exon_exon",
+    "Strand": "Reverse",
+    "Left": 44,
+    "Right": 194,
+    "Pattern": "GTCCTG"
+  },
+  {
+    "Name": "II1",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 67,
+    "Right": 167,
+    "Pattern": "CTG"
+  },
+  {
+    "Name": "II1",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 67,
+    "Right": 167,
+    "Pattern": "CTG"
+  },
+  {
+    "Name": "II1R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 79,
+    "Right": 179,
+    "Pattern": "CAG"
+  },
+  {
+    "Name": "II1R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 85,
+    "Right": 185,
+    "Pattern": "CAG"
+  },
+  {
+    "Name": "II2",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 73,
+    "Right": 148,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II2",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 73,
+    "Right": 148,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II2R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 98,
+    "Right": 173,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II2R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 104,
+    "Right": 179,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II3",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 73,
+    "Right": 190,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II3",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 73,
+    "Right": 190,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II3R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 56,
+    "Right": 173,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II3R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 62,
+    "Right": 179,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II4",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 74,
+    "Right": 146,
+    "Pattern": "TAA"
+  },
+  {
+    "Name": "II4",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 74,
+    "Right": 146,
+    "Pattern": "TAA"
+  },
+  {
+    "Name": "II4R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 100,
+    "Right": 172,
+    "Pattern": "TTA"
+  },
+  {
+    "Name": "II4R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 106,
+    "Right": 178,
+    "Pattern": "TTA"
+  },
+  {
+    "Name": "II5",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 75,
+    "Right": 172,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II5",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 75,
+    "Right": 172,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II5R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 74,
+    "Right": 171,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II5R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 80,
+    "Right": 177,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II6",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 75,
+    "Right": 173,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II6",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 75,
+    "Right": 173,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II6R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 73,
+    "Right": 171,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II6R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 79,
+    "Right": 177,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II7",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 76,
+    "Right": 147,
+    "Pattern": "AATA"
+  },
+  {
+    "Name": "II7",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 76,
+    "Right": 147,
+    "Pattern": "AATA"
+  },
+  {
+    "Name": "II7R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 98,
+    "Right": 169,
+    "Pattern": "TATT"
+  },
+  {
+    "Name": "II7R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 104,
+    "Right": 175,
+    "Pattern": "TATT"
+  },
+  {
+    "Name": "II8",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 77,
+    "Right": 190,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II8",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 77,
+    "Right": 190,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II8R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 56,
+    "Right": 169,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II8R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 62,
+    "Right": 175,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II9",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 80,
+    "Right": 190,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II9",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 80,
+    "Right": 190,
+    "Pattern": "ATA"
+  },
+  {
+    "Name": "II9R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 56,
+    "Right": 166,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II9R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 62,
+    "Right": 172,
+    "Pattern": "TAT"
+  },
+  {
+    "Name": "II10",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 78,
+    "Right": 146,
+    "Pattern": "TAATAC"
+  },
+  {
+    "Name": "II10",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 78,
+    "Right": 146,
+    "Pattern": "TAATAC"
+  },
+  {
+    "Name": "II10R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 97,
+    "Right": 165,
+    "Pattern": "GTATTA"
+  },
+  {
+    "Name": "II10R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 103,
+    "Right": 171,
+    "Pattern": "GTATTA"
+  },
+  {
+    "Name": "II11",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 82,
+    "Right": 165,
+    "Pattern": "ACC"
+  },
+  {
+    "Name": "II11",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 82,
+    "Right": 165,
+    "Pattern": "ACC"
+  },
+  {
+    "Name": "II11R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 81,
+    "Right": 164,
+    "Pattern": "GGT"
+  },
+  {
+    "Name": "II11R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 87,
+    "Right": 170,
+    "Pattern": "GGT"
+  },
+  {
+    "Name": "II12",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 83,
+    "Right": 188,
+    "Pattern": "CCAT"
+  },
+  {
+    "Name": "II12",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 83,
+    "Right": 188,
+    "Pattern": "CCAT"
+  },
+  {
+    "Name": "II12R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 57,
+    "Right": 162,
+    "Pattern": "ATGG"
+  },
+  {
+    "Name": "II12R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 63,
+    "Right": 168,
+    "Pattern": "ATGG"
+  },
+  {
+    "Name": "II13",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 85,
+    "Right": 192,
+    "Pattern": "ATT"
+  },
+  {
+    "Name": "II13",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 85,
+    "Right": 192,
+    "Pattern": "ATT"
+  },
+  {
+    "Name": "II13R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 54,
+    "Right": 161,
+    "Pattern": "AAT"
+  },
+  {
+    "Name": "II13R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 60,
+    "Right": 167,
+    "Pattern": "AAT"
+  },
+  {
+    "Name": "II14",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 86,
+    "Right": 182,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II14",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 86,
+    "Right": 182,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II14R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 64,
+    "Right": 160,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II14R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 70,
+    "Right": 166,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II15",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 90,
+    "Right": 193,
+    "Pattern": "TTA"
+  },
+  {
+    "Name": "II15",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 90,
+    "Right": 193,
+    "Pattern": "TTA"
+  },
+  {
+    "Name": "II15R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 53,
+    "Right": 156,
+    "Pattern": "TAA"
+  },
+  {
+    "Name": "II15R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 59,
+    "Right": 162,
+    "Pattern": "TAA"
+  },
+  {
+    "Name": "II16",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 91,
+    "Right": 157,
+    "Pattern": "TAG"
+  },
+  {
+    "Name": "II16",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 91,
+    "Right": 157,
+    "Pattern": "TAG"
+  },
+  {
+    "Name": "II16R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 89,
+    "Right": 155,
+    "Pattern": "CTA"
+  },
+  {
+    "Name": "II16R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 95,
+    "Right": 161,
+    "Pattern": "CTA"
+  },
+  {
+    "Name": "II17",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 92,
+    "Right": 160,
+    "Pattern": "AGT"
+  },
+  {
+    "Name": "II17",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 92,
+    "Right": 160,
+    "Pattern": "AGT"
+  },
+  {
+    "Name": "II17R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 86,
+    "Right": 154,
+    "Pattern": "ACT"
+  },
+  {
+    "Name": "II17R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 92,
+    "Right": 160,
+    "Pattern": "ACT"
+  },
+  {
+    "Name": "II18",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 90,
+    "Right": 183,
+    "Pattern": "TTAGT"
+  },
+  {
+    "Name": "II18",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 90,
+    "Right": 183,
+    "Pattern": "TTAGT"
+  },
+  {
+    "Name": "II18R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 61,
+    "Right": 154,
+    "Pattern": "ACTAA"
+  },
+  {
+    "Name": "II18R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 67,
+    "Right": 160,
+    "Pattern": "ACTAA"
+  },
+  {
+    "Name": "II19",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 93,
+    "Right": 145,
+    "Pattern": "GTAA"
+  },
+  {
+    "Name": "II19",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 93,
+    "Right": 145,
+    "Pattern": "GTAA"
+  },
+  {
+    "Name": "II19R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 100,
+    "Right": 152,
+    "Pattern": "TTAC"
+  },
+  {
+    "Name": "II19R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 106,
+    "Right": 158,
+    "Pattern": "TTAC"
+  },
+  {
+    "Name": "II20",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 95,
+    "Right": 173,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II20",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 95,
+    "Right": 173,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II20R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 73,
+    "Right": 151,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II20R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 79,
+    "Right": 157,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II21",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 95,
+    "Right": 172,
+    "Pattern": "AAAA"
+  },
+  {
+    "Name": "II21",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 95,
+    "Right": 172,
+    "Pattern": "AAAA"
+  },
+  {
+    "Name": "II21R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 73,
+    "Right": 150,
+    "Pattern": "TTTT"
+  },
+  {
+    "Name": "II21R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 79,
+    "Right": 156,
+    "Pattern": "TTTT"
+  },
+  {
+    "Name": "II22",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 97,
+    "Right": 172,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II22",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 97,
+    "Right": 172,
+    "Pattern": "AAA"
+  },
+  {
+    "Name": "II22R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 74,
+    "Right": 149,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II22R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 80,
+    "Right": 155,
+    "Pattern": "TTT"
+  },
+  {
+    "Name": "II23",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 96,
+    "Right": 172,
+    "Pattern": "AAAA"
+  },
+  {
+    "Name": "II23",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 96,
+    "Right": 172,
+    "Pattern": "AAAA"
+  },
+  {
+    "Name": "II23R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 73,
+    "Right": 149,
+    "Pattern": "TTTT"
+  },
+  {
+    "Name": "II23R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 79,
+    "Right": 155,
+    "Pattern": "TTTT"
+  },
+  {
+    "Name": "II24",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 98,
+    "Right": 147,
+    "Pattern": "AAT"
+  },
+  {
+    "Name": "II24",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 98,
+    "Right": 147,
+    "Pattern": "AAT"
+  },
+  {
+    "Name": "II24R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 99,
+    "Right": 148,
+    "Pattern": "ATT"
+  },
+  {
+    "Name": "II24R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 105,
+    "Right": 154,
+    "Pattern": "ATT"
+  },
+  {
+    "Name": "II25",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 99,
+    "Right": 192,
+    "Pattern": "ATT"
+  },
+  {
+    "Name": "II25",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 99,
+    "Right": 192,
+    "Pattern": "ATT"
+  },
+  {
+    "Name": "II25R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 54,
+    "Right": 147,
+    "Pattern": "AAT"
+  },
+  {
+    "Name": "II25R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 60,
+    "Right": 153,
+    "Pattern": "AAT"
+  },
+  {
+    "Name": "II26",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 101,
+    "Right": 162,
+    "Pattern": "TCGA"
+  },
+  {
+    "Name": "II26",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 101,
+    "Right": 162,
+    "Pattern": "TCGA"
+  },
+  {
+    "Name": "II26R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 83,
+    "Right": 144,
+    "Pattern": "TCGA"
+  },
+  {
+    "Name": "II26R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 89,
+    "Right": 150,
+    "Pattern": "TCGA"
+  },
+  {
+    "Name": "II27",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 103,
+    "Right": 159,
+    "Pattern": "GAG"
+  },
+  {
+    "Name": "II27",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 103,
+    "Right": 159,
+    "Pattern": "GAG"
+  },
+  {
+    "Name": "II27R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 87,
+    "Right": 143,
+    "Pattern": "CTC"
+  },
+  {
+    "Name": "II27R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 93,
+    "Right": 149,
+    "Pattern": "CTC"
+  },
+  {
+    "Name": "II28",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 103,
+    "Right": 169,
+    "Pattern": "GAG"
+  },
+  {
+    "Name": "II28",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 103,
+    "Right": 169,
+    "Pattern": "GAG"
+  },
+  {
+    "Name": "II28R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 77,
+    "Right": 143,
+    "Pattern": "CTC"
+  },
+  {
+    "Name": "II28R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 83,
+    "Right": 149,
+    "Pattern": "CTC"
+  },
+  {
+    "Name": "II29",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 104,
+    "Right": 175,
+    "Pattern": "AGC"
+  },
+  {
+    "Name": "II29",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 104,
+    "Right": 175,
+    "Pattern": "AGC"
+  },
+  {
+    "Name": "II29R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 71,
+    "Right": 142,
+    "Pattern": "GCT"
+  },
+  {
+    "Name": "II29R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 77,
+    "Right": 148,
+    "Pattern": "GCT"
+  },
+  {
+    "Name": "II30",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 106,
+    "Right": 178,
+    "Pattern": "CTC"
+  },
+  {
+    "Name": "II30",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 106,
+    "Right": 178,
+    "Pattern": "CTC"
+  },
+  {
+    "Name": "II30R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 68,
+    "Right": 140,
+    "Pattern": "GAG"
+  },
+  {
+    "Name": "II30R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 74,
+    "Right": 146,
+    "Pattern": "GAG"
+  },
+  {
+    "Name": "II31",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 107,
+    "Right": 162,
+    "Pattern": "TCG"
+  },
+  {
+    "Name": "II31",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 107,
+    "Right": 162,
+    "Pattern": "TCG"
+  },
+  {
+    "Name": "II31R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 84,
+    "Right": 139,
+    "Pattern": "CGA"
+  },
+  {
+    "Name": "II31R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 90,
+    "Right": 145,
+    "Pattern": "CGA"
+  },
+  {
+    "Name": "II32",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 109,
+    "Right": 144,
+    "Pattern": "GGT"
+  },
+  {
+    "Name": "II32",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Forward",
+    "Left": 109,
+    "Right": 144,
+    "Pattern": "GGT"
+  },
+  {
+    "Name": "II32R",
+    "Celltype": "d5",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 102,
+    "Right": 137,
+    "Pattern": "ACC"
+  },
+  {
+    "Name": "II32R",
+    "Celltype": "awt",
+    "Breaks": "KL",
+    "Type": "intron_intron",
+    "Strand": "Reverse",
+    "Left": 108,
+    "Right": 143,
+    "Pattern": "ACC"
   }
 ];
 
@@ -7766,6 +9526,33 @@ var AREAS = {
     "KL": {
       "Forward": [
         {
+          "name": "exon1",
+          "start": 21,
+          "end": 66
+        },
+        {
+          "name": "intron1",
+          "start": 67,
+          "end": 111
+        },
+        {
+          "name": "intron2",
+          "start": 139,
+          "end": 195
+        },
+        {
+          "name": "splice",
+          "start": 196,
+          "end": 201
+        },
+        {
+          "name": "exon2",
+          "start": 202,
+          "end": 233
+        }
+      ],
+      "Reverse": [
+        {
           "name": "exon2",
           "start": 21,
           "end": 52
@@ -7796,6 +9583,28 @@ var AREAS = {
   "d5": {
     "KL": {
       "Forward": [
+        {
+          "name": "exon1",
+          "start": 21,
+          "end": 66
+        },
+        {
+          "name": "intron1",
+          "start": 67,
+          "end": 111
+        },
+        {
+          "name": "intron2",
+          "start": 139,
+          "end": 195
+        },
+        {
+          "name": "exon2",
+          "start": 196,
+          "end": 227
+        }
+      ],
+      "Reverse": [
         {
           "name": "exon2",
           "start": 21,

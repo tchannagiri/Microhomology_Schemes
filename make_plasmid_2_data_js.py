@@ -6,7 +6,8 @@ MMEJ_LIST_CSV = [
   os.path.join('csv', 'plasmid_2', 'mmej_color_sgRNAE_1DSB.csv'),
   os.path.join('csv', 'plasmid_2', 'mmej_color_sgRNAE_sgRNAI_2DSB.csv'),
   os.path.join('csv', 'plasmid_2', 'mmej_color_sgRNAE_sgRNAJ_2DSB.csv'),
-  # MAKE THE CSV FILES FOR Antisense and 5'-Splicing!!!
+  os.path.join('csv', 'plasmid_2', 'mmej_color_sgRNAK_sgRNAL_2DSB_Exon_Exon.csv'),
+  os.path.join('csv', 'plasmid_2', 'mmej_color_sgRNAK_sgRNAL_2DSB_intron_intron.csv'),
 ]
 SCHEMES_DATA_JS = os.path.join('html', 'plasmid_2', 'data.js')
 
@@ -123,7 +124,7 @@ JS_VARS = {
           {'name': 'splice', 'start': 196, 'end': 201},
           {'name': 'exon2', 'start': 202, 'end': 233},
         ],
-        'Forward': [
+        'Reverse': [
           {'name': 'exon2', 'start': 21, 'end': 52},
           {'name': 'splice', 'start': 53, 'end': 58},
           {'name': 'intron2', 'start': 59, 'end': 115},
@@ -138,9 +139,9 @@ JS_VARS = {
           {'name': 'exon1', 'start': 21, 'end': 66},
           {'name': 'intron1', 'start': 67, 'end': 111},
           {'name': 'intron2', 'start': 139, 'end': 195},
-          {'name': 'exon2', 'start': 195, 'end': 227},
+          {'name': 'exon2', 'start': 196, 'end': 227},
         ],
-        'Forward': [
+        'Reverse': [
           {'name': 'exon2', 'start': 21, 'end': 52},
           {'name': 'intron2', 'start': 53, 'end': 109},
           {'name': 'intron1', 'start': 137, 'end': 181},
