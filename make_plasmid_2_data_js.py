@@ -107,7 +107,7 @@ JS_VARS = {
           {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'exon1', 'start': 1, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
       },
       'EI': {
@@ -131,16 +131,14 @@ JS_VARS = {
       'KL': {
         'Forward': [
           {'name': 'exon1', 'start': 21, 'end': 66},
-          {'name': 'intron1', 'start': 67, 'end': 111},
-          {'name': 'intron2', 'start': 139, 'end': 195},
+          {'name': 'intron', 'start': 67, 'end': 195},
           {'name': 'splice', 'start': 196, 'end': 201},
           {'name': 'exon2', 'start': 202, 'end': 233},
         ],
         'Reverse': [
           {'name': 'exon2', 'start': 21, 'end': 52},
           {'name': 'splice', 'start': 53, 'end': 58},
-          {'name': 'intron2', 'start': 59, 'end': 115},
-          {'name': 'intron1', 'start': 143, 'end': 187},
+          {'name': 'intron', 'start': 59, 'end': 187},
           {'name': 'exon1', 'start': 188, 'end': 233},
         ],
       }
@@ -149,14 +147,12 @@ JS_VARS = {
       'KL': {
         'Forward': [
           {'name': 'exon1', 'start': 21, 'end': 66},
-          {'name': 'intron1', 'start': 67, 'end': 111},
-          {'name': 'intron2', 'start': 139, 'end': 195},
+          {'name': 'intron', 'start': 67, 'end': 195},
           {'name': 'exon2', 'start': 196, 'end': 227},
         ],
         'Reverse': [
           {'name': 'exon2', 'start': 21, 'end': 52},
-          {'name': 'intron2', 'start': 53, 'end': 109},
-          {'name': 'intron1', 'start': 137, 'end': 181},
+          {'name': 'intron', 'start': 53, 'end': 181},
           {'name': 'exon1', 'start': 182, 'end': 227},
         ],
       }
