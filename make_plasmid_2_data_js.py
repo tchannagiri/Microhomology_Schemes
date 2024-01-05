@@ -15,14 +15,38 @@ JS_VARS = {
   'BOLDED': {
     'Default': {
       'wt': {
-        'E': [],
+        'E': [
+          'EE1', 'EE3,' 'EE9,' 'EE10', 'EE11', 'EE12', 'EE15', 'EE17', 'EE20', 'EE24', 'EE28',
+          'EE35', 'EE36', 'EE38', 'EE40', 'EE41', 'EE43', 'EE44', 'EE45', 'EE46', 'EE47', 'EE51',
+          'EE53', 'EE54', 'EE55', 'EE57', 'EE58', 'EE61', 'EE64', 'EE65', 'EE67', 'EE68', 'EE71',
+          'EE73', 'EE74', 'EE75', 'EE76', 'EE77', 'EE78', 'EE79', 'EE80', 'EE81', 'EE82', 'EE85',
+          'EE86', 'EE87', 'EE88', 'EE89', 'EE90', 'EE91', 'EE92', 'EE93', 'EE94', 'EE95', 'EE96',
+          'EE97', 'EE98', 'EE99', 'EE100', 'EE101',
+        ],
         'EI': [],
-        'EJ': [],
+        'EJ': [
+          'EE1', 'EE2', 'EE4', 'EE5', 'EE6', 'EE7', 'EE8', 'EE9', 'EE10', 'EE11', 'EE12', 'EE13',
+          'EE14', 'EE15', 'EE16', 'EE17', 'EE18', 'EE19', 'EE20', 'EE21', 'EE22', 'EE23',
+          'EE1R', 'EE2R', 'EE4R', 'EE5R', 'EE6R', 'EE7R', 'EE8R', 'EE9R', 'EE10R', 'EE11R', 'EE12R', 'EE13R',
+          'EE14R', 'EE15R', 'EE16R', 'EE17R', 'EE18R', 'EE19R', 'EE20R', 'EE21R', 'EE22R', 'EE23R',
+        ],
       },
       'db': {
-        'E': [],
+        'E': [
+          'EE1', 'EE3,' 'EE9,' 'EE10', 'EE11', 'EE12', 'EE15', 'EE17', 'EE20', 'EE24', 'EE28',
+          'EE35', 'EE36', 'EE38', 'EE40', 'EE41', 'EE43', 'EE44', 'EE45', 'EE46', 'EE47', 'EE51',
+          'EE53', 'EE54', 'EE55', 'EE57', 'EE58', 'EE61', 'EE64', 'EE65', 'EE67', 'EE68', 'EE71',
+          'EE73', 'EE74', 'EE75', 'EE76', 'EE77', 'EE78', 'EE79', 'EE80', 'EE81', 'EE82', 'EE85',
+          'EE86', 'EE87', 'EE88', 'EE89', 'EE90', 'EE91', 'EE92', 'EE93', 'EE94', 'EE95', 'EE96',
+          'EE97', 'EE98', 'EE99', 'EE100', 'EE101',
+        ],
         'EI': [],
-        'EJ': [],
+        'EJ': [
+          'EE1', 'EE2', 'EE4', 'EE5', 'EE6', 'EE7', 'EE8', 'EE9', 'EE10', 'EE11', 'EE12', 'EE13',
+          'EE14', 'EE15', 'EE16', 'EE17', 'EE18', 'EE19', 'EE20', 'EE21', 'EE22', 'EE23',
+          'EE1R', 'EE2R', 'EE4R', 'EE5R', 'EE6R', 'EE7R', 'EE8R', 'EE9R', 'EE10R', 'EE11R', 'EE12R', 'EE13R',
+          'EE14R', 'EE15R', 'EE16R', 'EE17R', 'EE18R', 'EE19R', 'EE20R', 'EE21R', 'EE22R', 'EE23R',
+        ],
       },
       'awt': {
         'KL': [],
@@ -54,64 +78,52 @@ JS_VARS = {
     'wt': {
       'E': {
         'Forward': [
-          {'name': 'region1', 'start': 21, 'end': 72},
-          {'name': 'region2', 'start': 73, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'region2', 'start': 21, 'end': 180},
-          {'name': 'region1', 'start': 181, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
       },
       'EI': {
         'Forward': [
-          {'name': 'region1', 'start': 21, 'end': 72},
-          {'name': 'region2', 'start': 131, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'region2', 'start': 21, 'end': 122},
-          {'name': 'region1', 'start': 181, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
       },
       'EJ': {
         'Forward': [
-          {'name': 'region1', 'start': 21, 'end': 72},
-          {'name': 'region2', 'start': 195, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'region2', 'start': 21, 'end': 58},
-          {'name': 'region1', 'start': 181, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
       },
     },
     'db': {
       'E': {
         'Forward': [
-          {'name': 'region1', 'start': 21, 'end': 72},
-          {'name': 'region2', 'start': 73, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'region2', 'start': 1, 'end': 160},
-          {'name': 'region1', 'start': 161, 'end': 232},
+          {'name': 'exon1', 'start': 1, 'end': 232},
         ],
       },
       'EI': {
         'Forward': [
-          {'name': 'region1', 'start': 21, 'end': 72},
-          {'name': 'region2', 'start': 131, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'region2', 'start': 21, 'end': 122},
-          {'name': 'region1', 'start': 181, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
       },
       'EJ': {
         'Forward': [
-          {'name': 'region1', 'start': 21, 'end': 72},
-          {'name': 'region2', 'start': 195, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
         'Reverse': [
-          {'name': 'region2', 'start': 21, 'end': 58},
-          {'name': 'region1', 'start': 181, 'end': 232},
+          {'name': 'exon1', 'start': 21, 'end': 232},
         ],
       },
     },
@@ -288,16 +300,12 @@ JS_VARS = {
     'exon1': '#ff0000',
     'exon2': '#ff0000',
     'intron': '#548235',
-    'region1': '#ff0000',
-    'region2': '#548235',
     'splice': '#548235',
   },
   'AREAS_TEXT': {
     'exon1': 'Exon1',
     'exon2': 'Exon2',
     'intron': 'Intron',
-    'region1': 'Region1',
-    'region2': 'Region2',
     'splice': '5\' splice',
   },
   'PRIMER_TEXT': {
