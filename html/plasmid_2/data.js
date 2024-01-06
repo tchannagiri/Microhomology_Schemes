@@ -9324,14 +9324,113 @@ var MICROHOMOLOGIES = [
 var BOLDED = {
   "Default": {
     "wt": {
-      "E": [],
+      "E": [
+        "EE1",
+        "EE3,EE9,EE10",
+        "EE11",
+        "EE12",
+        "EE15",
+        "EE17",
+        "EE20",
+        "EE24",
+        "EE28",
+        "EE35",
+        "EE36",
+        "EE38",
+        "EE40",
+        "EE41",
+        "EE43",
+        "EE44",
+        "EE45",
+        "EE46",
+        "EE47",
+        "EE51",
+        "EE53",
+        "EE54",
+        "EE55",
+        "EE57",
+        "EE58",
+        "EE61",
+        "EE64",
+        "EE65",
+        "EE67",
+        "EE68",
+        "EE71",
+        "EE73",
+        "EE74",
+        "EE75",
+        "EE76",
+        "EE77",
+        "EE78",
+        "EE79",
+        "EE80",
+        "EE81",
+        "EE82",
+        "EE85",
+        "EE86",
+        "EE87",
+        "EE88",
+        "EE89",
+        "EE90",
+        "EE91",
+        "EE92",
+        "EE93",
+        "EE94",
+        "EE95",
+        "EE96",
+        "EE97",
+        "EE98",
+        "EE99",
+        "EE100",
+        "EE101"
+      ],
       "EI": [],
-      "EJ": []
-    },
-    "db": {
-      "E": [],
-      "EI": [],
-      "EJ": []
+      "EJ": [
+        "EE1",
+        "EE2",
+        "EE4",
+        "EE5",
+        "EE6",
+        "EE7",
+        "EE8",
+        "EE9",
+        "EE10",
+        "EE11",
+        "EE12",
+        "EE13",
+        "EE14",
+        "EE15",
+        "EE16",
+        "EE17",
+        "EE18",
+        "EE19",
+        "EE20",
+        "EE21",
+        "EE22",
+        "EE23",
+        "EE1R",
+        "EE2R",
+        "EE4R",
+        "EE5R",
+        "EE6R",
+        "EE7R",
+        "EE8R",
+        "EE9R",
+        "EE10R",
+        "EE11R",
+        "EE12R",
+        "EE13R",
+        "EE14R",
+        "EE15R",
+        "EE16R",
+        "EE17R",
+        "EE18R",
+        "EE19R",
+        "EE20R",
+        "EE21R",
+        "EE22R",
+        "EE23R"
+      ]
     },
     "awt": {
       "KL": []
@@ -9366,25 +9465,15 @@ var AREAS = {
     "E": {
       "Forward": [
         {
-          "name": "region1",
+          "name": "exon1",
           "start": 21,
-          "end": 72
-        },
-        {
-          "name": "region2",
-          "start": 73,
           "end": 232
         }
       ],
       "Reverse": [
         {
-          "name": "region2",
+          "name": "exon1",
           "start": 21,
-          "end": 180
-        },
-        {
-          "name": "region1",
-          "start": 181,
           "end": 232
         }
       ]
@@ -9392,25 +9481,15 @@ var AREAS = {
     "EI": {
       "Forward": [
         {
-          "name": "region1",
+          "name": "exon1",
           "start": 21,
-          "end": 72
-        },
-        {
-          "name": "region2",
-          "start": 131,
           "end": 232
         }
       ],
       "Reverse": [
         {
-          "name": "region2",
+          "name": "exon1",
           "start": 21,
-          "end": 122
-        },
-        {
-          "name": "region1",
-          "start": 181,
           "end": 232
         }
       ]
@@ -9418,105 +9497,15 @@ var AREAS = {
     "EJ": {
       "Forward": [
         {
-          "name": "region1",
+          "name": "exon1",
           "start": 21,
-          "end": 72
-        },
-        {
-          "name": "region2",
-          "start": 195,
           "end": 232
         }
       ],
       "Reverse": [
         {
-          "name": "region2",
+          "name": "exon1",
           "start": 21,
-          "end": 58
-        },
-        {
-          "name": "region1",
-          "start": 181,
-          "end": 232
-        }
-      ]
-    }
-  },
-  "db": {
-    "E": {
-      "Forward": [
-        {
-          "name": "region1",
-          "start": 21,
-          "end": 72
-        },
-        {
-          "name": "region2",
-          "start": 73,
-          "end": 232
-        }
-      ],
-      "Reverse": [
-        {
-          "name": "region2",
-          "start": 1,
-          "end": 160
-        },
-        {
-          "name": "region1",
-          "start": 161,
-          "end": 232
-        }
-      ]
-    },
-    "EI": {
-      "Forward": [
-        {
-          "name": "region1",
-          "start": 21,
-          "end": 72
-        },
-        {
-          "name": "region2",
-          "start": 131,
-          "end": 232
-        }
-      ],
-      "Reverse": [
-        {
-          "name": "region2",
-          "start": 21,
-          "end": 122
-        },
-        {
-          "name": "region1",
-          "start": 181,
-          "end": 232
-        }
-      ]
-    },
-    "EJ": {
-      "Forward": [
-        {
-          "name": "region1",
-          "start": 21,
-          "end": 72
-        },
-        {
-          "name": "region2",
-          "start": 195,
-          "end": 232
-        }
-      ],
-      "Reverse": [
-        {
-          "name": "region2",
-          "start": 21,
-          "end": 58
-        },
-        {
-          "name": "region1",
-          "start": 181,
           "end": 232
         }
       ]
@@ -9531,13 +9520,8 @@ var AREAS = {
           "end": 66
         },
         {
-          "name": "intron1",
+          "name": "intron",
           "start": 67,
-          "end": 111
-        },
-        {
-          "name": "intron2",
-          "start": 139,
           "end": 195
         },
         {
@@ -9563,13 +9547,8 @@ var AREAS = {
           "end": 58
         },
         {
-          "name": "intron2",
+          "name": "intron",
           "start": 59,
-          "end": 115
-        },
-        {
-          "name": "intron1",
-          "start": 143,
           "end": 187
         },
         {
@@ -9589,13 +9568,8 @@ var AREAS = {
           "end": 66
         },
         {
-          "name": "intron1",
+          "name": "intron",
           "start": 67,
-          "end": 111
-        },
-        {
-          "name": "intron2",
-          "start": 139,
           "end": 195
         },
         {
@@ -9611,13 +9585,8 @@ var AREAS = {
           "end": 52
         },
         {
-          "name": "intron2",
+          "name": "intron",
           "start": 53,
-          "end": 109
-        },
-        {
-          "name": "intron1",
-          "start": 137,
           "end": 181
         },
         {
@@ -9632,32 +9601,6 @@ var AREAS = {
 
 var PRIMER = {
   "wt": {
-    "Forward": [
-      {
-        "name": "p1",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "p2",
-        "start": 233,
-        "end": 252
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "p2",
-        "start": 1,
-        "end": 20
-      },
-      {
-        "name": "p1",
-        "start": 233,
-        "end": 252
-      }
-    ]
-  },
-  "db": {
     "Forward": [
       {
         "name": "p1",
@@ -9739,22 +9682,6 @@ var PRIMER = {
 
 var BARS = {
   "wt": {
-    "Forward": [
-      {
-        "name": "dsred",
-        "start": 1,
-        "end": 252
-      }
-    ],
-    "Reverse": [
-      {
-        "name": "dsred",
-        "start": 1,
-        "end": 252
-      }
-    ]
-  },
-  "db": {
     "Forward": [
       {
         "name": "dsred",
@@ -9875,36 +9802,6 @@ var CUT_POS = {
       ]
     }
   },
-  "db": {
-    "E": {
-      "Forward": [
-        72
-      ],
-      "Reverse": [
-        180
-      ]
-    },
-    "EI": {
-      "Forward": [
-        72,
-        130
-      ],
-      "Reverse": [
-        122,
-        180
-      ]
-    },
-    "EJ": {
-      "Forward": [
-        72,
-        194
-      ],
-      "Reverse": [
-        58,
-        180
-      ]
-    }
-  },
   "awt": {
     "KL": {
       "Forward": [
@@ -9945,8 +9842,6 @@ var AREAS_COLOR = {
   "exon1": "#ff0000",
   "exon2": "#ff0000",
   "intron": "#548235",
-  "region1": "#ff0000",
-  "region2": "#548235",
   "splice": "#548235"
 };
 
@@ -9954,8 +9849,6 @@ var AREAS_TEXT = {
   "exon1": "Exon1",
   "exon2": "Exon2",
   "intron": "Intron",
-  "region1": "Region1",
-  "region2": "Region2",
   "splice": "5' splice"
 };
 
@@ -9971,8 +9864,7 @@ var LABELS = {
   "KL": "sgRNA E & K",
   "Forward": "forward strand",
   "Reverse": "reverse strand",
-  "wt": "Sense/pCMV\u0394",
-  "db": "Branch\u0394",
+  "wt": "Sense/pCMV\u0394/Branch\u0394",
   "awt": "Antisense",
   "d5": "5' Splicing\u0394",
   "all": null,

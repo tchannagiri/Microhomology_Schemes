@@ -31,23 +31,6 @@ JS_VARS = {
           'EE14R', 'EE15R', 'EE16R', 'EE17R', 'EE18R', 'EE19R', 'EE20R', 'EE21R', 'EE22R', 'EE23R',
         ],
       },
-      'db': {
-        'E': [
-          'EE1', 'EE3,' 'EE9,' 'EE10', 'EE11', 'EE12', 'EE15', 'EE17', 'EE20', 'EE24', 'EE28',
-          'EE35', 'EE36', 'EE38', 'EE40', 'EE41', 'EE43', 'EE44', 'EE45', 'EE46', 'EE47', 'EE51',
-          'EE53', 'EE54', 'EE55', 'EE57', 'EE58', 'EE61', 'EE64', 'EE65', 'EE67', 'EE68', 'EE71',
-          'EE73', 'EE74', 'EE75', 'EE76', 'EE77', 'EE78', 'EE79', 'EE80', 'EE81', 'EE82', 'EE85',
-          'EE86', 'EE87', 'EE88', 'EE89', 'EE90', 'EE91', 'EE92', 'EE93', 'EE94', 'EE95', 'EE96',
-          'EE97', 'EE98', 'EE99', 'EE100', 'EE101',
-        ],
-        'EI': [],
-        'EJ': [
-          'EE1', 'EE2', 'EE4', 'EE5', 'EE6', 'EE7', 'EE8', 'EE9', 'EE10', 'EE11', 'EE12', 'EE13',
-          'EE14', 'EE15', 'EE16', 'EE17', 'EE18', 'EE19', 'EE20', 'EE21', 'EE22', 'EE23',
-          'EE1R', 'EE2R', 'EE4R', 'EE5R', 'EE6R', 'EE7R', 'EE8R', 'EE9R', 'EE10R', 'EE11R', 'EE12R', 'EE13R',
-          'EE14R', 'EE15R', 'EE16R', 'EE17R', 'EE18R', 'EE19R', 'EE20R', 'EE21R', 'EE22R', 'EE23R',
-        ],
-      },
       'awt': {
         'KL': [],
       },
@@ -76,32 +59,6 @@ JS_VARS = {
   },
   'AREAS': {
     'wt': {
-      'E': {
-        'Forward': [
-          {'name': 'exon1', 'start': 21, 'end': 232},
-        ],
-        'Reverse': [
-          {'name': 'exon1', 'start': 21, 'end': 232},
-        ],
-      },
-      'EI': {
-        'Forward': [
-          {'name': 'exon1', 'start': 21, 'end': 232},
-        ],
-        'Reverse': [
-          {'name': 'exon1', 'start': 21, 'end': 232},
-        ],
-      },
-      'EJ': {
-        'Forward': [
-          {'name': 'exon1', 'start': 21, 'end': 232},
-        ],
-        'Reverse': [
-          {'name': 'exon1', 'start': 21, 'end': 232},
-        ],
-      },
-    },
-    'db': {
       'E': {
         'Forward': [
           {'name': 'exon1', 'start': 21, 'end': 232},
@@ -169,16 +126,6 @@ JS_VARS = {
         {'name': 'p1', 'start': 233, 'end': 252},
       ],
     },
-    'db': {
-      'Forward': [
-        {'name': 'p1', 'start': 1, 'end': 20},
-        {'name': 'p2', 'start': 233, 'end': 252},
-      ],
-      'Reverse': [
-        {'name': 'p2', 'start': 1, 'end': 20},
-        {'name': 'p1', 'start': 233, 'end': 252},
-      ],
-    },
     'awt': {
       'Forward': [
         {'name': 'p1', 'start': 1, 'end': 20},
@@ -202,14 +149,6 @@ JS_VARS = {
   },
   'BARS': {
     'wt': {
-      'Forward': [
-        {'name': 'dsred', 'start': 1, 'end': 252},
-      ],
-      'Reverse': [
-        {'name': 'dsred', 'start': 1, 'end': 252},
-      ],
-    },
-    'db': {
       'Forward': [
         {'name': 'dsred', 'start': 1, 'end': 252},
       ],
@@ -244,20 +183,6 @@ JS_VARS = {
   },
   'CUT_POS': {
     'wt': {
-      'E': {
-        'Forward': [72], 
-        'Reverse':  [180],
-      },
-      'EI': {
-        'Forward': [72, 130], 
-        'Reverse':  [122, 180],
-      },
-      'EJ': {
-        'Forward': [72, 194], 
-        'Reverse':  [58, 180],
-      },
-    },
-    'db': {
       'E': {
         'Forward': [72], 
         'Reverse':  [180],
@@ -315,8 +240,7 @@ JS_VARS = {
     'KL': 'sgRNA E & K',
     'Forward': 'forward strand',
     'Reverse': 'reverse strand',
-    'wt': 'Sense/pCMVΔ',
-    'db': 'BranchΔ',
+    'wt': 'Sense/pCMVΔ/BranchΔ',
     'awt': 'Antisense',
     'd5': '5\' SplicingΔ',
     'all': None,

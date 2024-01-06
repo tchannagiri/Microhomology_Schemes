@@ -7,8 +7,7 @@
   <div style="font-size: 20">
     <label>Cell Type:</label>
     <select name="Celltype" id="Celltype" onchange="update_schemes()">
-      <option value="wt">Sense/pCMVΔ</option>
-      <option value="db">BranchΔ</option>
+      <option value="wt">Sense/pCMVΔ/BranchΔ</option>
       <option value="awt">Antisense</option>
       <option value="d5">5' SplicingΔ</option>
     </select>
@@ -70,7 +69,7 @@
     var Type = document.querySelector("#Type").value;
     var Boldtype = document.querySelector("#Boldtype").value;
 
-    Celltype = {'wt': 'Sense', 'db': 'Branch', 'awt': 'Antisense', 'd5': 'Splicing'}[Celltype];
+    Celltype = {'wt': 'Sense', 'awt': 'Antisense', 'd5': 'Splicing'}[Celltype];
 
     return `plasmid_${Breaks}_${Strand}_${Celltype}_${Boldtype}.svg`;
   }
@@ -101,12 +100,12 @@
     var zip = new JSZip();
     for (var Breaks of ['E', 'EI', 'EJ', 'KL']) {
       for (var Strand of ['Forward', 'Reverse']) {
-        for (var Celltype of ['wt', 'db', 'awt', 'd5']) {
+        for (var Celltype of ['wt', 'awt', 'd5']) {
           
           // There is no data for these cases
           if (['awt', 'd5'].includes(Celltype) && (Breaks != 'KL')) {
             continue;
-          } else if (['wt', 'db'].includes(Celltype) && !['E', 'EI', 'EJ'].includes(Breaks)) {
+          } else if ((Celltype == 'wt') && !['E', 'EI', 'EJ'].includes(Breaks)) {
             continue;
           }
 
@@ -124,7 +123,7 @@
     }
     zip.generateAsync({type:"blob"})
       .then(function(content) {
-        saveAs(content, "plasmid_schemes.zip");
+        saveAs(content, "plasmid_2_schemes.zip");
       });
   }
 </script>
@@ -147,7 +146,7 @@
           option.disabled = false;
         }
       }
-    } else if (['wt', 'db'].includes(Celltype.value)) {
+    } else if (Celltype.value == 'wt') {
       // Disable all Breaks except for 'E', 'EI', 'EJ'
       for (var option of Breaks.options) {
         if (!['E', 'EI', 'EJ'].includes(option.value)) {
@@ -198,8 +197,7 @@
         }
       }
     }
-console.log(Celltype)
-console.log(Strand)
+
     document.querySelector("#title").innerHTML = (
       `${Breaks.options[Breaks.selectedIndex].innerHTML} ` +
       `${Strand.value} ` +
